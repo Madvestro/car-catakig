@@ -1,0 +1,5130 @@
+{
+  "VW": {
+    "TIGUAN ALLSPACE (BW2)": [
+      "2.0 TSI 4motion",
+      "1.5 TSI"
+    ],
+    "MULTIVAN VI (SGF, SGM, SGN, SHM, SHN)": [
+      "2.0 TDI",
+      "2.0 TDI 4motion"
+    ],
+    "TRANSPORTER / CARAVELLE VI Автобус (SGB, SGG, SGJ, SGC, SHB,": [
+      "ABT e-Caravelle",
+      "2.0 TDI",
+      "2.0 TDI 4motion"
+    ],
+    "TIGUAN (AD1, AX1)": [
+      "1.4 eHybrid",
+      "1.5 TSI",
+      "2.0 TDI",
+      "2.0 TDI 4motion",
+      "2.0 TSI 4motion",
+      "2.0 TSI R 4motion"
+    ],
+    "CADDY ALLTRACK вэн (SAB)": [
+      "2.0 TDI",
+      "2.0 TDI 4motion",
+      "1.6 TDI",
+      "1.0 TSI",
+      "1.4 TSI"
+    ],
+    "JETTA VII седан (BU3)": [
+      "1.4 TSI"
+    ],
+    "AMAROK c бортовой платформой/ходовая часть (S1B, S6B, S7B)": [
+      "3.0 TDI 4motion"
+    ],
+    "CADDY IV вэн (SAB, SAJ)": [
+      "1.0 TSI",
+      "ABT e-Caddy"
+    ],
+    "CRAFTER Фургон (SY_, SX_)": [
+      "2.0 TDI RWD"
+    ],
+    "CRAFTER c бортовой платформой/ходовая часть (SZ_)": [
+      "2.0 TDI RWD"
+    ],
+    "SHARAN (7N1, 7N2)": [
+      "2.0 TDI 4motion"
+    ],
+    "POLO VI (AW1, BZ1)": [
+      "1.0 TSI",
+      "1.5 TSI"
+    ],
+    "TOURAN (5T1)": [
+      "1.0 TSI",
+      "2.0 TDI"
+    ],
+    "GOLF VII Variant (BA5, BV5)": [
+      "1.5 TGI"
+    ],
+    "GOLF VII (5G1, BQ1, BE1, BE2)": [
+      "1.4 GTE HYBRID",
+      "2.0 GTI TCR"
+    ],
+    "TOUAREG (CR7)": [
+      "2.0 TFSi 4motion",
+      "3.0 R 4motion",
+      "4.0 V8 TDI 4motion",
+      "3.0 eHybrid 4motion"
+    ],
+    "ATLAS (CA1)": [
+      "3.6 FSi 4motion"
+    ],
+    "T-ROC (A11)": [
+      "TDI SCR",
+      "2.0 R 4motion",
+      "2.0 TDI 4motion",
+      "1.5 TSI 4motion",
+      "1.0 TSI"
+    ],
+    "T-CROSS (C11)": [
+      "1.0 TSI",
+      "1.6 TDi",
+      "1.5 TSI"
+    ],
+    "PASSAT B8 (3G2, CB2)": [
+      "2.0 TDI",
+      "2.0 TSI",
+      "2.0 TDI 4motion"
+    ],
+    "PASSAT B8 Variant (3G5, CB5)": [
+      "2.0 TDI",
+      "2.0 TSI",
+      "2.0 TDI 4motion"
+    ],
+    "GOLF III Van (1H1)": [
+      "1.9 TDI",
+      "2.0",
+      "1.9 SDI",
+      "2.0 GTI",
+      "1.6",
+      "1.8"
+    ],
+    "GOLF IV Van (1J1)": [
+      "1.9 SDI",
+      "1.9 TDI",
+      "1.9 TDI 4motion"
+    ],
+    "GOLF Van III Variant (1H5)": [
+      "1.4",
+      "1.9 TDI",
+      "1.9",
+      "1.9 SDI",
+      "1.8"
+    ],
+    "PASSAT B3/B4 (315, 3A5)": [
+      "2.0",
+      "1.9 TD",
+      "1.8",
+      "2.0 Syncro"
+    ],
+    "TRANSPORTER V c бортовой платформой/ходовая часть (7JD, 7JE,": [
+      "2.0 CNG"
+    ],
+    "CRAFTER Автобус (SYI, SYJ)": [
+      "2.0 TDI 4motion"
+    ],
+    "TRANSPORTER VI Фургон (SGA, SGH, SHA, SHH)": [
+      "2.0 TDI",
+      "2.0 TDI 4motion",
+      "ABT e-Transporter"
+    ],
+    "UP! (121, 122, BL1, BL2, BL3, 123)": [
+      "e-Up",
+      "1.0"
+    ],
+    "TRANSPORTER VI c бортовой платформой/ходовая часть (SFD, SFE": [
+      "2.0 TDI",
+      "2.0 TDI 4motion"
+    ],
+    "CADDY IV Автофургон / микроавтобус (SAA, SAH)": [
+      "1.4 TSI",
+      "ABT e-Caddy"
+    ],
+    "GRAND CALIFORNIA Camper (SCB, SCC)": [
+      "2.0 TDI",
+      "2.0 TDI 4motion"
+    ],
+    "GOLF VIII (CD1)": [
+      "1.4 GTE Plug-in Hybrid",
+      "2.0 GTI Clubsport",
+      "1.5 TSI",
+      "2.0 TDI GTD",
+      "1.0 eTSI",
+      "2.0 TDI",
+      "1.5 eTSI",
+      "2.0 GTI",
+      "2.0 TDI 4motion",
+      "1.5 TGI",
+      "1.0 TSI",
+      "2.0 TSI R 4motion"
+    ],
+    "PASSAT ALLTRACK B8 Variant (3G5, CB5)": [
+      "2.0 TSI 4motion"
+    ],
+    "T-ROC Кабриолет (AC7)": [
+      "1.0 TSI",
+      "1.5 TSI"
+    ],
+    "CADDY ALLTRACK Автофургон / микроавтобус (SAA)": [
+      "1.6 TDI",
+      "2.0 TDI",
+      "1.4 TSI",
+      "2.0 TDI 4motion"
+    ],
+    "ARTEON SHOOTING BRAKE (3H9)": [
+      "2.0 TSi 4motion",
+      "2.0 TDI",
+      "2.0 TFSI",
+      "1.5 TSi",
+      "2.0 TDI 4motion",
+      "2.0 TSI 4motion"
+    ],
+    "ID.3 (E11)": [
+      "1st"
+    ],
+    "DERBY (86)": [
+      "1.1"
+    ],
+    "KAEFER": [
+      "1200 L 1.6"
+    ],
+    "GOLF VIII Variant (CG5)": [
+      "1.5 TSI",
+      "1.0 eTSI",
+      "2.0 TDI",
+      "1.5 eTSI",
+      "2.0 GTI",
+      "1.0 TSI"
+    ],
+    "ID.4 (E21)": [
+      "Performance"
+    ],
+    "CADDY V вэн (SBB, SBJ)": [
+      "TSi EVO",
+      "TDi BMT"
+    ],
+    "CADDY V Автофургон / микроавтобус (SBA, SBH)": [
+      "TSi EVO",
+      "TDi BMT"
+    ],
+    "TOURAN VAN (1T3)": [
+      "1.2 TSI",
+      "1.4 TSi EcoFuel",
+      "2.0 TDI",
+      "1.6 TDI",
+      "1.4 TSI",
+      "2.0 TDi"
+    ],
+    "ARTEON (3H7, 3H8)": [
+      "2.0 TDI",
+      "2.0 TDI 4motion"
+    ],
+    "SHARAN VAN (7N1, 7N2)": [
+      "2.0 TDI",
+      "2.0 TSI",
+      "1.4 TSI"
+    ],
+    "SHARAN VAN (7M_)": [
+      "1.9 TDI (7M9)",
+      "2.0 (7M8, 7M9)",
+      "1.9 TDI (7M8, 7M9)",
+      "2.8 VR6 (7M8)",
+      "1.9 TDI (7M8)",
+      "1.9 TDI (7M6, 7M9)",
+      "2.8 VR6 (7M9)"
+    ],
+    "TIGUAN VAN (5N_)": [
+      "2.0 TDI (5N1, 5N2)",
+      "1.4 TSI (5N1)",
+      "2.0 TSI 4motion (5N1)",
+      "2.0 TDI 4motion (5N2)",
+      "1.4 TSI 4motion (5N2)",
+      "2.0 TDI (5N1)",
+      "2.0 TSI 4motion (5N2)",
+      "2.0 TDI 4motion (5N1, 5N2)",
+      "1.4 TSI (5N2)"
+    ],
+    "TOURAN VAN (1T1, 1T2)": [
+      "1.9 TDI",
+      "2.0 TDI",
+      "2.0 EcoFuel",
+      "FSI",
+      "2.0 FSI"
+    ],
+    "TOUAREG VAN (7P5)": [
+      "3.0 TDI 4motion"
+    ],
+    "GOLF ALLTRACK VIII (CG5)": [
+      "2.0 TDI 4motion"
+    ],
+    "SHARAN (7M8, 7M9, 7M6)": [
+      "1.9 TDI"
+    ]
+  },
+  "LEXUS": {
+    "LC (_Z10_)": [
+      "500 (URZ100)"
+    ],
+    "NX (_Z1_)": [
+      "300h AWD (AYZ15)",
+      "300h (AYZ10_)"
+    ],
+    "UX (_AA1_, _AH1_, _MA1_)": [
+      "300e (KMA10)"
+    ]
+  },
+  "FORD": {
+    "FIESTA V Van": [
+      "1.4"
+    ],
+    "FOCUS II Фургон/универсал": [
+      "1.6 Ti-VCT",
+      "1.6 TDCi"
+    ],
+    "MONDEO V Наклонная задняя часть (CE)": [
+      "2.0 EcoBlue",
+      "2.0 EcoBlue 4x4"
+    ],
+    "MONDEO V Turnier (CF)": [
+      "2.0 Hybrid",
+      "2.0 EcoBlue",
+      "2.0 Hybrid iVCT",
+      "2.0 EcoBlue 4x4",
+      "2.0 HYBRID"
+    ],
+    "FOCUS IV седан (HM)": [
+      "1.5 EcoBlue",
+      "1.5 EcoBoost",
+      "1.0 EcoBoost"
+    ],
+    "FOCUS IV Turnier (HP)": [
+      "1.5 Ti-VCT",
+      "2.3 ST EcoBoost",
+      "2.0 ST EcoBlue",
+      "1.0 EcoBoost mHEV"
+    ],
+    "MONDEO V седан (CD)": [
+      "2.0 Hybrid",
+      "2.0 EcoBlue",
+      "1.5 EcoBoost",
+      "2.0 EcoBlue 4x4",
+      "2.0 HYBRID"
+    ],
+    "RANGER (TKE)": [
+      "2.0 EcoBlue 4x4"
+    ],
+    "TRANSIT c бортовой платформой/ходовая часть (E_ _)": [
+      "2.5 TD"
+    ],
+    "FIESTA VII Van": [
+      "1.1 Ti-VCT",
+      "1.5 TDCi",
+      "1.0 EcoBoost"
+    ],
+    "FOCUS IV (HN)": [
+      "1.0 ECOBOOST MHEV ACTIVE",
+      "2.3 ST EcoBoost",
+      "2.0 ST EcoBlue",
+      "1.0 EcoBoost mHEV",
+      "1.0 EcoBoost MHEV ACTIVE"
+    ],
+    "KUGA II (DM2)": [
+      "2.0 EcoBoost 4x4",
+      "1.5 ECOBOOST E85",
+      "1.5 EcoBoost 4x4"
+    ],
+    "ECOSPORT": [
+      "1.5 TDCi EcoBlue",
+      "2.0 Ti-VCT 4x4",
+      "1.5 EcoBlue TDCi",
+      "1.0 EcoBoost"
+    ],
+    "KUGA II VAN": [
+      "1.5 TDCi",
+      "1.5 EcoBoost 4x4",
+      "2.0 TDCi",
+      "1.5 EcoBoost"
+    ],
+    "GALAXY MK III VAN (CK)": [
+      "2.0 EcoBlue AWD",
+      "2.0 EcoBlue"
+    ],
+    "TRANSIT CONNECT V408 Автофургон / микроавтобус": [
+      "1.5 EcoBlue"
+    ],
+    "TRANSIT V363 Фургон (FCD, FDD)": [
+      "2.0 EcoBlue",
+      "2.0 EcoBlue RWD",
+      "2.0 EcoBlue mHEV RWD",
+      "2.0 EcoBlue mHEV"
+    ],
+    "TRANSIT V363 Автобус (FAD, FBD)": [
+      "2.0 EcoBlue RWD",
+      "2.0 EcoBlue mHEV"
+    ],
+    "TRANSIT V363 c бортовой платформой/ходовая часть (FED, FFD)": [
+      "2.0 EcoBlue",
+      "2.0 EcoBlue RWD",
+      "2.0 EcoBlue mHEV RWD",
+      "2.0 EcoBlue mHEV"
+    ],
+    "PUMA": [
+      "ST 1.5 EcoBoost",
+      "1.5 EcoBlue",
+      "1.0 EcoBoost mHEV",
+      "1.0 EcoBoost"
+    ],
+    "TOURNEO CUSTOM V362 Автобус (F3)": [
+      "2.0 EcoBlue",
+      "2.0 EcoBlue mHEV",
+      "1.0 EcoBoost PHEV"
+    ],
+    "TRANSIT CUSTOM V362 Автобус (F3)": [
+      "2.0 EcoBlue",
+      "2.0 EcoBlue mHEV",
+      "1.0 EcoBoost PHEV"
+    ],
+    "TRANSIT CUSTOM V362 Фургон (FY, FZ)": [
+      "2.0 EcoBlue",
+      "2.0 EcoBlue mHEV",
+      "1.0 EcoBoost PHEV"
+    ],
+    "TRANSIT CONNECT вэн": [
+      "1.5 EcoBlue"
+    ],
+    "TOURNEO CONNECT / GRAND TOURNEO CONNECT V408 вэн": [
+      "1.5 EcoBlue"
+    ],
+    "KUGA III (DFK)": [
+      "1.5 EcoBlue",
+      "2.5 Duratec Plug-in-Hybrid",
+      "2.0 EcoBlue mHEV",
+      "1.5 EcoBoost",
+      "2.5 DURATEC FHEV",
+      "2.0 EcoBlue 4x4"
+    ],
+    "FIESTA VII (HJ, HF)": [
+      "1.1 Ti-VCT",
+      "1.0 ECOBOOST MHEV ACTIVE",
+      "1.0 EcoBoost mHEV",
+      "1.0 EcoBoost"
+    ],
+    "GRAND C-MAX (DXA/CB7, DXA/CEU)": [
+      "1.6 Ti"
+    ],
+    "FIESTA седан": [
+      "1.1"
+    ],
+    "TRANSIT Автобус (V_ _)": [
+      "2.4 D (VAS, VBL, VIL, VUL, VZS)"
+    ],
+    "C-MAX II Van": [
+      "1.6 Ti",
+      "1.6 EcoBoost"
+    ],
+    "B-MAX Van (JK)": [
+      "1.4 LPG",
+      "1.0 EcoBoost"
+    ],
+    "GALAXY MK II VAN (WA6)": [
+      "TDCi"
+    ],
+    "GALAXY MK I VAN (WGR)": [
+      "2.0",
+      "1.9 TDi",
+      "2.3",
+      "2.8"
+    ],
+    "GRAND C-MAX Van": [
+      "1.6 Ti",
+      "1.6 EcoBoost"
+    ],
+    "KUGA I VAN": [
+      "TDCi 4x4",
+      "2.5",
+      "TDCi"
+    ],
+    "S-MAX VAN (WA6)": [
+      "2.0",
+      "1.6",
+      "2.0 TDCi",
+      "2.0 EcoBoost"
+    ],
+    "FOCUS III Turnier": [
+      "1.6 TI",
+      "1.5 TDCI ECONETIC"
+    ]
+  },
+  "SUBARU": {
+    "FORESTER (SK_)": [
+      "2.0 AWD (SK7)",
+      "2.0 Hybrid AWD (SKE)"
+    ],
+    "LEVORG": [
+      "2.0 AWD"
+    ],
+    "XV (GT)": [
+      "2.0 i e-BOXER AWD (GTE)",
+      "2.0 i AWD (GT7)"
+    ],
+    "OUTBACK": [
+      "2.5 AWD"
+    ]
+  },
+  "MERCEDES-BENZ": {
+    "GLE (V167)": [
+      "AMG GLE 63 EQ Boost 4-matic+ (167.188)",
+      "GLE 350 e 4-matic (167.154)",
+      "AMG GLE 63 S EQ Boost 4-matic+ (167.189)",
+      "GLE 350 d 4-matic (167.121)",
+      "GLE 400 d 4-matic (167.123)",
+      "AMG GLE 53 EQ Boost 4-matic+ (167.161)",
+      "GLE 350 de 4-matic (167.117)",
+      "GLE 580 EQ Boost 4-matic (167.186)"
+    ],
+    "G-CLASS (W463)": [
+      "G 350 d 4-matic (463.349)",
+      "G 55 AMG (463.270, 463.271)",
+      "G 400 d 4-matic (463.350)",
+      "G 300 Diesel (463.327, 463.328)"
+    ],
+    "B-CLASS Sports Tourer (W247)": [
+      "B 220 (247.044)",
+      "B 200 (247.087)",
+      "B 160 d (247.002)",
+      "B 250 e (247.086)",
+      "B 250 4-matic (247.047)",
+      "B 220 4-matic (247.045)",
+      "B 180 d (247.010)",
+      "B 160 (247.082)",
+      "B 200 4-matic (247.088)",
+      "B 200 d 4-matic (247.013)",
+      "B 220 d 4-matic (247.015)",
+      "B 250 (247.046)"
+    ],
+    "E-CLASS (W213)": [
+      "E 450 EQ Boost 4-matic (213.059)",
+      "E 300 (213.048)",
+      "E 300 e (213.053)",
+      "E 350 e (213.050)",
+      "E 200 EQ Boost (213.080)",
+      "E 300 (213.083)",
+      "E 400 d 4-matic (213.023)",
+      "E 300 EQ Boost (213.083)",
+      "E 300 e 4-matic (213.054)",
+      "E 200 EQ Boost 4-matic (213.087)",
+      "E 300 de 4-matic (213.011)",
+      "E 350 D EQ BOOST 4-MATIC (213.019)",
+      "E 300 de (213.016)"
+    ],
+    "SPRINTER 5-t Фургон (B906)": [
+      "516"
+    ],
+    "E-CLASS T-Model (S213)": [
+      "E 200 EQ Boost (213.280)",
+      "E 300 de 4-matic (213.211)",
+      "E 450 EQ Boost (213.259)",
+      "E 220 d (213.206)",
+      "E 400 d 4-matic (213.223)",
+      "E 300 e (213.253)",
+      "E 200 EQ Boost 4-matic (213.287)",
+      "E 400 d (213.220)",
+      "E 300 EQ Boost (213.283)",
+      "E 300 de (213.216)",
+      "E 350 D EQ BOOST 4-MATIC (213.219)"
+    ],
+    "SPRINTER 4,6-t Фургон (B906)": [
+      "416 CDI 4x4",
+      "414 CDI 4x4"
+    ],
+    "CLA (C118)": [
+      "CLA 220 d (118.314)",
+      "CLA 220 d 4-matic (118.315)",
+      "CLA 200 (118.387)",
+      "AMG CLA 45 4-matic+ (118.353)",
+      "AMG CLA 45 S 4-matic+ (118.354)",
+      "CLA 220 4-matic (118.345)",
+      "CLA 250 e (118.386)",
+      "CLA 220 (118.344)",
+      "AMG CLA 35 4-matic (118.351)",
+      "CLA 200 d (118.312)",
+      "CLA 180 d (118.303)",
+      "CLA 180 d (118.310)",
+      "CLA 200 4-matic (118.388)",
+      "CLA 250 4-matic (118.347)",
+      "CLA 180 (118.384)",
+      "CLA 200 d 4-matic (118.313)",
+      "CLA 250 (118.346)"
+    ],
+    "CITAN вэн (415)": [
+      "111 CDI (415.703)",
+      "109 CDI (415.703)",
+      "108 CDI (415.703)"
+    ],
+    "SPRINTER 3,5-t Фургон (B907, B910)": [
+      "319 CDI Привод на все колеса (907.633, 907.635, 907.637)",
+      "317 CDI RWD (907.631, 907.633, 907.635, 907.637)",
+      "315 CDI RWD (907.631, 907.633, 907.635, 907.637)",
+      "316 CDI Привод на все колеса (907.633, 907.635, 907.637)",
+      "311 CDI RWD (907.631, 907.633, 907.635, 907.637)",
+      "314 CDI Привод на все колеса (907.633, 907.635, 907.637)"
+    ],
+    "SPRINTER 5-t Фургон (B907)": [
+      "519 CDI Привод на все колеса (907.653, 907.655, 907.657)",
+      "516 CDI Привод на все колеса (907.653, 907.655, 907.657)"
+    ],
+    "A-CLASS седан (V177)": [
+      "A 200 4-matic (177.188)",
+      "A 180 (177.184)",
+      "A 220 d (177.114)",
+      "A 220 d 4-matic (177.115)",
+      "A 200 (177.187)",
+      "A 160 d (177.102)",
+      "A 200 d 4-matic (177.113)",
+      "A 220 (177.144)",
+      "A 180 d (177.110)",
+      "A 200 d (177.112)",
+      "A 250 e (177.186)",
+      "AMG A 35 4-matic (177.151)"
+    ],
+    "C-CLASS (W205)": [
+      "C 300 EQ Boost (205.083)",
+      "C 200 4-matic (205.079)",
+      "C 300 e (205.053)",
+      "C 160 (205.075)",
+      "C 300 4-matic (205.084)",
+      "C 300 e 4-matic (205.054)",
+      "C 300 EQ Boost 4-matic (205.084)",
+      "C 300 de (205.013)",
+      "C 180 (205.076)"
+    ],
+    "AMG GT Roadster (R190)": [
+      "GT R (190.479)",
+      "GT (190.477)"
+    ],
+    "SPRINTER 4-t Фургон (B907, B910)": [
+      "417 CDI RWD (907.641, 907.643, 907.645, 907.647)",
+      "414 CDI Привод на все колеса (907.643, 907.645, 907.647)",
+      "419 CDI Привод на все колеса (907.643, 907.645, 907.647)",
+      "416 CDI Привод на все колеса (907.643, 907.645, 907.647)"
+    ],
+    "eVITO Фургон (W447)": [
+      "Electric (447603, 447605)"
+    ],
+    "VITO Tourer (W447)": [
+      "116 CDI (447.701, 447.703, 447.705)",
+      "119 CDI (447.701, 447.703, 447.705)",
+      "110 CDI (447.701, 447.703, 447.705)",
+      "114 CDI 4-matic (447.701, 447.703, 447.705)",
+      "124 CDI 4-matic (447.701, 447.703, 447.705)",
+      "116 CDI 4-matic (447.701, 447.703, 447.705)",
+      "124 CDI (447.701, 447.703, 447.705)",
+      "119 CDI 4-matic (447.701, 447.703, 447.705)",
+      "114 CDI (447.701, 447.703, 447.705)"
+    ],
+    "VITO Mixto (Double Cabin) (W447)": [
+      "116 CDI (447.701, 447.703, 447.705)",
+      "119 CDI (447.701, 447.703, 447.705)",
+      "110 CDI (447.701, 447.703, 447.705)",
+      "114 CDI 4-matic (447.701, 447.703, 447.705)",
+      "124 CDI 4-matic (447.701, 447.703, 447.705)",
+      "116 CDI 4-matic (447.701, 447.703, 447.705)",
+      "124 CDI (447.701, 447.703, 447.705)",
+      "119 CDI 4-matic (447.701, 447.703, 447.705)",
+      "114 CDI (447.701, 447.703, 447.705)"
+    ],
+    "VITO Фургон (W447)": [
+      "114 CDI (447.601, 447.603, 447.605)",
+      "110 CDI (447.601, 447.603, 447.605)",
+      "114 CDI 4x4 (447.701, 447.703, 447.705)",
+      "119 CDI 4x4 (447.601, 447.603, 447.605)",
+      "119 CDI (447.601, 447.603, 447.605)",
+      "116 CDI 4x4 (447.601, 447.603, 447.605)",
+      "116 CDI (447.601, 447.603, 447.605)"
+    ],
+    "V-CLASS (W447)": [
+      "EQV 300 (447813, 447815)",
+      "V 300 CDI / d (447.811, 447.813, 447.815)",
+      "V 220 CDI / d 4-matic (447811, 447813)",
+      "V 300 CDI / d 4-matic (447.811, 447.813)",
+      "V 300 CDI / d 4-matic (447811, 447813)",
+      "V 300 CDI / d (447811, 447813, 447815)",
+      "V 250 CDI / d 4-matic (447811, 447813)",
+      "V 250 CDI / d (447811, 447813, 447815)",
+      "V 220 CDI / d (447811, 447813, 447815)"
+    ],
+    "eVITO Tourer (W447)": [
+      "Electric (447703, 447705)"
+    ],
+    "GLS (X167)": [
+      "AMG 63 4Matic+ EQ Boost (167.989)",
+      "450 EQ Boost 4-matic (167.959)",
+      "Maybach 600 EQ Boost 4-matic (167.987)",
+      "400 d 4-matic (167.923)",
+      "350 d 4-matic (167.921)",
+      "580 EQ Boost 4-matic (167.986)"
+    ],
+    "GLC (X253)": [
+      "300 d 4-matic (253.919)",
+      "200 d 4-matic (253.916)",
+      "300 e 4-matic (253.953)",
+      "F-CELL 4-matic (253.992, 253.993)",
+      "300 EQ Boost 4-matic (253.984)",
+      "200 d (253.913)",
+      "200 EQ Boost 4-matic (253.981)",
+      "AMG 43 4-matic (253.964)",
+      "220 d 4-matic (253.915)",
+      "400 d 4-matic (253.923)",
+      "300 de 4-matic (253.911)",
+      "220 d (253.914)",
+      "200 EQ Boost (253.980)"
+    ],
+    "GLC Coupe (C253)": [
+      "300 EQ Boost 4-matic (253.384)",
+      "220 d 4-matic (253.315)",
+      "400 d 4-matic (253.323)",
+      "200 d 4-matic (253.316)",
+      "300 e 4-matic (253.353)",
+      "300 de 4-matic (253.311)",
+      "300 4-matic (253.384)",
+      "200 EQ Boost (253.380)",
+      "200 d (253.313)",
+      "AMG 43 4-matic (253.364)",
+      "300 d 4-matic (253.319)",
+      "200 EQ Boost 4-matic (253.381)"
+    ],
+    "EQC (N293)": [
+      "EQC 400 4-matic (293.890, 293.891)"
+    ],
+    "MARCO POLO Camper (W447)": [
+      "200 CDI (447.703, 447.813)",
+      "250 CDI (447.703, 447.813)",
+      "180 CDI (447.703)",
+      "300 CDI (447.813, 447.703)",
+      "250 CDI 4-matic (447.703, 447.813)",
+      "200 CDI (447.703)",
+      "300 CDI 4-matic (447813, 447703)",
+      "220 CDI (447.703, 447.813)",
+      "170 CDI (447.703)",
+      "300 CDI 4-matic (447.813, 447.703)",
+      "300 CDI (447813, 447703)",
+      "200 CDI 4-matic (447.703, 447.813)",
+      "220 CDI 4-matic (447.703, 447.813)"
+    ],
+    "A-CLASS (W177)": [
+      "AMG A 45 4-matic+ (177.053)",
+      "A 180 d (177.010)",
+      "A 200 d 4-matic (177.013)",
+      "A 220 d 4-matic (177.015)",
+      "A 160 d (177.002)",
+      "A 250 e (177.086)",
+      "AMG A 45 S 4-matic+ (177.054)",
+      "A 200 4-matic (177.088)"
+    ],
+    "C-CLASS T-Model (S205)": [
+      "C 160 (205.275)",
+      "C 300 EQ Boost 4-matic (205.284)",
+      "C 300 e (205.253)",
+      "C 180 (205.276)",
+      "C 300 4-matic (205.284)",
+      "C 300 de (205.213)",
+      "C 300 EQ Boost (205.283)"
+    ],
+    "C-CLASS купе (C205)": [
+      "C 180 (205.376)",
+      "C 300 EQ Boost (205.383)",
+      "C 300 4-matic (205.384)",
+      "C 300 EQ Boost 4-matic (205.384)"
+    ],
+    "C-CLASS Кабриолет (A205)": [
+      "C 200 (205.480)",
+      "C 300 EQ Boost (205.483)",
+      "C 180 (205.476)",
+      "C 300 EQ Boost 4-matic (205.484)"
+    ],
+    "S-CLASS (W222, V222, X222)": [
+      "S 500 4-matic (222.185)",
+      "S 560 e (222.173)"
+    ],
+    "E-CLASS купе (C238)": [
+      "E 300 (238.383)",
+      "E 450 EQ Boost 4-matic (238.359)",
+      "E 400 d 4-matic (238.323)",
+      "E 350 D EQ BOOST 4-MATIC (238.319)",
+      "E 450 (238.358)",
+      "E 200 EQ Boost (238.380)",
+      "E 300 D EQ BOOST 4-MATIC (238.319)",
+      "E 300 EQ Boost (238.383)",
+      "E 200 EQ Boost 4-matic (238.387)"
+    ],
+    "E-CLASS Кабриолет (A238)": [
+      "E 400 d 4-matic (238.423)",
+      "E 300 D EQ BOOST 4-MATIC (238.419)",
+      "E 350 D EQ BOOST 4-MATIC",
+      "E 300 EQ Boost (238.483)",
+      "E 450 (238.458)",
+      "E 450 EQ Boost 4-matic (238.459)",
+      "E 300 (238.483)",
+      "E 200 EQ Boost 4-matic (238.487)",
+      "E 200 EQ Boost (238.480)"
+    ],
+    "CLA Shooting Brake (X118)": [
+      "AMG CLA 45 4-matic+ (118.653)",
+      "AMG CLA 45 S 4-matic+ (118.654)",
+      "CLA 220 d (118.614)",
+      "CLA 180 (118.684)",
+      "CLA 200 d 4-matic (118.613)",
+      "CLA 180 d (118.610)",
+      "CLA 250 e (118.686)",
+      "CLA 180 d (118.603)",
+      "CLA 250 (118.646)",
+      "CLA 220 (118.644)",
+      "CLA 220 d 4-matic (118.615)",
+      "CLA 200 (118.687)",
+      "CLA 250 4-matic (118.647)",
+      "CLA 200 d (118.612)",
+      "AMG CLA 35 4-matic (118.651)"
+    ],
+    "C-CLASS T-Model (S204)": [
+      "C 300 CDI 4-matic (204.292)"
+    ],
+    "SPRINTER 3-t c бортовой платформой/ходовая часть (B910, B907": [
+      "216 CDI RWD (907.221, 907.223)",
+      "217 CDI RWD (907.221, 907.223)",
+      "214 CDI RWD (907.221, 907.223)",
+      "211 CDI RWD (907.221, 907.223)",
+      "211 CDI RWD (907.123, 907.221, 907.223)",
+      "215 CDI RWD (907.221, 907.223)"
+    ],
+    "SPRINTER 3,5-t Автобус (B906)": [
+      "316 NGT (906.733)"
+    ],
+    "CABRIOLET (W111, W112)": [
+      "220 SEB (111.023)"
+    ],
+    "CITAN Автофургон / микроавтобус (W415)": [
+      "109 CDI (415.603, 415.605)",
+      "108 CDI (415.603)",
+      "111 CDI (415.603, 415.605)"
+    ],
+    "SPRINTER 3,5-t c бортовой платформой/ходовая часть (B907, B9": [
+      "317 CDI RWD (907.131, 907.133, 907.135, 907.231, 907.233...",
+      "316 CDI Привод на все колеса (907.133, 907.135, 907.233,...",
+      "315 CDI RWD (907.131, 907.133, 907.135, 907.231, 907.233...",
+      "311 CDI RWD (907.131, 907.133, 907.135, 907.231, 907.233...",
+      "314 CDI Привод на все колеса (907.133, 907.135, 907.233,...",
+      "319 CDI Привод на все колеса (907.133, 907.135, 907.233)"
+    ],
+    "SPRINTER 4-t c бортовой платформой/ходовая часть (B907, B910": [
+      "411 CDI (910.143)",
+      "414 CDI (910.141, 910.143)",
+      "419 CDI Привод на все колеса (907.143, 907.145, 907.243,...",
+      "416 CDI Привод на все колеса (907.143, 907.145, 907.243,...",
+      "414 CDI Привод на все колеса (907.143, 907.145, 907.243,..."
+    ],
+    "SPRINTER 5-t c бортовой платформой/ходовая часть (B907)": [
+      "516 CDI Привод на все колеса (907.153, 907.155, 907.253,...",
+      "519 CDI Привод на все колеса (907.153, 907.155, 907.253,..."
+    ],
+    "GLE (W166)": [
+      "350 d 4-matic (166.024)"
+    ],
+    "GLB (X247)": [
+      "GLB 200 4-matic (247.688)",
+      "GLB 200 d 4-matic (247.613)",
+      "GLB 200 (247.687)",
+      "GLB 200 d (247.612)",
+      "AMG GLB 35 4-matic (247.651)",
+      "GLB 220 d (247.614)",
+      "GLB 250 (247.646)",
+      "GLB 180 (247.684)",
+      "GLB 250 4-matic (247.647)",
+      "GLB 180 d (247.610)",
+      "GLB 220 d 4-matic (247.615)"
+    ],
+    "SPRINTER 3,5-t Tourer Bus (B907)": [
+      "316 CDI Привод на все колеса (907.733)",
+      "319 CDI Привод на все колеса (907.733)",
+      "314 CDI Привод на все колеса (907.733)"
+    ],
+    "GLA-CLASS (X156)": [
+      "GLA 250 Flex (156.944)"
+    ],
+    "GLE Coupe (C167)": [
+      "GLE 350 de 4-matic (167.317)",
+      "AMG GLE 63 EQ Boost 4-matic+ (167.388)",
+      "GLE 350 e 4-matic (167.354)",
+      "AMG GLE 63 EQ Boost 4-matic+ (167.389)",
+      "GLE 350 d 4-matic (167.321)",
+      "AMG GLE 53 EQ Boost 4-matic+ (167.361)",
+      "GLE 400 d 4-matic (167.323)"
+    ],
+    "GLE Coupe (C292)": [
+      "350 d 4-matic (292.324)"
+    ],
+    "R-CLASS (W251, V251)": [
+      "R 300 4-matic (251.062)"
+    ],
+    "SPRINTER 4,6-t c бортовой платформой/ходовая часть (B906)": [
+      "411 CDI (906.153, 906.155, 906.253, 906.255)"
+    ],
+    "VARIO Автобус (B670)": [
+      "O 815 (670.373, 670.374)"
+    ],
+    "SPRINTER CLASSIC 3,5-t Фургон (B909)": [
+      "313 CDI (909.632, 909.633)"
+    ],
+    "SPRINTER CLASSIC 4,6-t Фургон (B909)": [
+      "413 CDI (909.643)"
+    ],
+    "GLA (H247)": [
+      "AMG GLA 45 4-matic+ (247.753)",
+      "GLA 200 4-matic (247.788)",
+      "GLA 220 d (247.714)",
+      "GLA 200 (247.787)",
+      "GLA 250 e (247.786)",
+      "GLA 180 d (247.710)",
+      "GLA 250 (247.746)",
+      "AMG GLA 35 4-matic (247.751)",
+      "GLA 220 d 4-matic (247.715)",
+      "GLA 250 4-matic (247.747)",
+      "GLA 200 d (247.712)",
+      "GLA 200 d 4-matic (247.713)",
+      "GLA 180 (247.784)",
+      "AMG GLA 45 S 4-matic+ (247.754)"
+    ],
+    "SPRINTER 4-t Tourer Bus (B907)": [
+      "414 CDI (907.643)"
+    ],
+    "eSPRINTER Фургон (B910)": [
+      "Electric (910.633)"
+    ],
+    "CLS (C257)": [
+      "CLS 400 d 4-matic (257.323)",
+      "CLS 300 D EQ BOOST 4-MATIC (257.319)",
+      "CLS 350 D EQ BOOST 4-MATIC (257.319)"
+    ],
+    "AMG GT (C190)": [
+      "GT (190.382)",
+      "Black Series"
+    ],
+    "E-CLASS All-Terrain (S213)": [
+      "E 450 EQ Boost (213.260)",
+      "E 400 d 4-matic (213.227)",
+      "E 200 EQ Boost (213.279)"
+    ],
+    "124 купе (C124)": [
+      "200 CE (124.040)",
+      "200 CE (124.041)"
+    ],
+    "S-CLASS седан (W108, W109)": [
+      "300 SEL (109.015)"
+    ],
+    "S-CLASS (W223)": [
+      "S 500 EQ Boost 4-matic (223.063)",
+      "S 350 d 4-matic (223.031)",
+      "S 350 d (223.030)",
+      "S 450 EQ Boost 4-matic (223.061)",
+      "S 400 d 4-matic (223.033)"
+    ],
+    "E-CLASS (W210)": [
+      "E 55 AMG (210.074)"
+    ],
+    "CLK (C208)": [
+      "55 AMG"
+    ],
+    "SL (R230)": [
+      "55 AMG (230.474)"
+    ],
+    "E-CLASS T-Model (S211)": [
+      "E 55 T AMG Kompressor"
+    ],
+    "C-CLASS (W203)": [
+      "C 55 AMG"
+    ],
+    "SLK (R171)": [
+      "55 AMG (171.473)"
+    ],
+    "SLR (R199)": [
+      "5.5 (199.376)"
+    ],
+    "CLS (C219)": [
+      "CLS 55 AMG",
+      "CLS 63 AMG (219.377)"
+    ],
+    "M-CLASS (W164)": [
+      "ML 63 AMG 4-matic (164.177)"
+    ],
+    "CLK Кабриолет (A209)": [
+      "CLK 63 AMG (209.477)"
+    ],
+    "S-CLASS купе (C216)": [
+      "CL 63 AMG (216.377)"
+    ],
+    "E-CLASS (W211)": [
+      "E 63 AMG (211.077)"
+    ],
+    "SLR Roadster (R199)": [
+      "5.5 SLR McLaren"
+    ],
+    "SLS AMG (C197)": [
+      "6.3 (197.377)"
+    ],
+    "S-CLASS (W221)": [
+      "S 550 (221.073, 221.173)"
+    ],
+    "C-CLASS купе (C204)": [
+      "C 63 AMG (204.377)"
+    ],
+    "SPRINTER 3,5-t c бортовой платформой/ходовая часть (B906)": [
+      "311 CDI (906.133)"
+    ],
+    "S-CLASS (V223)": [
+      "S 500 EQ Boost 4-matic (222.163)",
+      "S 450 EQ Boost 4-matic (223.161)",
+      "S 350 d 4-matic (223.131)",
+      "S 400 d 4-matic (223.133)",
+      "S 350 d (223.130)"
+    ],
+    "G-CLASS Cabrio (W463)": [
+      "G 300 Diesel (463.307)",
+      "G 320 (463.250)"
+    ],
+    "EQA (H243)": [
+      "EQA 250 (243.701)"
+    ],
+    "C-CLASS (W206)": [
+      "C 300 4MATIC (206.047)",
+      "C 220 D (206.016, 206.004)",
+      "C 180 (206.041)",
+      "C 300 (206.046)",
+      "C 200 4MATIC (206.043)",
+      "C 200 (206.042)",
+      "C 300 D (206.006)"
+    ],
+    "C-CLASS T-MODEL T-MODEL (S206)": [
+      "C 220 D (206.204, 206.216)",
+      "C 300 D (206.206)",
+      "C 200 (206.242)"
+    ]
+  },
+  "NISSAN": {
+    "MICRA V (K14)": [
+      "1.0 IG-T 100",
+      "1.0 DIG-T 117",
+      "0.9 LPG"
+    ],
+    "LEAF (ZE1)": [
+      "Electric"
+    ],
+    "QASHQAI II SUV (J11, J11_, J12)": [
+      "1.3 DIG-T",
+      "1.7 dCi ALL MODE 4x4-i",
+      "1.7 dCi"
+    ],
+    "X-TRAIL (T32_)": [
+      "1.3 DIG-T",
+      "1.7 dCi ALL MODE 4x4-i",
+      "1.7 dCi"
+    ],
+    "JUKE (F15)": [
+      "1.6 LPG"
+    ],
+    "JUKE (F16_)": [
+      "DIG-T 117"
+    ],
+    "NV300 Фургон (X82)": [
+      "2.0 dCi 120",
+      "2.0 dCi 170",
+      "2.0 dCi 145"
+    ],
+    "NV300 Kombi (X82)": [
+      "2.0 dCi 120",
+      "2.0 dCi 170",
+      "2.0 dCi 145",
+      "1.6 dci 120"
+    ],
+    "NV250 Фургон (X61)": [
+      "dCi 95",
+      "dCi 115",
+      "dCi 80"
+    ],
+    "NV250 Автобус (X61)": [
+      "dCi 95",
+      "dCi 115",
+      "dCi 80"
+    ],
+    "NV400 Фургон (X62, X62B)": [
+      "dCi 180"
+    ],
+    "NV400 c бортовой платформой/ходовая часть (X62, X62B)": [
+      "dCi 180"
+    ],
+    "NV400 Автобус (X62, X62B)": [
+      "dCi 180"
+    ],
+    "JUKE Van (F15)": [
+      "1.6",
+      "CVTC",
+      "dCi"
+    ],
+    "X-TRAIL VAN (T31)": [
+      "dCi 4x4",
+      "dCi"
+    ],
+    "X-TRAIL VAN (T32)": [
+      "dCi 4x4"
+    ],
+    "QASHQAI / QASHQAI +2 I VAN (J10, JJ10E)": [
+      "2.0 Привод на все колеса",
+      "2.0",
+      "1.6 dCi Привод на все колеса",
+      "1.6 CVTC",
+      "1.6 dCi",
+      "1.5 dCi",
+      "2.0 dCi Привод на все колеса"
+    ],
+    "MURANO II VAN (Z51)": [
+      "2.5 dCi 4x4",
+      "3.5 CVTC 4x4"
+    ],
+    "PATHFINDER III VAN (R51_)": [
+      "3.0 dCi 4x4 (R51M)",
+      "2.5 dCi 4x4 (R51M)"
+    ],
+    "SERENA VAN (C23)": [
+      "2.0",
+      "1.6",
+      "2.3"
+    ]
+  },
+  "PEUGEOT": {
+    "407 SW (6E_)": [
+      "2.0 Flex"
+    ],
+    "PARTNER TEPEE": [
+      "Électrique",
+      "1.6 HDi 75 (16V)"
+    ],
+    "PARTNER c бортовой платформой/ходовая часть": [
+      "1.6 BlueHDi 100"
+    ],
+    "PARTNER Автофургон / микроавтобус (5_, G_)": [
+      "1.6 HDI 92",
+      "1.4"
+    ],
+    "PARTNER c бортовой платформой/ходовая часть (5_, G_)": [
+      "1.6 HDi 75"
+    ],
+    "PARTNER Автофургон / микроавтобус": [
+      "1.6 HDi"
+    ],
+    "508 II (FB_, FH_, F3_)": [
+      "PSE Hybrid4 360",
+      "Hybrid (F35GQU)",
+      "PureTech 130",
+      "1.6 THP 150 (F35GXV)"
+    ],
+    "208 II (UB_, UP_, UW_, UJ_)": [
+      "1.2 PureTech 130",
+      "1.2 PureTech 100",
+      "1.2 PureTech 75",
+      "e-208",
+      "1.5 BlueHDI 100",
+      "1.5 BlueHDI 130"
+    ],
+    "301": [
+      "1.2 PureTech 82"
+    ],
+    "208 Фургон/хетчбэк (CR_)": [
+      "1.5 BlueHDi 100"
+    ],
+    "BOXER Автобус": [
+      "2.2 BlueHDi 165",
+      "2.2 BlueHDi 140",
+      "2.2 BlueHDi 120"
+    ],
+    "BOXER Фургон": [
+      "2.2 HDi 130 4x4",
+      "2.0 BlueHDi 160 4x4",
+      "2.2 BlueHDi 120",
+      "2.2 BlueHDi 165",
+      "2.0 BlueHDi 130 4x4",
+      "2.2 BlueHDi 140",
+      "2.2 HDi 150 4x4"
+    ],
+    "RIFTER": [
+      "1.2 PureTech 130",
+      "1.6 HDi 92",
+      "1.6 BlueHDi 100",
+      "1.6 HDi 75 / BlueHDi 75"
+    ],
+    "508 SW II (FC_, FJ_, F4_)": [
+      "PSE Hybrid4 360",
+      "Hybrid (F45GQU)",
+      "PureTech 130"
+    ],
+    "2008 II (UD_, US_, UY_, UK_)": [
+      "1.2 PureTech 130",
+      "1.2 PureTech 100",
+      "e-2008",
+      "1.5 BlueHDI 100",
+      "1.5 BlueHDI 130",
+      "1.5 BlueHDI 110 (UDYHSK)",
+      "1.2 THP / PureTech 155 (USHNNS, URHNNS, UXHNJP, URHNJP,..."
+    ],
+    "3008 SUV (MC_, MR_, MJ_, M4_)": [
+      "Hybrid",
+      "Hybrid4 (M45GBU)"
+    ],
+    "PARTNER ORIGIN вэн (G_)": [
+      "1.6 HDi 75",
+      "1.6 16V",
+      "1.4"
+    ],
+    "PARTNER ORIGIN Автофургон / микроавтобус (G_)": [
+      "1.9 D",
+      "1.6 HDi 90",
+      "1.6",
+      "1.6 HDi 75",
+      "1.4"
+    ],
+    "PARTNER вэн (5_, G_)": [
+      "1.6 HDI 92"
+    ],
+    "EXPERT Автобус (V_)": [
+      "2.0 BlueHDi 120"
+    ],
+    "TRAVELLER Автобус (V_)": [
+      "2.0 BlueHDi 150 4x4",
+      "2.0 BlueHDi 120",
+      "2.0 BlueHDi 145",
+      "E-TRAVELLER"
+    ],
+    "BOXER c бортовой платформой/ходовая часть": [
+      "2.2 BlueHDi 165",
+      "2.2 BlueHDi 140",
+      "2.2 BlueHDi 120"
+    ],
+    "PARTNER Автофургон / микроавтобус (K9)": [
+      "1.2 PureTech 130",
+      "1.2 PureTech 110",
+      "1.5 BlueHDi 100",
+      "1.5 BlueHDI 130 4x4",
+      "1.5 BlueHDi 75"
+    ],
+    "EXPERT Фургон (V_)": [
+      "2.0 BlueHDi 150 4x4",
+      "E-EXPERT",
+      "2.0 BlueHDi 120 4x4"
+    ],
+    "EXPERT c бортовой платформой/ходовая часть (V_)": [
+      "E-EXPERT"
+    ],
+    "205 II (20A/C)": [
+      "1.8 Diesel"
+    ],
+    "807 Van (EB_)": [
+      "HDi (EB4HWGF)",
+      "2.0 HDi (EBRHTBF, EBRHWBF)",
+      "2.0 HDi",
+      "2.0 HDi (EBRHMEF)"
+    ],
+    "806 Van (AF_)": [
+      "2.0 (AFRGXC)",
+      "2.0 (AFRFVC)",
+      "2.0 (AFRFNC)",
+      "TD (AFDHXC)",
+      "HDi (AFRHZC)",
+      "DT (AFP8CB)"
+    ],
+    "2008 I Van (CU_)": [
+      "BlueHDi 120 (CUYHXK)",
+      "PureTech 130 (CUHNYM, CUHNSS)",
+      "BlueHDi 100 (CUYHYM)"
+    ],
+    "3008 Van (0U_)": [
+      "HDi 110 (0U9HZ8, 0U9HZT)",
+      "HDi 150 (0URHEM)",
+      "HDi (0URHHT)"
+    ],
+    "3008 Van (MR_, MC_, MJ_)": [
+      "PureTech 130 (MRHNYH)",
+      "BlueHDi 180 (MJEHZR)",
+      "BlueHDi 130 (MCYHZB)"
+    ],
+    "5008 I Van (0U_)": [
+      "HDi 136 (0URHEM)",
+      "HDi 165 (0URHHT)",
+      "HDi / e-HDi (0U9HD8, 0U9HDA)",
+      "HDi 150 (0URHEM)",
+      "HDi (0U9HR8)"
+    ],
+    "5008 II Van (MC_, MJ_)": [
+      "BlueHDi 180 (MJEHZW)",
+      "BlueHDi 130 (MCYHZW)"
+    ],
+    "4007 Van (VU_, VV_)": [
+      "HDi 155 (VU4HNH, VV4HK8)"
+    ]
+  },
+  "HYUNDAI": {
+    "i40 I CW (VF)": [
+      "1.6 CRDi",
+      "2.0 CVVT"
+    ],
+    "i30 FASTBACK (PDE, PDEN)": [
+      "1.0 T-GDI hybrid 48V",
+      "1.5 T-GDI Hybrid 48V",
+      "2.0 N",
+      "1.6 CRDi hybrid 48V"
+    ],
+    "i40 I (VF)": [
+      "1.6 CRDi",
+      "2.0 CVVT"
+    ],
+    "i30 (PDE, PD, PDEN)": [
+      "1.0 T-GDI hybrid 48V",
+      "1.6 CRDi hybrid 48V",
+      "1.5 T-GDI hybrid 48V",
+      "1.6 CRDi",
+      "1.5"
+    ],
+    "i30 универсал (PDE)": [
+      "1.0 T-GDI hybrid 48V",
+      "1.5 T-GDI Hybrid 48V",
+      "1.6 CRDi hybrid 48V",
+      "1.6 CRDi",
+      "1.5"
+    ],
+    "KONA (OS, OSE, OSI)": [
+      "1.0 T-GDi Hybrid 48V",
+      "1.6 CRDi Hybrid 48V",
+      "EV",
+      "1.6 T-GDi",
+      "1.6 T-GDi 4WD",
+      "1.6 CRDi Hybrid 48V 4WD",
+      "1.6 GDi Hybrid"
+    ],
+    "i20 II (GB, IB)": [
+      "1.2 LPG"
+    ],
+    "TUCSON (TL, TLE)": [
+      "2.0 Привод на все колеса",
+      "1.6 CRDi hybrid 48V Привод на все колеса",
+      "1.6 CRDi hybrid 48V",
+      "2.4 GDI Привод на все колеса",
+      "2.0 CVVT",
+      "1.6 CRDi Привод на все колеса",
+      "2.0 CVVT Привод на все колеса"
+    ],
+    "SANTA FÉ IV (TM, TMA)": [
+      "1.6 T-GDI Hybrid HTRAC",
+      "1.6 T-GDI Hybrid",
+      "2.2 CRDi",
+      "3.5 MPI AWD",
+      "2.2 CRDi HTRAC"
+    ],
+    "GRAND SANTA FÉ": [
+      "3.0 GDi Привод на все колеса"
+    ],
+    "ACCENT III седан (MC)": [
+      "1.5"
+    ],
+    "i20 I (PB, PBT)": [
+      "1.2"
+    ],
+    "SONATA VI (YF)": [
+      "2.4"
+    ],
+    "i10 III (AC3, AI3)": [
+      "1.0 MPi",
+      "1.2 MPi",
+      "1.0 T-GDi"
+    ],
+    "GRANDEUR (HG)": [
+      "3.0 MPI"
+    ],
+    "IONIQ (AE)": [
+      "Electric"
+    ],
+    "SONATA VIII (DN8)": [
+      "2.0 CVVL",
+      "2.5 MPI"
+    ],
+    "i30 Hatchback Van (PDE)": [
+      "1.4 T-GDi",
+      "1.0 T-GDi"
+    ],
+    "KONA Автофургон / спортивно-утилитарный автомобиль (OS, OSE,": [
+      "1.6 GDi Hybrid",
+      "EV",
+      "1.0 T-GDi"
+    ],
+    "TUCSON Автофургон / спортивно-утилитарный автомобиль (TLE)": [
+      "1.6 CRDi",
+      "1.6 T-GDi"
+    ],
+    "SANTA FÉ IV Автофургон / спортивно-утилитарный автомобиль (T": [
+      "2.2 CRDi AWD",
+      "2.2 CRDi"
+    ],
+    "TERRACAN (HP)": [
+      "2.5 TD 4WD",
+      "2.9 CRDi 4WD"
+    ],
+    "i20 III (BC3, BI3)": [
+      "1.2",
+      "1.0 T-GDI hybrid 48V",
+      "1.0 T-GDI"
+    ],
+    "ix35 Van": [
+      "CRDi 4WD",
+      "CRDi",
+      "GDi"
+    ],
+    "SANTA FÉ I Автофургон / спортивно-утилитарный автомобиль (SM": [
+      "CRDi",
+      "2.4 4x4",
+      "CRDi 4x4"
+    ],
+    "SANTA FÉ II Автофургон / спортивно-утилитарный автомобиль (C": [
+      "CRDi",
+      "CRDi 4x4"
+    ],
+    "SANTA FÉ III Автофургон / спортивно-утилитарный автомобиль (": [
+      "CRDi 4x4"
+    ],
+    "TRAJET Автофургон / микроавтобус (FO)": [
+      "2.0",
+      "CVVT",
+      "CRDi"
+    ],
+    "TUCSON Автофургон / спортивно-утилитарный автомобиль (JM)": [
+      "CRDi",
+      "CVVT",
+      "CRDi VGT"
+    ],
+    "TUCSON (NX4E)": [
+      "1.6 T-GDi Hybrid 48V",
+      "1.6 CRDi Hybrid 48V HTRAC",
+      "1.6 CRDi Hybrid 48V",
+      "1.6 T-GDi Hybrid HTRAC",
+      "1.6 T-GDi Hybrid"
+    ],
+    "i20 II купе (GB)": [
+      "1.2"
+    ]
+  },
+  "RENAULT": {
+    "MEGANE I Hatchback Van (SA0/1_)": [
+      "1.9 dCi"
+    ],
+    "CAPTUR I (J5_, H5_)": [
+      "1.2 TCe (J5AU)",
+      "1.3 TCe 130 (J5NJ)"
+    ],
+    "CLIO III Grandtour (KR0/1_)": [
+      "1.2 16V Hi-Flex (KR1U)"
+    ],
+    "MEGANE II Hatchback Van (KM0/2_)": [
+      "1.5 dCi"
+    ],
+    "MEGANE IV Наклонная задняя часть (B9A/M/N_)": [
+      "1.3 TCe 120",
+      "1.3 TCe 160 (B9NC)",
+      "1.0 TCE 110",
+      "1.8 RS 300 (B9M8)",
+      "1.8 Blue dCi 150 (B9A7)"
+    ],
+    "TALISMAN (LP_)": [
+      "2.0 Blue dCi 160 (LPAM)",
+      "2.0 Blue dCi 200 (LPAL)",
+      "1.3 TCe 160 (LPNC)"
+    ],
+    "TALISMAN Grandtour (KP_)": [
+      "2.0 Blue dCi 200 (KPAL)",
+      "1.3 TCe 160 (KPNC)",
+      "2.0 Blue dCi 160 (KPAM)"
+    ],
+    "MEGANE IV Grandtour (K9A/M/N_)": [
+      "E-TECH 160",
+      "1.3 TCe 160 (K9NC)",
+      "1.3 TCe 120",
+      "1.8 Blue dCi 150 (K9A7)"
+    ],
+    "MEGANE IV седан": [
+      "1.5 Blue dCi 95 (LVA2)",
+      "1.5 Blue dCi 115 (LVA6)"
+    ],
+    "CLIO IV (BH_)": [
+      "1.5 dCi (BHMW)"
+    ],
+    "TWINGO III (BCM_)": [
+      "Z.E:",
+      "1.0 SCe 75",
+      "1.0 SCe 65 (BCMJ)",
+      "0.9 TCe 90 LPG (BCMD)",
+      "0.9 TCe 95"
+    ],
+    "KADJAR (HA_, HL_)": [
+      "1.7 Blue dCi 150 (HLA7)",
+      "1.7 Blue dCi 150 4WD (HLA7)"
+    ],
+    "KANGOO / GRAND KANGOO (KW0/1_)": [
+      "1.5 dCi 95 (KW16)",
+      "1.5 dCi 115 (KW17)",
+      "1.5 dCi 80 (KW15)"
+    ],
+    "TRAFIC III Фургон (FG_)": [
+      "2.0 dCi 170 (FGMM)",
+      "2.0 dCi 120 (FGMN)",
+      "1.6 dCi 120 (FGMK)",
+      "2.0 dCi 145 (FGML)"
+    ],
+    "KOLEOS II (HC_)": [
+      "1.3 TCe 160",
+      "1.7 BLUE dCi 150 (HCA7)",
+      "2.0 BLUE dCi 190 4WD (HCAN)"
+    ],
+    "ZOE (BFM_)": [
+      "ZOE (BFMC, BFMD)",
+      "ZOE"
+    ],
+    "ARKANA I (LCM_)": [
+      "1.3 TCe 150 4x4 (LCM3)",
+      "1.6 (LCM1)",
+      "1.6 4x4 (LCM1)",
+      "1.3 TCe 150 (LCM3)"
+    ],
+    "TRAFIC III Автобус (JG_)": [
+      "2.0 dCi 120 (JGMN)",
+      "1.6 dCi 120 (JGMS)",
+      "2.0 dCi 145 (JGML)",
+      "2.0 dCi 170 (JGMM)"
+    ],
+    "CLIO V (B7_)": [
+      "1.6 E-TECH 140 (B7MU)",
+      "1.0 TCe 100 (B7MT)",
+      "1.0 LPG (B7MT)",
+      "1.5 Blue dCi 115 (B7AD)",
+      "TCe 90 (BHNF, BHJR)",
+      "1.0 SCe 75 (B7M5)",
+      "1.3 TCe 130 (B7MF)",
+      "1.0 SCe 65 (B7MR)",
+      "1.5 Blue dCi 85 (B7AG)"
+    ],
+    "DUSTER (HM_)": [
+      "1.5 dCi 110 4x4 (HMAB)",
+      "1.5 dCi 110 (HMAB)"
+    ],
+    "MASTER III c бортовой платформой/ходовая часть (EV, HV, UV)": [
+      "2.3 dCi 180 FWD (EV04, HV04, UV04)"
+    ],
+    "MASTER PRO Фургон (FH__)": [
+      "dCi 120 (FH0H, FH5H)",
+      "dCi 160 (FH0J, FH5J)"
+    ],
+    "Megane I Kombi van (KA_)": [
+      "1.6 BiFuel (KA04)",
+      "1.6 BiFuel (KA0B)",
+      "1.9 DTI (KA1U)",
+      "1.9 dCi (KA05)",
+      "1.9 D (KA0R)",
+      "1.8 (KA1M)",
+      "1.4 (KA0D)",
+      "1.6 (KA0B, KA04)"
+    ],
+    "MASTER III Фургон (FV)": [
+      "2.3 dCi 180 FWD (FV04)"
+    ],
+    "TRAFIC III c бортовой платформой/ходовая часть (EG_)": [
+      "2.0 dCi 145 (EGML)",
+      "2.0 dCi 170 (EGMM)"
+    ],
+    "CAPTUR II": [
+      "LPG (HFMT)",
+      "Blue dCi 115 (HFAD)",
+      "E-TECH 160",
+      "TCe 140",
+      "TCe 90",
+      "Blue dCi 95 (HFAF)",
+      "TCe 130 (HFMF)",
+      "TCe 155 (HFMN)",
+      "E-TECH Plug-in Hybrid 160",
+      "TCe 100 (HFMT)"
+    ],
+    "KANGOO Express (FW0/1_)": [
+      "1.5 dCi 115 (FW17)",
+      "1.5 dCi 95 (FW16)",
+      "1.5 dCi 80 (FW15)"
+    ],
+    "MASTER III Автобус (JV)": [
+      "2.3 dCi 180 FWD (JV04)"
+    ],
+    "TWIZY (MAM_)": [
+      "80 (MAMA)"
+    ],
+    "LAGUNA I (B56_, 556_)": [
+      "2.9 24V (B56V)"
+    ],
+    "CLIO IV Grandtour (KH_)": [
+      "1.5 dCi 90",
+      "0.9 TCe 90",
+      "1.5 dCi 75"
+    ],
+    "SCÉNIC I VAN (FA0_, JA0/1_)": [
+      "1.9 (FA0J)",
+      "1.9 DTi (JA0N)"
+    ],
+    "SCÉNIC III VAN (JZ0/1_)": [
+      "1.9 dCi (JZ0J, JZ1J, JZ1K, JZ1S)",
+      "1.4 TCe (JZ0F, JZ1V)",
+      "1.6 VVT (JZ0U, JZ1B, JZ1H, JZ1U, JZ24)",
+      "1.5 dCi (JZ0D, JZ1M, JZ09, JZ14, JZ1G, JZ1W, JZ10)",
+      "1.6 dCi (JZ00, JZ12, JZ2A)",
+      "1.5 dCi (JZ02)"
+    ],
+    "MEGANE Scenic VAN (JA0/1_)": [
+      "1.9 DT (JA0K)",
+      "1.9 DTi (JA0N)"
+    ],
+    "ESPACE II VAN (J/S63_)": [
+      "2.1 TD (S635, S63D)",
+      "2.2 (S637)"
+    ],
+    "MEGANE III Наклонная задняя часть (BZ0/1_, B3_)": [
+      "1.5 DCI (BZ29)"
+    ]
+  },
+  "KIA": {
+    "PROCEED (CD)": [
+      "1.4 T-GDI",
+      "1.6 T-GDI",
+      "1.6 CRDi 136",
+      "1.6 CRDi 136 Eco-Dynamics+",
+      "1.6 T-GDI GT",
+      "1.5 T-GDI",
+      "1.0 T-GDI"
+    ],
+    "CEED (CD)": [
+      "1.6 CRDi 115 Eco-Dynamics+",
+      "1.6 CRDi 136 Eco-Dynamics+",
+      "1.5 T-GDI",
+      "1.6 T-GDI GT",
+      "1.4 LPG",
+      "1.0 T-GDI"
+    ],
+    "CEED Sportswagon (CD)": [
+      "1.6 CRDi 115 Eco-Dynamics+",
+      "1.6 GDI Hybrid",
+      "1.6",
+      "1.6 CRDi 136 Eco-Dynamics+",
+      "1.5 T-GDI",
+      "1.4 LPG",
+      "1.0 T-GDI"
+    ],
+    "CERATO IV седан (BD, BDM)": [
+      "1.6 TCi"
+    ],
+    "STINGER (CK)": [
+      "3.3 T-GDI"
+    ],
+    "OPTIMA (JF)": [
+      "2.0 T-GDi"
+    ],
+    "SOUL III (SK3)": [
+      "2.0 MPi",
+      "1.6 T-GDI",
+      "1.6 MPi",
+      "E-SOUL"
+    ],
+    "K9 II (RJ)": [
+      "3.3 GDi",
+      "5.0 GDi AWD",
+      "3.3 GDi AWD"
+    ],
+    "BESTA Фургон": [
+      "2.7 D"
+    ],
+    "SPORTAGE IV (QL, QLE)": [
+      "1.6 LPG (QLE)",
+      "1.6 CRDi Eco-Dynamics+",
+      "1.6 CRDi Eco-Dynamics+ AWD"
+    ],
+    "CEED Hatchback Van (CD)": [
+      "T-GDI",
+      "1.4 T-GDI",
+      "CRDi 115",
+      "T-GDI GT",
+      "CRDI 136"
+    ],
+    "CEED Combi Van (CD)": [
+      "T-GDI",
+      "1.4 T-GDI",
+      "CRDi 115",
+      "GDI Hybrid",
+      "CRDI 136"
+    ],
+    "NIRO VAN (DE)": [
+      "GDI Hybrid"
+    ],
+    "STONIC Hatchback Van (YB)": [
+      "1.6 CRDi",
+      "1.0 T-GDi"
+    ],
+    "STINGER Hatchback Van (CK)": [
+      "2.0 T-GDI",
+      "2.2 CRDi VGT",
+      "3.3 T-GDI",
+      "3.3 T-GDI 4WD"
+    ],
+    "XCEED (CD)": [
+      "1.6 CRDi 115 Eco-Dynamics+",
+      "1.6 GDI Hybrid",
+      "1.6 CRDi 115",
+      "1.4 T-GDI",
+      "1.6 T-GDI",
+      "1.6 CRDi 136",
+      "1.6 CRDi 136 Eco-Dynamics+",
+      "1.5 T-GDI",
+      "1.0 T-GDI"
+    ],
+    "SELTOS (SP2, SP2I)": [
+      "2.0 MPi (SP2)",
+      "2.0 MPi 4WD (SP2)",
+      "1.6 T-GDi 4WD (SP2)",
+      "1.6 MPi (SP2)",
+      "1.6 MPi 4WD (SP2)"
+    ],
+    "OPTIMA (FSGDS6B)": [
+      "2.4 CVVT"
+    ],
+    "SORENTO IV (MQ4, MQ4A)": [
+      "2.2 CRDi",
+      "1.6 T-GDi Hybrid",
+      "1.6 T-GDi Hybrid AWD",
+      "2.2 CRDi 4WD"
+    ],
+    "SOUL III Cargo (SK3)": [
+      "E-SOUL"
+    ],
+    "NIRO (DE)": [
+      "1.6 GDI Hybrid"
+    ],
+    "RIO IV (YB, SC, FB)": [
+      "1.2 CVVT",
+      "1.0 T-GDI 120 Eco-Dynamics+",
+      "1.25 LPG"
+    ],
+    "PROCEED Combi Van (CD)": [
+      "1.6 T-GDI GT",
+      "1.4 T-GDI",
+      "1.6 CRDI 136"
+    ],
+    "XCEED Van (CD)": [
+      "1.6 CRDI",
+      "1.4 T-GDI",
+      "1.6 T-GDI",
+      "1.6 GDI Hybrid"
+    ],
+    "SPORTAGE IV VAN (QL, QLE)": [
+      "1.6 CRDI Eco-Dynamics+ Привод на все колеса",
+      "1.6 T-GDI",
+      "1.6 CRDI Eco-Dynamics+"
+    ],
+    "STONIC (YB)": [
+      "1.0 T-GDi Eco-Dynamics+"
+    ],
+    "PICANTO (JA)": [
+      "1.2 MPI"
+    ],
+    "CARENS IV Van (A4)": [
+      "CRDi"
+    ],
+    "SORENTO II Автофургон / спортивно-утилитарный автомобиль (XM": [
+      "CRDi",
+      "CVVT",
+      "CRDi 4WD",
+      "CVVT 4WD"
+    ],
+    "SPORTAGE VAN": [
+      "2.0 4WD",
+      "2.0 TDI 4WD"
+    ],
+    "SORENTO I VAN (JC)": [
+      "2.5 CRDi 4WD"
+    ]
+  },
+  "OPEL": {
+    "COMBO Автофургон / микроавтобус (X19)": [
+      "1.2",
+      "1.6 D",
+      "1.5 D 4x4"
+    ],
+    "MOKKA / MOKKA X (J13)": [
+      "1.6 CDTI 4x4 (_76)"
+    ],
+    "GRANDLAND X (A18)": [
+      "1.6 Turbo Hybrid4",
+      "1.6 Turbo",
+      "1.6 Turbo Hybrid"
+    ],
+    "CROSSLAND X / CROSSLAND (P17, P2QO)": [
+      "1.2",
+      "1.5 (75)"
+    ],
+    "CORSA F": [
+      "CORSA-e (68)",
+      "1.2 (68)",
+      "1.5 (68)"
+    ],
+    "COMBO Tour / Life (X19)": [
+      "1.2"
+    ],
+    "ZAFIRA LIFE Автобус (K0)": [
+      "2.0",
+      "1.5",
+      "2.0 4x4",
+      "E LIFE"
+    ],
+    "ASTRA K (B16)": [
+      "1.4 Turbo (68)",
+      "1.5 CRDI (68)",
+      "1.2 Turbo (68)"
+    ],
+    "ASTRA K Sports Tourer (B16)": [
+      "1.4 Turbo (35)",
+      "1.2 Turbo (35)",
+      "1.5 CRDI (35)"
+    ],
+    "VIVARO C Фургон (K0)": [
+      "VIVARO-E",
+      "2.0",
+      "1.5 4x4",
+      "2.0 4x4",
+      "1.5"
+    ],
+    "VIVARO C Автобус (K0)": [
+      "2.0",
+      "1.5",
+      "VIVARO-E"
+    ],
+    "VIVARO C Platform Cabin (K0)": [
+      "2.0",
+      "VIVARO-E"
+    ],
+    "VIVARO B Фургон (X82)": [
+      "1.6 CDTI (05)"
+    ],
+    "MOVANO B Автобус (X62)": [
+      "2.3 CDTI FWD (JV)"
+    ],
+    "MOVANO B Фургон (X62)": [
+      "2.3 CDTI FWD (FV)"
+    ],
+    "MOVANO B c бортовой платформой/ходовая часть (X62)": [
+      "2.3 CDTI FWD (EV, HV, UV)"
+    ],
+    "ASTRA K Фургон/хетчбэк": [
+      "1.6 CDTI"
+    ],
+    "ZAFIRA B Автофургон / микроавтобус (A05)": [
+      "1.6 CNG VAN (M75)",
+      "1.9 CDTI VAN (M75)"
+    ],
+    "INSIGNIA B Grand Sport (Z18)": [
+      "1.4 Turbo (68)",
+      "2.0 DIESEL",
+      "2.0 CDTi 4x4 (68)",
+      "2.0 GSi 4x4 (68)",
+      "2.0 DIESEL 4x4",
+      "2.0 TURBO",
+      "2.0 (68)",
+      "2.0 CDTi (68)",
+      "1.5 CDTi (68)"
+    ],
+    "INSIGNIA B Sports Tourer (Z18)": [
+      "2.0 CDTi (35)",
+      "2.0 (35)",
+      "1.5 CDTi",
+      "2.0 4x4 (35)"
+    ],
+    "MOKKA": [
+      "MOKKA-e (76)",
+      "1.2 (76)",
+      "1.5 (76)"
+    ],
+    "ASTRA K Фургон/универсал": [
+      "1.5 CRDI (35)",
+      "1.4 (35)",
+      "1.0 (35)"
+    ],
+    "CORSA F Фургон/хетчбэк": [
+      "1.2 (68)",
+      "1.5 (68)"
+    ],
+    "CROSSLAND X Van": [
+      "1.2 (75)",
+      "1.5 (75)"
+    ],
+    "GRANDLAND X Van": [
+      "2.0 CDTI (75)",
+      "1.2 (75)",
+      "1.5 (75)"
+    ],
+    "KAPITÄN B": [
+      "2.8 S",
+      "2.8"
+    ],
+    "SENATOR A (29_)": [
+      "2.3 Comprex D"
+    ],
+    "KADETT C купе": [
+      "1.0 S"
+    ],
+    "VIVARO B Автобус (X82)": [
+      "1.6 CDTI (06)"
+    ],
+    "MERIVA B VAN (S10)": [
+      "1.4 ECOTEC (75)",
+      "1.3 CDTi (75)",
+      "1.7 CDTi (75)",
+      "1.6 CDTi (75)"
+    ],
+    "ZAFIRA TOURER C VAN (P12)": [
+      "2.0 CDTi (75)"
+    ]
+  },
+  "VAUXHALL": {
+    "GRANDLAND X (A18)": [
+      "1.5 Turbo D (75)"
+    ]
+  },
+  "LADA": {
+    "VESTA (GFL_)": [
+      "1.6 (GFL44)",
+      "1.6 (GFL11)",
+      "1.8 Sport (GFLS3)"
+    ],
+    "VESTA SW универсал (GFK_)": [
+      "1.6 (GFK44)",
+      "1.6 (GFK11)",
+      "Cross 1.6 (GFK11)"
+    ],
+    "LARGUS Фургон/универсал (KS0_, RS0_, KSA_)": [
+      "1.6 CNG (KSA45)"
+    ],
+    "XRAY (GAB_)": [
+      "1.6 Cross (GAB44)"
+    ],
+    "PRIORA седан (2170_)": [
+      "1.6 (21703-28)"
+    ],
+    "LARGUS Фургон (FS0_, FSA_)": [
+      "1.6 CNG (FSA45)"
+    ],
+    "KALINA II Наклонная задняя часть (2192_)": [
+      "1.6 Sport (21925)"
+    ],
+    "NIVA II вездеход закрытый (2123)": [
+      "1.7 4x4 (21230)"
+    ],
+    "LARGUS (KS0_, RS0_, KSA_)": [
+      "1.6 (KS045, RS045)",
+      "1.6 (KS035, RS035)",
+      "1.6 (RS0Y5, KS0Y5)",
+      "1.6 (KS0Y5, RS0Y5)",
+      "CNG (KSA45)"
+    ]
+  },
+  "HARLEY-DAVIDSON MC": {
+    "SOFTAIL": [
+      "1870 Softail Fat Bob (ST1)",
+      "1750 Softail Breakout",
+      "1870 Softail Breakout (ST1)",
+      "1750 Softail Low Rider (ST1)",
+      "1870 Softail Fat Boy (ST1)",
+      "1750 Softail Heritage Clasic",
+      "1870 Softail Low Rider S (ST1)",
+      "1870 Softail Heritage Clasic (ST1)",
+      "1750 Softail Sport Glide (ST1)",
+      "1750 Softail Fat Bob (ST1)",
+      "1750 Softail Street Bob (ST1)",
+      "1750 Softail Deluxe (ST1)",
+      "1870 Softail FXDR",
+      "1750 Softail Slim (ST1)",
+      "1870 Softail FXDR (ST1)",
+      "1750 Softail Fat Boy (ST1)",
+      "1750 Softail Sport Glide"
+    ],
+    "ROAD GLIDE": [
+      "1870 Road Glide Limited (FL3)",
+      "1870 Road Glide Special (FL3)"
+    ],
+    "CVO": [
+      "CVO Street Glide (FL3)",
+      "CVO Limited 117 (FL3)"
+    ],
+    "ROADSTER": [
+      "1200 Roadster Custom"
+    ],
+    "STREET": [
+      "Street Rod (XG1)"
+    ],
+    "ELECTRA GLIDE": [
+      "1870 Electra Glide Police (FL3)"
+    ],
+    "ROAD KING": [
+      "1750 Road King Special (FL3)"
+    ],
+    "STREET GLIDE": [
+      "1870 Street Glide Special (FL3)"
+    ],
+    "ULTRA": [
+      "1870 Ultra Limited (FL3)"
+    ],
+    "LIVEWIRE": [
+      "LiveWire"
+    ]
+  },
+  "DUCATI MOTORCYCLES": {
+    "HYPERMOTARD": [
+      "Hypermotard 950 SP",
+      "Hypermotard 950"
+    ],
+    "MULTISTRADA": [
+      "Multistrada 1260 Pikes Peak",
+      "Multistrada 950 S (AD)",
+      "Multistrada 1260 D-Air",
+      "Multistrada 1260 S",
+      "Multistrada 950 S Spoked Wheels (AD)",
+      "Multistrada 1200 Enduro",
+      "Multistrada 1260",
+      "Multistrada 1200 Enduro Pro"
+    ],
+    "MONSTER (300cc - 899cc)": [
+      "Monster 821 (MH)",
+      "Monster 821 Stealth (MH)"
+    ],
+    "PANIGALE V4": [
+      "PANIGALE V4 S (DA, 1D)",
+      "PANIGALE V4 Superleggera (DC)",
+      "PANIGALE V4 (DA, 1D)",
+      "PANIGALE V4 Speciale",
+      "PANIGALE V4 S Corse (DA)",
+      "PANIGALE V4 25 Anniversario 916",
+      "PANIGALE V4 R (DA)"
+    ],
+    "1299": [
+      "PANIGALE R FE"
+    ],
+    "SUPERSPORT": [
+      "SuperSport (VC)"
+    ],
+    "STREETFIGHTER": [
+      "Streetfighter V4 (FA, 1F)",
+      "Streetfighter V4 S (FA, 1F)"
+    ],
+    "SCRAMBLER": [
+      "Scrambler 1100 Sport Pro",
+      "Scrambler Icon (4K)",
+      "Scrambler 1100 Pro (1K)",
+      "Scrambler Icon (3K)",
+      "Scrambler 1100 Pro (2K)"
+    ]
+  },
+  "KAWASAKI MOTORCYCLES": {
+    "Z (124cc - 899cc)": [
+      "Z 400 (ER400D)",
+      "Z 125 (BR125K)"
+    ],
+    "KX": [
+      "KX 125 A",
+      "KX 250 G",
+      "KX 125 M",
+      "KX 420 A",
+      "KX 125 J",
+      "KX 85 B",
+      "KX 80 B",
+      "KX 85 D",
+      "KX 125 F",
+      "KX 500 D",
+      "KX 250 F",
+      "KX 80 T",
+      "KX 250 F-4T",
+      "KX 65 A",
+      "KX 125 B",
+      "KX 250 B",
+      "KX 85 C",
+      "KX 80 A",
+      "KX 125 L",
+      "KX 85 A",
+      "KX 250 E",
+      "KX 500 E",
+      "KX 80 R",
+      "KX 80 G",
+      "KX 250 C",
+      "KX 500 A",
+      "KX 60",
+      "KX 80 N",
+      "KX 125 H",
+      "KX 250 A",
+      "KX 450",
+      "KX 125 C",
+      "KX 450 F",
+      "KX 500 C",
+      "KX 80 E",
+      "KX 500 B",
+      "KX 125 D",
+      "KX 80 L",
+      "KX 250 D",
+      "KX 80 W",
+      "KX 80 D",
+      "KX 80 C",
+      "KX 125 E",
+      "KX 125 G",
+      "KX 250 H",
+      "KX 125 K",
+      "KX 80 F"
+    ],
+    "NINJA (124cc - 600cc)": [
+      "Ninja 400",
+      "Ninja 125 Z"
+    ],
+    "NINJA (601cc - )": [
+      "Ninja ZX-6R (ZX636G)",
+      "Ninja H2 Carbon (ZXT02J)",
+      "Ninja 1000 SX (ZXT02K)"
+    ]
+  },
+  "TRIUMPH MOTORCYCLES": {
+    "SCRAMBLER": [
+      "Scrambler 1200 XE (DS01)",
+      "Scrambler 1200 XC (DS01)"
+    ],
+    "THRUXTON": [
+      "Thruxton 1200 (DE01A)",
+      "Thruxton 1200 R TFC (DE01A)",
+      "Thruxton 1200 R (DE01A)"
+    ],
+    "BONNEVILLE": [
+      "Bonneville Bobber Black"
+    ],
+    "SPEED": [
+      "Speed Triple S (NN02A)",
+      "Speed Triple RS (NN02A)"
+    ],
+    "TIGER": [
+      "Tiger XCX (V301A)",
+      "Tiger 900 GT low (C702)",
+      "Tiger Alpine Edition (V301A)",
+      "Tiger 900 (C702)",
+      "Tiger XR (V301A)",
+      "Tiger Desert Edition (V301A)",
+      "Tiger 900 Rally (C702)",
+      "Tiger XRX (V301A)",
+      "Tiger 900 GT Pro (C702)",
+      "Tiger 900 GT (C702)",
+      "Tiger XRT (V301A)",
+      "Tiger 900 Rally Pro (C702)",
+      "Tiger XCA (V301A)"
+    ],
+    "STREET": [
+      "Street Triple S (HD06)",
+      "Street Triple S (HD05)"
+    ]
+  },
+  "TOYOTA": {
+    "RAV 4 V (_A5_, _H5_)": [
+      "2.5 Hybrid AWD (AXAH54L)",
+      "2.5 Hybrid AWD (AXAH54)",
+      "2.0 (MXAA52)",
+      "2.5 Hybrid (AXAH52)",
+      "2.0 VVTi (MXAA52)",
+      "2.0 AWD (MXAA54)",
+      "2.0 VVTi AWD (MXAA54)",
+      "2.5 VVTi AWD (AXAA54)",
+      "2.5 Hybrid AWD (AXAP54)"
+    ],
+    "COROLLA Наклонная задняя часть (_E21_)": [
+      "2.0 Hybrid (MZEH12)",
+      "1.2 (NRE210)"
+    ],
+    "CHASER (_X7_)": [
+      "2.0 (MX71)",
+      "2.4 D (LX70)",
+      "2.4 TD (LX70)",
+      "1.8 (SX70, SX70Y)",
+      "2.0 (GX71)"
+    ],
+    "PROACE c бортовой платформой/ходовая часть (MDZ_)": [
+      "2.0 D4d (MDZ3)"
+    ],
+    "COROLLA седан (_E21_)": [
+      "1.8 VVTi Hybrid (ZWE211, MZEA12)",
+      "1.6 VVTi (ZRE210)"
+    ],
+    "COROLLA универсал (_E21_)": [
+      "2.0 Hybrid (MZEH12)",
+      "1.8 Hybrid (ZWE211)",
+      "1.2 (NRE210)"
+    ],
+    "SUPRA (DB_)": [
+      "2.0 (DB82, DB81)",
+      "2.0 (DB22, DB21, DB23)",
+      "3.0 GR (DB41, DB42, DB43)"
+    ],
+    "HIACE VI Автобус (__H3__)": [
+      "2.8 (GDH322)"
+    ],
+    "YARIS Фургон/хетчбэк (_P13_)": [
+      "1.0 VVTi (KSP130)"
+    ],
+    "PROACE Автобус (MDZ_)": [
+      "1.5 D4d (MDZ1)",
+      "1.5 D4d (MDZ8)",
+      "Electric (MDZS, MDZZ)",
+      "2.0 D4d",
+      "2.0 D4d 4x4 (MDZ4)",
+      "2.0 D4d (MDZ3)"
+    ],
+    "PROACE Фургон (MDZ_)": [
+      "Electric (MDZS, MDZZ)",
+      "1.5 D4d (MDZ1)",
+      "1.5 D4d (MDZ8)"
+    ],
+    "DYNA c бортовой платформой/ходовая часть (_U_, _Y_)": [
+      "3.0 D (BU65_, BU61_)"
+    ],
+    "C-HR (_X1_)": [
+      "2.0 Hybrid (MAXH10)"
+    ],
+    "CHASER (_X10_)": [
+      "1.8 (SX100_)"
+    ],
+    "HIACE III Автобус (_H5_, _H6_, _H7_, _H8_, _H9_)": [
+      "2.0 4WD (YH51)"
+    ],
+    "PROACE CITY Автофургон / микроавтобус": [
+      "1.2 VVT-i 130 (BPZNP)",
+      "1.5 D-4D 130 (BPZMA)",
+      "1.2 VVT-i 110 (BPZNN)",
+      "1.5 D-4D 75 (BPZMJ)",
+      "1.5 D-4D 100 (BPZMD)"
+    ],
+    "PROACE CITY VERSO вэн": [
+      "1.5 D-4D 100 (BKYMD)",
+      "1.5 D-4D 130 (BKYMA)",
+      "1.2 VVT-i 130 (BKYNP)",
+      "1.2 VVT-i 110 (BKYNN)"
+    ],
+    "PROACE VERSO Автобус (MPY_)": [
+      "2.0 D4d",
+      "Electric (MPYS, MPYZ)",
+      "2.0 D4d (MPY3)"
+    ],
+    "CROWN (_S15_)": [
+      "3.0 (JZS155)"
+    ],
+    "HIACE IV Фургон (_H1_)": [
+      "2.4 (RZH103, RZH113)"
+    ],
+    "HILUX VIII Пикап (_N1_)": [
+      "2.8 D 4WD (GUN126)"
+    ],
+    "YARIS (_P21_, _PA1_, _PH1_)": [
+      "1.6 GR 4WD (GXPA16)",
+      "1.5 (MXPA11)",
+      "1.0 (KSP211)",
+      "1.5 Hybrid (MXPH11)"
+    ],
+    "HIGHLANDER (GSU7_, AXUH7_)": [
+      "2.5 Hybrid AWD (AXUH78)",
+      "3.5 VVTi AWD (GSU75)"
+    ],
+    "LAND CRUISER PRADO (_J15_)": [
+      "2.8 D-4D (GDJ155, GDJ150)"
+    ],
+    "YARIS CROSS (MXP_)": [
+      "1.5 Hybrid (MXPJ10)",
+      "1.5 (MXPB10)"
+    ],
+    "COROLLA (_E11_)": [
+      "1.3 (EE111_)"
+    ],
+    "PROGRES (JCG1_)": [
+      "3.0 (JCG11)"
+    ],
+    "GAIA (_M1_)": [
+      "2.0 VVTi (SXM10)"
+    ],
+    "RAV 4 IV VAN (_A4_)": [
+      "2.2 D4d 4WD (ALA49)",
+      "D4d 4WD (ALA41)",
+      "2.0 D4d (WWA42)",
+      "2.0 D4d (ALA40)",
+      "2.0 VVTi 4WD (ZSA44)"
+    ],
+    "RAV 4 V VAN (_A5_, _H5_)": [
+      "2.5 Hybrid AWD (AXAH54)",
+      "2.0 VVTi AWD (MXAA54)",
+      "2.5 Hybrid (AXAH52)",
+      "2.0 VVTi (MXAA52)"
+    ],
+    "VERSO VAN (_R2_)": [
+      "D4d (WAR20)",
+      "D4d (AUR21)",
+      "D4d (AUR20)",
+      "VVTi (ZGR20)",
+      "VVTi (ZGR21)"
+    ],
+    "PRIUS PLUS VAN (_W4_)": [
+      "1.8 Hybrid (ZVW40)"
+    ],
+    "LAND CRUISER Softtop (_J4_)": [
+      "4.0 4WD (HJ47)",
+      "3.4 4WD (BJ42, BJ45, BJ46)",
+      "3.6 4WD (HJ45)",
+      "4.2 4WD (FJ40, FJ45, BS46)"
+    ],
+    "STARLET (_P9_)": [
+      "1.3 (EP90)"
+    ]
+  },
+  "FORD USA": {
+    "F-350 Standard Cab Pickup": [
+      "4.9"
+    ],
+    "E-350 Standard Cargo Van": [
+      "4.9"
+    ],
+    "MUSTANG купе": [
+      "5.0 V8"
+    ],
+    "MUSTANG Convertible": [
+      "5.0 V8"
+    ],
+    "EXPLORER": [
+      "3.0 EcoBoost Plug-in Hybrid AWD"
+    ],
+    "MUSTANG MACH-E": [
+      "Mach E",
+      "First Edition",
+      "AWD"
+    ],
+    "WINDSTAR VAN": [
+      "3.0 V6"
+    ]
+  },
+  "MAZDA": {
+    "3 Наклонная задняя часть (BP)": [
+      "2.0 SKYACTIV-G (BP5H, BP6H)",
+      "1.5 SKYACTIV-G (BP5H, BP6H)",
+      "SKYACTIV-X M Hybrid",
+      "SKYACTIV-X M Hybrid AWD",
+      "1.8 SKYACTIV-D",
+      "2.0 SKYACTIV-G M Hybrid"
+    ],
+    "3 седан (BP_)": [
+      "2.0 SKYACTIV-X M Hybrid",
+      "1.5 SKYACTIV-G (BP5S, BP6S)",
+      "2.0 SKYACTIV-G M Hybrid (BP5S, BP6S)",
+      "1.8 SKYACTIV-D",
+      "2.0 SKYACTIV-G M Hybrid"
+    ],
+    "CX-3 (DK)": [
+      "2.0 SKYACTIV-G"
+    ],
+    "CX-30 (DM)": [
+      "1.8 SKYACTIV-D AWD",
+      "SKYACTIV-G M Hybrid (DM5W, DM6W)",
+      "SKYACTIV-G M Hybrid AWD (DMEW, DMFW)",
+      "SKYACTIV-X M Hybrid",
+      "SKYACTIV-G M Hybrid",
+      "SKYACTIV-G M Hybrid AWD",
+      "SKYACTIV-X M Hybrid AWD",
+      "1.8 SKYACTIV-D"
+    ],
+    "2 (DL, DJ)": [
+      "1.5 SKYACTIV-G M Hybrid"
+    ],
+    "MX-30 (DR)": [
+      "e-SKYACTIV",
+      "e-SKYACTIV (DR1W)"
+    ],
+    "626 V (GF)": [
+      "1.9"
+    ],
+    "626 V Hatchback (GF)": [
+      "1.9"
+    ],
+    "626 V Station Wagon (GW)": [
+      "1.9"
+    ],
+    "CX-5 Van (KE_)": [
+      "SKYACTIV-G AWD (KEK9)",
+      "SKYACTIV-D (KEF9)",
+      "SKYACTIV-G AWD (KEN9)",
+      "SKYACTIV-D AWD (KEN9)",
+      "SKYACTIV-G (KEC9)"
+    ],
+    "PREMACY Van (CP_)": [
+      "2.0 (CP19)",
+      "1.8 (CP19)",
+      "DiTD (CP19)"
+    ],
+    "B-SERIE c бортовой платформой/ходовая часть (UN)": [
+      "2.6 i"
+    ]
+  },
+  "UAZ": {
+    "31512 Вездеход открытый": [
+      "2.4"
+    ],
+    "PROFI c бортовой платформой/ходовая часть (2360_)": [
+      "2.7 LPG",
+      "2.7"
+    ],
+    "3151 (3151_)": [
+      "2.7"
+    ],
+    "HUNTER (31519_)": [
+      "2.9 4x4"
+    ]
+  },
+  "VOLVO": {
+    "XC60 II (246)": [
+      "2.0 D4",
+      "2.0 T6 Polestar AWD",
+      "2.0 D5 Polestar AWD",
+      "T5 Polestar",
+      "2.0 D4 Polestar AWD",
+      "2.0 B5 Mild-Hybrid",
+      "2.0 B4 Mild-Hybrid",
+      "2.0 T5 Polestar AWD",
+      "2.0 D4 Polestar",
+      "2.0 T8 Hybrid AWD",
+      "T6 Polestar AWD",
+      "2.0 T8 HYBRID AWD POLESTAR",
+      "2.0 T8 Hybrid Polestar AWD",
+      "2.0 B5 Mild-Hybrid AWD",
+      "2.0 B4 Mild-Hybrid AWD",
+      "2.0 B6 Mild-Hybrid AWD",
+      "T5 Polestar AWD",
+      "T4 Polestar"
+    ],
+    "V90 II универсал (235, 236)": [
+      "2.0 D4",
+      "2.0 T6 Polestar AWD",
+      "B5 Mild Hybrid AWD",
+      "2.0 B4 Mild-Hybrid",
+      "2.0 B5 Mild-Hybrid",
+      "2.0 T5 Polestar AWD",
+      "2.0 T4 Polestar",
+      "2.0 T6 Plug-in-Hybrid AWD",
+      "2.0 T5 Polestar",
+      "2.0 T8 Plug-in-Hybrid AWD",
+      "B4 Mild-Hybrid",
+      "2.0 T8 Plug-in Hybrid Polestar AWD",
+      "2.0 B5 Mild-Hybrid AWD",
+      "2.0 B6 Mild-Hybrid AWD",
+      "2.0 D4 AWD",
+      "T8 Plug-in Hybrid Polestar AWD"
+    ],
+    "S90 II (234)": [
+      "T6 Drive-E Polestar AWD",
+      "2.0 D4",
+      "2.0 D5 Polestar AWD",
+      "D4 Drive-E Polestar",
+      "2.0 B4 Mild-Hybrid",
+      "2.0 B5 Mild-Hybrid",
+      "2.0 T4 Polestar",
+      "2.0 T6 Drive-E Polestar AWD",
+      "2.0 T5 Drive-E Polestar",
+      "2.0 T8 Hybrid Polestar AWD",
+      "2.0 B6 Mild-Hybrid AWD",
+      "D4 Drive-E Polestar AWD",
+      "T8 Plug-in Hybrid Polestar AWD"
+    ],
+    "XC40 (536)": [
+      "T2",
+      "T3",
+      "T4 Plug-in Hybrid",
+      "Recharge AWD",
+      "T5 Plug-in Hybrid",
+      "2.0 B4 Mild-Hybrid",
+      "D4 Polestar AWD",
+      "1.5 T3",
+      "B5 Mild-Hybrid AWD",
+      "2.0 B4 Mild-Hybrid AWD",
+      "T5 Polestar AWD"
+    ],
+    "XC90 II (256)": [
+      "2.0 D5 Polestar AWD",
+      "T8 Plug-in Hybrid Polestar AWD",
+      "D5 DRIVe Polestar AWD",
+      "T8 Twin Engine AWD",
+      "B6 Mild-Hybrid AWD",
+      "B5 Mild-Hybrid AWD",
+      "T6 Polestar AWD",
+      "T5 Drive-E Polestar AWD",
+      "2.0 T8 Hybrid Polestar AWD",
+      "2.0 B5 Mild-Hybrid AWD",
+      "T5 Polestar AWD"
+    ],
+    "V60 II (225, 227)": [
+      "B3 Mild-Hybrid",
+      "T5 Polestar",
+      "B5 Mild-Hybrid",
+      "D4 Polestar AWD",
+      "B4 Mild-Hybrid AWD",
+      "T6 Plug-in Hybrid AWD",
+      "2.0 T6 Drive-E Polestar AWD",
+      "T5 AWD",
+      "T4 Polestar",
+      "B6 Mild-Hybrid AWD",
+      "B4 Mild-Hybrid",
+      "B5 Mild-Hybrid AWD",
+      "T5 Polestar AWD",
+      "T8 Plug-in Hybrid Polestar AWD",
+      "2.0 T4"
+    ],
+    "S60 III (224)": [
+      "T6 Drive-E Polestar AWD",
+      "T8 Twin Engine Polestar AWD",
+      "T5 Polestar",
+      "B5 Mild-Hybrid",
+      "T4",
+      "T5 AWD",
+      "T8 Twin Engine AWD",
+      "B4 Mild-Hybrid",
+      "T5",
+      "T8 Plug-in Hybrid AWD",
+      "B5 Mild-Hybrid AWD",
+      "T6 Hybrid Polestar AWD",
+      "T6 AWD",
+      "T6 Twin Engine AWD",
+      "B3 MHEV",
+      "T4 Polestar"
+    ],
+    "940 Kombi (945)": [
+      "2.3"
+    ],
+    "V40 Наклонная задняя часть (525, 526)": [
+      "T5 Polestar AWD",
+      "T5 Drive-E Polestar",
+      "T3",
+      "D4 Polestar"
+    ],
+    "V60 I (155, 157)": [
+      "T5 Drive-E Polestar",
+      "T5 Drive-E Polestar AWD",
+      "D4 Polestar AWD",
+      "2.0 D4 Drive-E Polestar"
+    ],
+    "S60 II (134)": [
+      "D5 Drive-E Polestar",
+      "2.5 T",
+      "D4 Drive-E Polestar",
+      "D4 Polestar AWD"
+    ],
+    "140 (142, 144)": [
+      "2.0"
+    ],
+    "PV 444 седан (P11)": [
+      "1.6",
+      "1.4 C",
+      "1.4",
+      "1.6 S"
+    ],
+    "P 210 DUETT (P211, P212)": [
+      "1.6"
+    ],
+    "PV 445 DUETT (P445)": [
+      "1.6",
+      "1.4"
+    ],
+    "P 122 S AMAZON": [
+      "1.8 S"
+    ],
+    "P 122 S AMAZON универсал (120, 121)": [
+      "2.0"
+    ],
+    "S80 I (184)": [
+      "2.9",
+      "2.9 T6"
+    ],
+    "XC60 I VAN (156)": [
+      "D5 AWD",
+      "D4",
+      "D3",
+      "D4 AWD"
+    ],
+    "XC90 I VAN (275)": [
+      "2.4 D4",
+      "2.4 D5 AWD"
+    ],
+    "XC70 II VAN (136)": [
+      "2.0 D4",
+      "2.4 D5 AWD",
+      "2.4 D4 AWD"
+    ]
+  },
+  "DACIA": {
+    "LOGAN II": [
+      "1.0 LPG",
+      "1.6",
+      "1.5 Blue dCi 95 (L8JL)",
+      "1.0 TCe 100"
+    ],
+    "PICK UP": [
+      "1.9 D"
+    ],
+    "1310 купе (U)": [
+      "1.4"
+    ],
+    "LODGY (JS_)": [
+      "1.3 TCe 130 (JSNE)",
+      "1.5 Blue dCi 115 (JSJT)",
+      "1.3 TCe 100 (JSNU)",
+      "1.5 Blue dCi 95 (JSJL)"
+    ],
+    "LOGAN MCV II": [
+      "1.0 LPG",
+      "1.5 Blue dCi 95 (K8JL)",
+      "1.0 TCe 100"
+    ],
+    "DOKKER вэн (KE_)": [
+      "1.3 TCe 130 (KENE)",
+      "1.5 Blue dCi 95 (KEJL)",
+      "1.3 TCe 100 (KENU)"
+    ],
+    "DUSTER (HM_)": [
+      "1.3 TCe 130 4x4 (HMMF)",
+      "1.3 TCe 150 (HMM3)",
+      "1.0 TCe 100 4x4 (HMMT)",
+      "1.3 TCe 150 4x4 (HMM3)",
+      "1.0 TCe 100 (HMMT)",
+      "2.0 16V 4x4",
+      "1.3 TCe 130 (HMMF)",
+      "1.0 LPG"
+    ],
+    "DUSTER Автофургон / спортивно-утилитарный автомобиль": [
+      "1.6 16V"
+    ],
+    "DOKKER Express Автофургон / микроавтобус": [
+      "1.3 TCe 130 (FENE)",
+      "1.3 TCe 100 (FENU)",
+      "1.5 Blue dCi 95 (FEJL)",
+      "1.6 LPG (FENB)"
+    ],
+    "DOKKER Пикап": [
+      "1.2 TCe 115"
+    ],
+    "SANDERO II": [
+      "1.0 LPG",
+      "1.0 TCE 90 GPF",
+      "1.0 TCe 100"
+    ],
+    "SPRING": [
+      "EV"
+    ]
+  },
+  "GREAT WALL": {
+    "WINGLE 5 Пикап": [
+      "2.0 TDI 4x4"
+    ],
+    "HOVER H6": [
+      "1.5 4WD"
+    ],
+    "DEER Пикап": [
+      "2.8 TDI"
+    ],
+    "FLORID": [
+      "1.3"
+    ],
+    "WINGLE": [
+      "2.4 4WD",
+      "2.8 TD 4WD",
+      "2.8 TD",
+      "2.4"
+    ]
+  },
+  "CHEVROLET": {
+    "METRO Наклонная задняя часть": [
+      "1.3"
+    ],
+    "S10 Pick Up": [
+      "2.8 AWD"
+    ],
+    "CAPTIVA SPORT": [
+      "2.4"
+    ],
+    "TRAVERSE": [
+      "3.6 AWD"
+    ],
+    "CRUZE (J300)": [
+      "1.6"
+    ],
+    "BLAZER S10": [
+      "2.2 AWD"
+    ],
+    "LUMINA APV Mini Cargo Van (1U_)": [
+      "3.8",
+      "3.4",
+      "3.1"
+    ],
+    "CAPTIVA Van (C100)": [
+      "VCDi Привод на все колеса",
+      "VCDi"
+    ],
+    "LACETTI седан (J200)": [
+      "1.8"
+    ],
+    "LACETTI универсал (J200)": [
+      "1.8"
+    ],
+    "TRANS SPORT (2U_)": [
+      "3.4"
+    ]
+  },
+  "AUDI": {
+    "Q2 (GAB, GAG)": [
+      "35 TDI quattro",
+      "SQ2 TFSI quattro",
+      "30 TFSI",
+      "40 TFSI quattro",
+      "35 TDI"
+    ],
+    "TT (FV3, FVP)": [
+      "40 TFSI",
+      "45 TFSI quattro",
+      "45 TFSI",
+      "2.0 TTS quattro"
+    ],
+    "TT Roadster (FV9, FVR)": [
+      "45 TFSI quattro",
+      "45 TFSI",
+      "40 TFSI",
+      "2.0 TTS quattro",
+      "2.0 TTS TFSI QUATTRO"
+    ],
+    "A7 Sportback (4KA)": [
+      "40 TDI Mild Hybrid quattro",
+      "55 TFSI e quattro",
+      "50 TFSI e quattro",
+      "45 TDI Mild Hybrid quattro",
+      "45 TFSI Mild Hybrid quattro",
+      "RS7 Mild Hybrid quattro",
+      "S7 TDI Mild Hybrid quattro",
+      "45 TFSI Mild Hybrid",
+      "45 TFSI Mild hybrid quattro"
+    ],
+    "A6 C8 (4A2)": [
+      "55 TFSI e quattro",
+      "50 TFSI e quattro",
+      "30 TDI Mild Hybrid",
+      "S6 TDI Mild Hybrid quattro",
+      "35 TDI Mild Hybrid",
+      "45 TDI Mild Hybrid quattro",
+      "45 TFSI Mild Hybrid quattro",
+      "45 TFSI Mild Hybrid",
+      "40 TDI MILD HYBRID QUATTRO",
+      "35 TDI MILD HYBRID"
+    ],
+    "A6 C8 Avant (4A5)": [
+      "55 TFSI e quattro",
+      "30 TDI Mild Hybrid",
+      "S6 TDI",
+      "S6 TDI Mild Hybrid quattro",
+      "35 TDI Mild Hybrid",
+      "45 TDI Mild Hybrid quattro",
+      "45 TFSI Mild Hybrid quattro",
+      "45 TFSI Mild Hybrid",
+      "RS6 Mild Hybrid quattro",
+      "35 TDI MILD HYBRID"
+    ],
+    "A1 Sportback (GBA)": [
+      "35 TFSI",
+      "25 TFSI",
+      "40 TFSI",
+      "30 TFSI"
+    ],
+    "A5 Sportback (F5A, F5F)": [
+      "40 TDI Mild Hybrid quattro",
+      "40 TFSI Mild Hybrid",
+      "50 TDI Mild Hybrid quattro",
+      "40 TFSI g-tron",
+      "30 TDI Mild Hybrid",
+      "S5 TDI Mild Hybrid quattro",
+      "40 TFSI Mild Hybrid quattro",
+      "35 TDI Mild Hybrid",
+      "45 TFSI Mild Hybrid quattro",
+      "40 TDI quattro",
+      "40 TDI",
+      "45 TFSI Mild Hybrid",
+      "45 TDI quattro",
+      "50 TDI quattro",
+      "RS5 quattro",
+      "35 TFSI Mild Hybrid",
+      "35 TDI"
+    ],
+    "A5 Кабриолет (F57, F5E)": [
+      "40 TDI Mild Hybrid quattro",
+      "40 TFSI Mild Hybrid",
+      "40 TFSI Mild Hybrid quattro",
+      "35 TDI Mild Hybrid",
+      "45 TFSI Mild Hybrid quattro",
+      "40 TDI quattro",
+      "40 TDI",
+      "45 TFSI Mild Hybrid",
+      "50 TDI quattro",
+      "35 TFSI Mild Hybrid"
+    ],
+    "A5 (F53, F5P)": [
+      "40 TDI Mild Hybrid quattro",
+      "40 TFSI Mild Hybrid",
+      "30 TDI Mild Hybrid",
+      "S5 TDI Mild Hybrid quattro",
+      "40 TFSI Mild Hybrid quattro",
+      "35 TDI Mild Hybrid",
+      "45 TFSI Mild Hybrid quattro",
+      "40 TDI quattro",
+      "40 TDI",
+      "45 TFSI Mild Hybrid",
+      "45 TDI quattro",
+      "50 TDI quattro",
+      "35 TFSI Mild Hybrid",
+      "35 TDI"
+    ],
+    "A4 B9 (8W2, 8WC)": [
+      "40 TDI Mild Hybrid quattro",
+      "40 TFSI Mild Hybrid",
+      "30 TDI Mild Hybrid",
+      "40 TFSI Mild Hybrid quattro",
+      "35 TDI Mild Hybrid",
+      "45 TFSI Mild Hybrid quattro",
+      "40 TDI quattro",
+      "S4 TDI Mild Hybrid quattro",
+      "40 TDI",
+      "45 TFSI Mild Hybrid",
+      "45 TDI quattro",
+      "50 TDI quattro",
+      "35 TDI",
+      "30 TDI"
+    ],
+    "A4 B9 Avant (8W5, 8WD)": [
+      "40 TDI Mild Hybrid quattro",
+      "40 TFSI Mild Hybrid",
+      "40 TFSI g-tron",
+      "30 TDI Mild Hybrid",
+      "40 TFSI Mild Hybrid quattro",
+      "35 TDI Mild Hybrid",
+      "2.0 TFSI",
+      "45 TFSI Mild Hybrid quattro",
+      "40 TDI quattro",
+      "S4 TDI Mild Hybrid quattro",
+      "40 TDI",
+      "45 TFSI Mild Hybrid",
+      "45 TDI quattro",
+      "50 TDI quattro",
+      "35 TDI",
+      "30 TDI"
+    ],
+    "R8 Spyder (4S9, 4SR)": [
+      "5.2 FSI quattro"
+    ],
+    "R8 (4S3, 4SP)": [
+      "5.2 FSI quattro"
+    ],
+    "Q5 (FYB, FYG)": [
+      "40 TDI Mild Hybrid quattro",
+      "55 TFSI e quattro",
+      "50 TFSI e quattro",
+      "30 TDI Mild Hybrid",
+      "SQ5 TDI",
+      "SQ5 TDI Mild Hybrid quattro",
+      "35 TDI Mild Hybrid",
+      "45 TFSI Mild Hybrid quattro",
+      "45 TDI quattro",
+      "50 TDI quattro",
+      "50 TDI Mild Hybrid quattro"
+    ],
+    "A4 Allroad B9 (8WH, 8WJ)": [
+      "40 TDI Mild Hybrid quattro",
+      "45 TFSI Mild Hybrid quattro",
+      "40 TDI quattro",
+      "50 TDI quattro",
+      "45 TDI quattro",
+      "2.0 TFSI Mild Hybrid quattro",
+      "3.0 TDI quattro"
+    ],
+    "A3 Sportback (8VA, 8VF)": [
+      "40 TFSI",
+      "40 TDI quattro",
+      "30 g-tron",
+      "40 TFSI quattro",
+      "35 TDI"
+    ],
+    "A8 D5 (4N2, 4N8)": [
+      "45 TDI quattro (4N2, 4N8)",
+      "S8 Mild Hybrid quattro",
+      "60 TDI Mild Hybrid quattro",
+      "50 TFSI Mild Hybrid quattro (4N8)",
+      "60 TFSI e quattro",
+      "60 TFSI Mild Hybrid quattro"
+    ],
+    "A3 Limousine (8VS, 8VM)": [
+      "40 TFSI",
+      "40 TDI quattro",
+      "35 TDI",
+      "40 TFSI quattro"
+    ],
+    "A3 Кабриолет (8V7, 8VE)": [
+      "40 TFSI",
+      "40 TFSI quattro"
+    ],
+    "A6 Allroad C8 (4AH)": [
+      "40 TDI Mild Hybrid quattro",
+      "55 TDI Mild Hybrid",
+      "45 TDI Mild Hybrid quattro",
+      "55 TDI Mild Hybrid quattro",
+      "55 TFSI Mild Hybrid quattro",
+      "50 TDI Mild Hybrid quattro"
+    ],
+    "Q8 (4MN)": [
+      "SQ8 quattro",
+      "55 TFSI e quattro",
+      "45 TFSI quattro",
+      "45 TFSI",
+      "RS Mild Hybrid quattro",
+      "60 TFSI e quattro"
+    ],
+    "Q3 (F3B)": [
+      "45 TFSI",
+      "2.5 RS quattro",
+      "35 TFSI Mild Hybrid"
+    ],
+    "Q7 (4MB, 4MG)": [
+      "55 TFSI Mild Hybrid quattro",
+      "60 TFSI e quattro",
+      "55 TFSI e quattro",
+      "SQ7 quattro"
+    ],
+    "A1 CITY CARVER (GBH)": [
+      "35 TFSI",
+      "25 TFSI",
+      "30 TFSI"
+    ],
+    "Q3 Sportback (F3N)": [
+      "35 TDI quattro",
+      "2.5 RS quattro",
+      "45 TFSI quattro",
+      "45 TFSI",
+      "35 TFSI",
+      "40 TDI quattro",
+      "40 TFSI quattro",
+      "35 TFSI Mild Hybrid",
+      "35 TDI"
+    ],
+    "E-TRON Sportback (GEA)": [
+      "55 quattro",
+      "50 quattro",
+      "S quattro"
+    ],
+    "E-TRON (GEN)": [
+      "S quattro",
+      "50 quattro"
+    ],
+    "A3 Sportback (8YA)": [
+      "35 TFSI",
+      "30 TFSI",
+      "40 TDI quattro",
+      "30 g-tron",
+      "S3 quattro",
+      "30 TFSI Mild Hybrid",
+      "40 TFSIe",
+      "35 TFSI Mild Hybrid",
+      "35 TDI",
+      "30 TDI"
+    ],
+    "A3 Limousine (8YS)": [
+      "35 TFSI",
+      "30 TFSI",
+      "40 TDI quattro",
+      "30 TFSi Mild Hybrid",
+      "S3 quattro",
+      "30 TFSI Mild Hybrid",
+      "35 TFSI Mild Hybrid",
+      "35 TDI",
+      "30 TDI"
+    ],
+    "100 C1 седан (801, 803, 805, 807, 811, 813, F104)": [
+      "1.8"
+    ],
+    "90 B3 (893, 894, 8A2)": [
+      "1.8 E"
+    ],
+    "90 B2 (813, 814, 853)": [
+      "1.8 GT"
+    ],
+    "80 B2 седан (811, 813, 814, 819, 853)": [
+      "2.0"
+    ],
+    "A6 C7 (4G2, 4GC)": [
+      "2.1 TDI"
+    ],
+    "Q5 Van (8RB)": [
+      "3.0 SQ5 TDI quattro",
+      "2.0 TDI",
+      "3.2 FSI quattro",
+      "2.0 TFSI quattro",
+      "3.0 TDI quattro",
+      "2.0 TDI quattro"
+    ],
+    "Q5 Van (FYB, FYG)": [
+      "3.0 TDI quattro",
+      "3.0 SQ5 TDI Mild Hybrid quattro"
+    ],
+    "Q7 Van (4LB)": [
+      "6.0 TDI quattro",
+      "4.2 FSI quattro",
+      "3.0 TFSI quattro",
+      "3.0 TDI quattro",
+      "4.2 TDI quattro",
+      "3.6 FSI quattro"
+    ],
+    "Q7 Van (4MB, 4MG)": [
+      "3.0 45 TDI Mild Hybrid quattro",
+      "3.0 TDI quattro",
+      "3.0 50 TDI Mild Hybrid quattro",
+      "4.0 SQ7 TDI quattro"
+    ],
+    "A4 B7 Кабриолет (8HE)": [
+      "S4 quattro",
+      "1.8 T"
+    ],
+    "Q5 Sportback (FYT)": [
+      "45 TFSI quattro",
+      "40 TDI quattro",
+      "35 TDI",
+      "50 TDI quattro",
+      "SQ5 TDI"
+    ],
+    "R8 Spyder (427, 429)": [
+      "5.2 FSI"
+    ],
+    "E-TRON GT седан": [
+      "RS"
+    ]
+  },
+  "BENTLEY": {
+    "BENTAYGA (4V1)": [
+      "3.0 Hybrid",
+      "6.0"
+    ],
+    "CONTINENTAL Кабриолет (3S_)": [
+      "6.0 AWD"
+    ],
+    "FLYING SPUR (ZG2_)": [
+      "6.0 W12 TSI 4WD (ZG21BB)"
+    ],
+    "CONTINENTAL Кабриолет (3W_, 394)": [
+      "4.0 GTC AWD"
+    ]
+  },
+  "BMW": {
+    "7 (G11, G12)": [
+      "740 i, Li",
+      "740 d, Ld Mild-Hybrid xDrive",
+      "M 760 Li xDrive",
+      "740 Li xDrive",
+      "730 i",
+      "730 i, Li",
+      "730 d Mild-Hybrid xDrive",
+      "745 e, Le Plug-in-Hybrid",
+      "730 d, Ld xDrive",
+      "750 i, Li xDrive",
+      "730 d, Ld Mild-Hybrid xDrive",
+      "745 Le Plug-in-Hybrid xDrive",
+      "730 d, Ld Mild-Hybrid"
+    ],
+    "3 (G20, G80)": [
+      "330 i xDrive",
+      "318 d Mild-Hybrid",
+      "320 e Plug-in-Hybrid",
+      "320 d Mild-Hybrid xDrive",
+      "330 d xDrive",
+      "330 e Plug-in-Hybrid",
+      "320 i 1.6",
+      "330 d",
+      "330 e Plug-in-Hybrid xDrive",
+      "M3 Competition",
+      "M 340 i Mild-Hybrid xDrive",
+      "316 d Mild-Hybrid",
+      "318 i",
+      "318 d",
+      "320 i",
+      "316 d",
+      "M 340 i xDrive",
+      "320 d Mild-Hybrid",
+      "M340 d Mild-Hybrid xDrive",
+      "330 d Mild-Hybrid",
+      "320 i xDrive",
+      "330 d Mild-Hybrid xDrive",
+      "M3"
+    ],
+    "X4 (G02, F98)": [
+      "M40 i xDrive",
+      "xDrive 20 d Mild-Hybrid",
+      "xDrive 30 i",
+      "M Competition",
+      "M",
+      "xDrive 30 d Mild-Hybrid",
+      "M40 d Mild-Hybrid xDrive"
+    ],
+    "X3 (G01, F97)": [
+      "xDrive M40 i",
+      "xDrive 20 d Mild-Hybrid",
+      "xDrive 30 e Plug-in-Hybrid",
+      "xDrive 30 i",
+      "M Competition",
+      "xDrive 30d Mild-Hybrid",
+      "xDrive M40 d Mild-Hybrid",
+      "sDrive 18 d Mild-Hybrid",
+      "M"
+    ],
+    "1 (F40)": [
+      "M 135 i xDrive",
+      "118 d",
+      "116 d",
+      "120 d",
+      "128 ti",
+      "120 i",
+      "116 i",
+      "120 d xDrive",
+      "118 i"
+    ],
+    "5 (G30, F90)": [
+      "520 E PLUG-IN-HYBRID",
+      "530 i Mild-Hybrid",
+      "540 d Mild-Hybrid xDrive",
+      "530 e Plug-in-Hybrid",
+      "M 550 i xDrive",
+      "530 d Mild-Hybrid",
+      "518 d Mild-Hybrid",
+      "520 i Mild-Hybrid",
+      "540 i Mild-Hybrid xDrive",
+      "530 e Plug-in-Hybrid xDrive",
+      "530 d Mild-Hybrid xDrive",
+      "M5 CS",
+      "520 d Mild-Hybrid",
+      "545 e Plug-in-Hybrid xDrive",
+      "530 i Mild-Hybrid xDrive",
+      "540 i Mild-Hybrid",
+      "530 i xDrive",
+      "520 d Mild-Hybrid xDrive"
+    ],
+    "8 купе (G15, F92)": [
+      "M8 Competition",
+      "840 i xDrive",
+      "840 i",
+      "M8",
+      "840 d Mild-Hybrid xDrive"
+    ],
+    "8 Кабриолет (G14, F91)": [
+      "M8 Competition",
+      "840 i xDrive",
+      "840 i",
+      "M8",
+      "840 d Mild-Hybrid xDrive"
+    ],
+    "X5 (G05, F95)": [
+      "xDrive 40 i Mild-Hybrid",
+      "xDrive 25 d",
+      "M Competition",
+      "xDrive 40 d Mild-Hybrid",
+      "xDrive 45 e Plug-in-Hybrid",
+      "M",
+      "xDrive 30 d Mild-Hybrid",
+      "M50 i xDrive"
+    ],
+    "X1 (F48)": [
+      "xDrive 20 i",
+      "sDrive 20 i",
+      "xDrive 25 e Plug-in-Hybrid"
+    ],
+    "3 Touring (G21, G81)": [
+      "330 i xDrive",
+      "318 d Mild-Hybrid",
+      "320 e Plug-in-Hybrid",
+      "320 d xDrive",
+      "320 d Mild-Hybrid xDrive",
+      "330 i",
+      "330 d xDrive",
+      "330 e Plug-in-Hybrid",
+      "330 d",
+      "330 e Plug-in-Hybrid xDrive",
+      "M 340 i Mild-Hybrid xDrive",
+      "320 d",
+      "316 d Mild-Hybrid",
+      "318 i",
+      "318 d",
+      "320 i",
+      "316 d",
+      "320 E PLUG-IN-HYBRID XDRIVE",
+      "M 340 i xDrive",
+      "320 d Mild-Hybrid",
+      "330 d Mild-Hybrid",
+      "M 340 d Mild-Hybrid xDrive",
+      "330 d Mild-Hybrid xDrive"
+    ],
+    "8 Gran Coupe (G16, F93)": [
+      "840 d Mild-Hybrid xDrive",
+      "M 850 i xDrive",
+      "M8 Competition",
+      "840 d xDrive",
+      "840 i",
+      "M8",
+      "840 i xDrive"
+    ],
+    "2 Active Tourer Van (F45)": [
+      "218 i",
+      "220 d"
+    ],
+    "2 Gran Tourer Van (F46)": [
+      "218 i",
+      "220 d"
+    ],
+    "3 Touring Van (F31)": [
+      "330 i"
+    ],
+    "5 Touring Van (G31)": [
+      "520 i",
+      "520 d",
+      "520 d xDrive",
+      "540 i xDrive"
+    ],
+    "X1 Van (F48)": [
+      "sDrive 20 d"
+    ],
+    "X3 Van (G01)": [
+      "xDrive M40 i",
+      "xDrive 30 d",
+      "sDrive 18 d"
+    ],
+    "X6 (G06, F96)": [
+      "xDrive M 50 d",
+      "xDrive 40 i Mild-Hybrid",
+      "M Competition",
+      "xDrive 40 i",
+      "xDrive 40 d Mild-Hybrid",
+      "M",
+      "xDrive 30 d Mild-Hybrid",
+      "xDrive 30 d",
+      "M50 i xDrive"
+    ],
+    "X7 (G07)": [
+      "xDrive 40 i Mild-Hybrid",
+      "xDrive M 50 i",
+      "xDrive 40 d Mild-Hybrid"
+    ],
+    "2 Gran Coupe (F44)": [
+      "220 d xDrive",
+      "M 235 i xDrive",
+      "220 I XDRIVE",
+      "216 d",
+      "218 d",
+      "220 d",
+      "218 i",
+      "220 i"
+    ],
+    "6 Gran Turismo (G32)": [
+      "630 i xDrive",
+      "630 i",
+      "630 d Mild-Hybrid",
+      "620 d Mild-Hybrid xDrive",
+      "630 d Mild-Hybrid xDrive",
+      "620 d Mild-Hybrid",
+      "640 i Mild-Hybrid",
+      "640 d Mild-Hybrid xDrive",
+      "640 i Mild-Hybrid xDrive",
+      "630 i Mild-Hybrid"
+    ],
+    "4 Gran Coupe (F36)": [
+      "430 i xDrive"
+    ],
+    "4 купе (F32, F82)": [
+      "430 i xDrive",
+      "430 i"
+    ],
+    "3 Gran Turismo (F34)": [
+      "330 i xDrive"
+    ],
+    "2 купе (F22, F87)": [
+      "M2 CS"
+    ],
+    "5 Touring (G31)": [
+      "530 i Mild-Hybrid",
+      "540 d Mild-Hybrid xDrive",
+      "530 e Plug-in-Hybrid",
+      "518 d Mild-Hybrid",
+      "530 d Mild-Hybrid",
+      "540 i Mild-Hybrid xDrive",
+      "530 d Mild-Hybrid xDrive",
+      "530 e Plug-in-Hybrid xDrive",
+      "520 d Mild-Hybrid",
+      "530 i Mild-Hybrid xDrive",
+      "520 E PLUG-IN-HYBRID",
+      "520 i Mild-Hybrid",
+      "520 d Mild-Hybrid xDrive"
+    ],
+    "5 (E60)": [
+      "525 i"
+    ],
+    "3 (E90)": [
+      "325 xi"
+    ],
+    "3 Touring Van (G21)": [
+      "330 i",
+      "330 d xDrive",
+      "320 i",
+      "330 d",
+      "320 d Mild-Hybrid xDrive",
+      "320 d xDrive",
+      "M 340 i xDrive",
+      "320 d Mild-Hybrid",
+      "320 d"
+    ],
+    "X5 Van (G05)": [
+      "xDrive 30 d",
+      "xDrive 40 i"
+    ],
+    "4 купе (G22, G82)": [
+      "420 i 1.6",
+      "M 440 i Mild-Hybrid xDrive",
+      "M4",
+      "M440 d Mild-Hybrid xDrive",
+      "430 i",
+      "430 d Mild-Hybrid xDrive",
+      "420 d Mild-Hybrid",
+      "M4 Competition",
+      "420 i",
+      "420 d Mild-Hybrid xDrive"
+    ],
+    "X2 (F39)": [
+      "xDrive 20 i",
+      "sDrive 20 i",
+      "xDrive 25 e Plug-in-Hybrid"
+    ],
+    "iX3 (G08)": [
+      "Electric"
+    ],
+    "4 Кабриолет (G23)": [
+      "M 440 i Mild-Hybrid xDrive",
+      "M440 d Mild-Hybrid xDrive",
+      "430 i",
+      "420 d Mild-Hybrid",
+      "430 d Mild-Hybrid",
+      "420 i"
+    ],
+    "2 Active Tourer (F45)": [
+      "225 xe Plug-in-Hybrid",
+      "220 i"
+    ],
+    "2 Gran Tourer (F46)": [
+      "220 i"
+    ],
+    "3 Touring (E91)": [
+      "330 i"
+    ]
+  },
+  "LAND ROVER": {
+    "RANGE ROVER IV (L405)": [
+      "3.0 P400 4x4",
+      "2.0 P400e Hybrid 4x4",
+      "3.0 D300 MHEV 4x4",
+      "3.0 D350 4x4",
+      "P360 MHEV 4x4",
+      "3.0 D250 MHEV 4x4",
+      "3.0 P400 MHEV 4x4",
+      "3.0 D300 4x4",
+      "3.0 D350 MHEV 4x4"
+    ],
+    "RANGE ROVER SPORT II (L494)": [
+      "2.0 P400e PHEV 4x4",
+      "3.0 D350 4x4",
+      "3.0 D250 MHEV 4x4",
+      "3.0 D350 MHEV 4x4",
+      "3.0 D250 4x4",
+      "3.0 P360 MHEV 4x4",
+      "3.0 P400 MHEV 4x4",
+      "3.0 D300 4x4",
+      "3.0 D300 MHEV 4x4"
+    ],
+    "RANGE ROVER VELAR (L560)": [
+      "3.0 D300 MHEV 4x4",
+      "5.0 SCV8 4x4",
+      "2.0 D200 MHEV 4x4",
+      "3.0 P400 MHEV 4x4",
+      "2.0 P400 Hybrid 4x4"
+    ],
+    "DISCOVERY SPORT (L550)": [
+      "2.0 P250 MHEV 4x4",
+      "2.0 P290 MHEV 4x4",
+      "2.0 P250 4x4",
+      "2.0 D240 MHEV 4x4",
+      "1.5 P300e Hybrid 4x4",
+      "2.0 P200 MHEV 4x4",
+      "2.0 P200 4x4",
+      "2.0 D165",
+      "2.0 D150 MHEV 4x4",
+      "2.0 D165 MHEV 4x4",
+      "2.0 D200 MHEV 4x4",
+      "2.0 D180 MHEV 4x4",
+      "2.0 P200 FLEX MHEV 4x4",
+      "2.0 Si4 FLEX 4x4"
+    ],
+    "RANGE ROVER EVOQUE (L551)": [
+      "1.5 P300e Hybrid 4x4",
+      "2.0 D165",
+      "2.0 D165 MHEV 4x4",
+      "2.0 D200 MHEV 4x4",
+      "2.0 D165 4x4",
+      "2.0 D200 4x4",
+      "2.0 P300 4x4",
+      "2.0 P200 FLEX MHEV 4x4",
+      "2.0 D150",
+      "1.5 P160 MHEV"
+    ],
+    "DEFENDER Station Wagon (L663)": [
+      "3.0 D200 MHEV 4x4",
+      "2.0 P400e Hybrid 4x4",
+      "2.0 D200 SD4 4x4",
+      "3.0 D250 MHEV 4x4",
+      "3.0 P400 I6 MHEV 4x4",
+      "2.0 P300 Si4 4x4",
+      "3.0 D300 MHEV 4x4",
+      "2.0 D240 SD4 4x4"
+    ],
+    "DEFENDER Van (L663)": [
+      "3.0 D200 MHEV 4x4",
+      "2.0 P400e Hybrid 4x4",
+      "2.0 D200 SD4 4x4",
+      "3.0 D250 MHEV 4x4",
+      "3.0 P400 I6 MHEV 4x4",
+      "2.0 P300 Si4 4x4",
+      "3.0 D300 MHEV 4x4",
+      "2.0 D240 SD4 4x4"
+    ],
+    "88/109 MK I вездеход закрытый": [
+      "2.0 4x4",
+      "2.0 D 4x4"
+    ],
+    "88/109 MK II вездеход закрытый": [
+      "2.3 4x4",
+      "2.0 D 4x4"
+    ],
+    "88/109 MK IIA вездеход закрытый": [
+      "2.3 D 4x4",
+      "2.6 4x4",
+      "2.3 4x4"
+    ],
+    "88/109 MK III вездеход закрытый": [
+      "2.3 D 4x4",
+      "3.5 4x4",
+      "2.3 4x4"
+    ],
+    "88/109 MK I Вездеход открытый": [
+      "2.0 4x4",
+      "2.0 D 4x4"
+    ],
+    "88/109 MK II Вездеход открытый": [
+      "2.3 4x4",
+      "2.0 D 4x4"
+    ],
+    "88/109 MK IIA Вездеход открытый": [
+      "2.3 D 4x4",
+      "2.6 4x4",
+      "2.3 4x4"
+    ],
+    "88/109 MK III Вездеход открытый": [
+      "2.3 D 4x4",
+      "3.5 4x4",
+      "2.3 4x4"
+    ],
+    "DISCOVERY V (L462)": [
+      "3.0 D300 MHEV 4x4",
+      "3.0 D250 MHEV 4x4"
+    ],
+    "DISCOVERY V VAN (L462)": [
+      "2.0 Si4 4x4",
+      "2.0 Td4 4x4",
+      "3.0 Td6 4x4",
+      "3.0 Scv6 4x4",
+      "2.0 Sd4 4x4",
+      "3.0 Sdv6 4x4"
+    ],
+    "DISCOVERY SPORT VAN (L550)": [
+      "Si4 4x4",
+      "SD4 4x4",
+      "TD4 4x4",
+      "eD4 E-Capability"
+    ],
+    "RANGE ROVER EVOQUE VAN (L538)": [
+      "Si4 4x4",
+      "TD4",
+      "SD4 4x4",
+      "TD4 4x4"
+    ]
+  },
+  "PORSCHE": {
+    "911 (992)": [
+      "3.0 Carrera S (992120)",
+      "3.0 Carrera 4 S (992420)",
+      "3.0 Carrera 4 (992410)",
+      "3.8 Turbo S (992450)",
+      "3.0 Carrera (992110)"
+    ],
+    "911 Кабриолет (992)": [
+      "3.0 Carrera 4 (992610)",
+      "3.0 Carrera S (992320)",
+      "3.0 Carrera (992310)",
+      "3.0 Carrera 4 S (992620)",
+      "3.8 Turbo S (992650)"
+    ],
+    "MACAN (95B)": [
+      "GTS (95BBL1)",
+      "3.0 S",
+      "2.9 Turbo AWD"
+    ],
+    "PANAMERA (971)": [
+      "4.0 Turbo S",
+      "4.0 GTS (97ADG1)",
+      "2.9 (97AAY1, 97BAY1, 97AGY1)",
+      "2.9 4 (97ABY1, 97BBY1)",
+      "2.9 4S E-Hybrid"
+    ],
+    "PANAMERA Sport Turismo (971)": [
+      "4.0 GTS (97CDG1)",
+      "2.9 4S E-Hybrid (97ADZ1)",
+      "2.9 4 (97CBY1)",
+      "4.0 Turbo S"
+    ],
+    "CAYENNE Coupe (9YB)": [
+      "3.0 AWD (9YBAA1)",
+      "4.0 Turbo S E-Hybrid AWD (9YBCH1)",
+      "3.0 E-Hybrid AWD",
+      "4.0 GTS AWD (9YBBG1)",
+      "2.9 S AWD (9YBBB1)",
+      "4.0 Turbo AWD (9YBCF1)"
+    ],
+    "718 CAYMAN (982)": [
+      "GTS 4.0 (982160, 982161)",
+      "4.0 GT4 (982810, 982811)"
+    ],
+    "718 BOXSTER Spyder (982)": [
+      "4.0 (982510, 982511)"
+    ],
+    "911 Speedster (991)": [
+      "4.0 (991890, 991891)"
+    ],
+    "918 Spyder": [
+      "4.6 Plug-in Hybrid"
+    ],
+    "TAYCAN (Y1A)": [
+      "Turbo S",
+      "Turbo",
+      "4S"
+    ],
+    "911 тарга (997)": [
+      "3.8 Carrera 4S"
+    ],
+    "911 Speedster (997)": [
+      "3.8 (997.720, 997.721)"
+    ],
+    "BOXSTER (987)": [
+      "S 3.4 (987.760, 987.761)"
+    ],
+    "718 BOXSTER (982)": [
+      "GTS 4.0 (982360, 982361)"
+    ],
+    "CAYENNE (9YA)": [
+      "3.0 E-Hybrid AWD",
+      "4.0 GTS (9YABG1)"
+    ],
+    "911 тарга (992)": [
+      "3.0 4S (992520)",
+      "3.0 4 (992510)"
+    ]
+  },
+  "MPM MOTORS": {
+    "ERELIS (PS160)": [
+      "1.2 T"
+    ]
+  },
+  "SKODA": {
+    "KAROQ (NU7)": [
+      "2.0 TSI 4x4",
+      "1.6 SRE",
+      "2.0 TDI",
+      "1.0 TSI",
+      "1.4 TSI"
+    ],
+    "KODIAQ (NS7, NV7)": [
+      "2.0 TDI",
+      "2.0 TSI 4x4",
+      "2.0 TDI 4x4"
+    ],
+    "OCTAVIA III (5E3, NL3, NR3)": [
+      "2.0 TSI 4x4"
+    ],
+    "OCTAVIA III Combi (5E5, 5E6)": [
+      "1.5 TSI G-TEC",
+      "2.0 TSI 4x4"
+    ],
+    "SCALA (NW1)": [
+      "1.6 TDI",
+      "1.0 TSI",
+      "1.5 TSI",
+      "1.0 TGI CNG"
+    ],
+    "KAMIQ (NW4)": [
+      "1.5 TSI",
+      "1.6 SRE",
+      "1.0 TGI CNG",
+      "1.6 TDI",
+      "1.0 TSI"
+    ],
+    "SUPERB III универсал (3V5)": [
+      "1.4 TSI iV",
+      "2.0 TDI",
+      "2.0 TSI",
+      "2.0 TDI 4x4",
+      "1.4 TSI PHEV"
+    ],
+    "SUPERB III (3V3)": [
+      "1.4 TSI iV",
+      "2.0 TDI",
+      "2.0 TSI",
+      "2.0 TDI 4x4",
+      "1.4 TSI PHEV"
+    ],
+    "OCTAVIA IV Combi (NX5)": [
+      "1.5 TSI",
+      "1.6 SRE",
+      "2.0 TFSI",
+      "2.0 TDI",
+      "1.4 TSI IV RS",
+      "TSI e-TEC",
+      "2.0 TDI 4x4",
+      "1.4 TSI Hybrid",
+      "1.0 TSI e-TEC",
+      "1.5 TSI G-TEC",
+      "2.0 TSI RS",
+      "1.0 TSI",
+      "2.0 TFSI 4x4"
+    ],
+    "OCTAVIA IV (NX3)": [
+      "1.5 TSI",
+      "1.6 SRE",
+      "2.0 TFSI",
+      "2.0 TDI",
+      "1.4 TSI IV RS",
+      "TSI e-TEC",
+      "2.0 TDI 4x4",
+      "1.4 TSI Hybrid",
+      "1.0 TSI e-TEC",
+      "1.5 TSI G-TEC",
+      "2.0 TSI RS",
+      "1.0 TSI"
+    ],
+    "E-CITIGO (NE1)": [
+      "e iV"
+    ],
+    "ENYAQ iV SUV (5AC, 5AZ)": [
+      "80",
+      "60",
+      "50"
+    ],
+    "FAVORIT Фургон/универсал (135GK)": [
+      "1.3"
+    ]
+  },
+  "AUSTIN": {
+    "ALLEGRO I седан": [
+      "1.3"
+    ],
+    "MINI II": [
+      "850"
+    ]
+  },
+  "CITROËN": {
+    "JUMPY c бортовой платформой/ходовая часть": [
+      "1.6 HDi 90 8V",
+      "1.6 HDi 90 16V"
+    ],
+    "C3 III (SX)": [
+      "1.2 PureTech 82 LPG"
+    ],
+    "C5 AIRCROSS": [
+      "1.6 THP 165",
+      "1.6 THP 150",
+      "1.6 Hybrid"
+    ],
+    "C3 III Van (SX_, SY_)": [
+      "BlueHDi 75",
+      "BlueHDi 100",
+      "PureTech 110",
+      "PureTech 82"
+    ],
+    "C3 AIRCROSS II Van (2C_, 2R_)": [
+      "1.6 BlueHDI 100",
+      "1.5 BlueHDI 100",
+      "PureTech 82",
+      "1.5 BlueHDI 120"
+    ],
+    "C-ELYSEE (DD_)": [
+      "1.2 PureTech 82 (DDHMRP)"
+    ],
+    "C4 CACTUS Van (0B_, 0P_)": [
+      "PureTech 130",
+      "PureTech 110",
+      "BlueHDi 100",
+      "PureTech 82"
+    ],
+    "C4 SPACETOURER Van (3D_)": [
+      "PureTech 130",
+      "BlueHDi 130",
+      "BlueHDi 120"
+    ],
+    "GRAND C4 SPACETOURER Van (3A_, 3E_)": [
+      "PureTech 130",
+      "BlueHDi 160",
+      "BlueHDi 130"
+    ],
+    "JUMPY Фургон (V_)": [
+      "2.0 BlueHDi 150 4x4",
+      "E-JUMPY",
+      "2.0 BlueHDi 120 4x4",
+      "1.6 BlueHDi 90"
+    ],
+    "BERLINGO (ER_, EC_)": [
+      "1.2 PureTech 130"
+    ],
+    "BX Van (XB-_)": [
+      "1.4"
+    ],
+    "C5 Фургон/универсал (DE_, RE_)": [
+      "2.0 HDi"
+    ],
+    "SPACETOURER Автобус (V_)": [
+      "2.0 BlueHDi 150 4x4",
+      "E-SPACETOURER",
+      "2.0 BlueHDi 145",
+      "1.6 HDi 90"
+    ],
+    "GRAND C4 SPACETOURER (3A_, 3E_)": [
+      "1.6 THP 165"
+    ],
+    "BERLINGO / BERLINGO FIRST Автофургон / микроавтобус (M_)": [
+      "1.6 HDI 92"
+    ],
+    "BERLINGO / BERLINGO FIRST вэн (MF_, GJK_, GFK_)": [
+      "1.6 HDI 92"
+    ],
+    "BERLINGO Автофургон / микроавтобус (K9)": [
+      "1.5 BlueHDi 130 4x4",
+      "PureTech 130",
+      "1.5 BlueHDi 75"
+    ],
+    "JUMPER Фургон": [
+      "2.2 HDi 130 4x4",
+      "2.2 BlueHDi 120",
+      "2.2 BlueHDi 165",
+      "2.0 BlueHDi 130 4x4",
+      "2.2 BlueHDi 140"
+    ],
+    "JUMPER Автобус": [
+      "2.2 BlueHDi 165",
+      "2.2 BlueHDi 140",
+      "2.2 BlueHDi 120"
+    ],
+    "JUMPER c бортовой платформой/ходовая часть": [
+      "2.2 BlueHDi 165",
+      "2.2 BlueHDi 140",
+      "2.2 BlueHDi 120"
+    ],
+    "JUMPY Автобус (V_)": [
+      "2.0 BlueHDi 120"
+    ],
+    "BERLINGO MULTISPACE (B9)": [
+      "Electric"
+    ],
+    "BERLINGO Автофургон / микроавтобус (B9)": [
+      "PureTech 110"
+    ],
+    "C4 III (B_)": [
+      "1.2 PureTech 130 (BAHNSA, BAHNSB)",
+      "1.5 BlueHDi 130 (BBYHZB)",
+      "e-C4 (BCZKXC)",
+      "1.2 PureTech 155"
+    ],
+    "C3 AIRCROSS II (2R_, 2C_)": [
+      "1.5 BlueHDi 110"
+    ],
+    "C4 PICASSO II Van (DD_)": [
+      "BlueHDi 150 (DDAHXT)",
+      "THP 155 (DD5FV8)",
+      "HDi / e-HDi (DD9HP0, DD9HPT)",
+      "e-HDi (DD9HC8, DD9HCT)",
+      "VTi 120 (DD5FS0)"
+    ],
+    "C8 Van (EA_, EB_)": [
+      "HDi (EB4HWB)",
+      "3.0 (EBXFWF, EAXFWF)",
+      "HDi 110 (EBRHTB)",
+      "2.2 (EB3FZC)",
+      "2.0 (EBRFNC, EBRFNE)",
+      "2.0 (EBRFJC)"
+    ],
+    "C-CROSSER Van (VU_)": [
+      "2.2 HDi (VU4HNH)"
+    ],
+    "EVASION Van (U6_, AF_)": [
+      "DT (U6UC)",
+      "HDi (AFRHZA)",
+      "TD (U6UJ)",
+      "DT (U6UW)"
+    ],
+    "AMI (9A_)": [
+      "Electric"
+    ]
+  },
+  "SEAT": {
+    "LEON ST (5F8)": [
+      "2.0 TSI 4Drive",
+      "1.6 TDI 4Drive"
+    ],
+    "Mii (KF1, KE1)": [
+      "electric"
+    ],
+    "IBIZA IV Фургон/хетчбэк (6J1)": [
+      "1.2 TDI"
+    ],
+    "LEON (KL1)": [
+      "1.5 TSI",
+      "2.0 TFSI",
+      "2.0 TDI",
+      "1.5 eTSI",
+      "1.5 TGI CNG",
+      "1.0 TSI Mild Hybrid",
+      "1.4 TSI e-Hybrid",
+      "1.0 TSI"
+    ],
+    "LEON Sportstourer (KL8)": [
+      "1.5 TSI",
+      "2.0 TDI",
+      "1.5 eTSI",
+      "1.0 TSI Mild Hybrid",
+      "1.4 TSI e-Hybrid",
+      "1.0 TSI"
+    ],
+    "IBIZA V (KJ1)": [
+      "1.0 TSI"
+    ],
+    "ARONA (KJ7)": [
+      "1.0 TSI"
+    ],
+    "TARRACO (KN2)": [
+      "2.0 TFSI 4Drive",
+      "2.0 TDI 4Drive"
+    ],
+    "ATECA (KH7, KHP)": [
+      "1.0 TSI",
+      "2.0 TDI"
+    ],
+    "ALHAMBRA VAN (711)": [
+      "TDI",
+      "TSi",
+      "TDI 4Drive"
+    ],
+    "ALHAMBRA VAN (7V8, 7V9)": [
+      "2.0",
+      "TDI",
+      "1.9 TDI",
+      "1.9 TDI 4motion"
+    ]
+  },
+  "PIAGGIO": {
+    "PORTER Автобус": [
+      "1.3",
+      "1.3 LPG"
+    ],
+    "APE CALESSINO Кабриолет": [
+      "200"
+    ],
+    "PORTER NP6": [
+      "1.5 LPG",
+      "1.5 CNG"
+    ]
+  },
+  "GIOTTI VICTORIA": {
+    "GLADIATOR c бортовой платформой/ходовая часть": [
+      "LPG"
+    ]
+  },
+  "IVECO": {
+    "DAILY V c бортовой платформой/ходовая часть": [
+      "55S17W 4x4"
+    ]
+  },
+  "JEEP": {
+    "CHEROKEE (KL)": [
+      "2.0 T-GDi 4x4"
+    ],
+    "WRANGLER IV (JL)": [
+      "3.6 VVT (JL72, JL74)"
+    ],
+    "RENEGADE SUV (BU, B1)": [
+      "1.3 Hybrid 4x4"
+    ],
+    "COMPASS (MP, M6)": [
+      "1.3 2WD",
+      "1.3 Hybrid 4x4"
+    ],
+    "CHEROKEE (XJ)": [
+      "4.2 4x4"
+    ],
+    "CHEROKEE VAN (KL)": [
+      "2.0 CRD",
+      "3.2 4x4",
+      "2.2 CRD"
+    ],
+    "COMMANDER VAN (XH)": [
+      "3.0 CRD 4x4",
+      "5.7 HEMI V8 4x4"
+    ],
+    "GRAND CHEROKEE VAN (WK2)": [
+      "V6 VVT",
+      "3.0 CRD",
+      "5.7 HEMI 4x4"
+    ],
+    "RENEGADE VAN (BU, B1)": [
+      "1.4 4x4",
+      "1.6 E-torQ",
+      "1.4"
+    ]
+  },
+  "TATA": {
+    "ARIA": [
+      "2.2 Di AWD"
+    ]
+  },
+  "BMW MOTORCYCLES": {
+    "S": [
+      "S 1000 RR (2R99)"
+    ],
+    "C": [
+      "C 400 GT (3C41)"
+    ],
+    "R 1250": [
+      "R 1250 RT",
+      "R 1250 R",
+      "R 1250 GS Adventure",
+      "R 1250 RS",
+      "R 1250 GS"
+    ],
+    "HP": [
+      "HP 4 RACE"
+    ],
+    "F": [
+      "F 850 GS",
+      "F 850 GS Adventure",
+      "F 900 XR A2 (4R90)",
+      "F 900 XR A2 (4R90R)",
+      "F 900 R (4R90)",
+      "F 900 XR (4R90)",
+      "F 900 R A2 (4R90)"
+    ],
+    "R 18": [
+      "R 18"
+    ],
+    "M": [
+      "M 1000 RR"
+    ]
+  },
+  "BRIXTON MOTORCYCLES": {
+    "BX": [
+      "BX 125 R (BX125)"
+    ]
+  },
+  "DATSUN": {
+    "mi-DO": [
+      "1.6 (HBD0R)"
+    ]
+  },
+  "LAMBORGHINI": {
+    "HURACÁN EVO": [
+      "5.2 LP 610-2",
+      "5.2 LP 640-4 Привод на все колеса"
+    ],
+    "HURACÁN EVO SPYDER": [
+      "5.2 LP 640-4"
+    ],
+    "AVENTADOR тарга": [
+      "6.5 LP 770-4 SVJ AWD"
+    ],
+    "SIAN FKP 37 купе": [
+      "6.5 MHEV AWD"
+    ],
+    "SIAN FKP 37 Roadster": [
+      "6.5 MHEV AWD"
+    ]
+  },
+  "GMC": {
+    "SIERRA 2500 HD Extended Cab Pickup": [
+      "6.0 CNG 4WD"
+    ]
+  },
+  "DAEWOO": {
+    "MATIZ (M200, M250)": [
+      "1.0"
+    ]
+  },
+  "SSANGYONG": {
+    "KORANDO FAMILY": [
+      "2.2 D Привод на все колеса",
+      "2.5 D Привод на все колеса"
+    ],
+    "ACTYON SPORTS II": [
+      "2.3 4WD",
+      "2.3"
+    ],
+    "KORANDO (C300)": [
+      "1.6 e-XDi 4WD",
+      "1.5 e-XGDi 4WD",
+      "1.5 e-XGDi",
+      "1.6 e-XDi"
+    ],
+    "MUSSO GRAND": [
+      "2.2 e-XDi",
+      "2.2 e-XDi 4WD"
+    ],
+    "TIVOLI": [
+      "1.2",
+      "1.6 XDi 160 Привод на все колеса",
+      "1.5",
+      "1.5 Привод на все колеса",
+      "1.6 XDi 160"
+    ],
+    "KORANDO VAN": [
+      "2.2 e-XDi 4WD",
+      "2.0 e-XDi 4WD",
+      "2.2 e-XDi",
+      "2.0 e-XGi 4WD",
+      "2.0 e-XGi",
+      "2.0 e-XDi"
+    ],
+    "REXTON VAN (Y400)": [
+      "e-XDi 4WD",
+      "e-XDi"
+    ],
+    "REXTON / REXTON II VAN": [
+      "RX270 XDi 4x4"
+    ],
+    "REXTON W / REXTON VAN": [
+      "e-XDi",
+      "e-XDi Привод на все колеса"
+    ],
+    "RODIUS II VAN (CA1)": [
+      "e-XDi 4WD",
+      "e-XDi"
+    ],
+    "XLV VAN": [
+      "e-XGi",
+      "e-XDi",
+      "e-XDi Привод на все колеса",
+      "e-XGi Привод на все колеса"
+    ]
+  },
+  "TESLA": {
+    "MODEL 3 (5YJ3)": [
+      "EV Привод на все колеса",
+      "EV Perfomance Привод на все колеса"
+    ],
+    "MODEL Y (5YJY)": [
+      "EV",
+      "EV Привод на все колеса",
+      "EV Perfomance Привод на все колеса"
+    ]
+  },
+  "HONDA": {
+    "HR-V (RU)": [
+      "1.5 i-VTEC (RU1)"
+    ],
+    "e (ZC7_)": [
+      "Electric (ZC7)",
+      "Electric Advance (ZC7)"
+    ],
+    "CR-V V (RW_, RT_)": [
+      "2.4 i-VTEC AWD (RW6)",
+      "2.0 i-VTEC AWD (RW4)"
+    ],
+    "CIVIC X седан (FC_)": [
+      "1.6 i-VTEC LPG"
+    ],
+    "JAZZ V (GR_)": [
+      "1.5 eHEV (GR3)",
+      "1.5 eHEV 4WD (GR4)"
+    ],
+    "CIVIC VI седан (EJ, EK)": [
+      "1.6"
+    ]
+  },
+  "MITSUBISHI": {
+    "PAJERO II (V3_W, V2_W, V4_W)": [
+      "3.0 4WD"
+    ],
+    "ECLIPSE CROSS (GK_)": [
+      "Plug-in Hybrid 4WD (GL3W)",
+      "2.2 DiD 4WD (GK9W)"
+    ],
+    "L200 / TRITON (KJ_, KK_, KL_)": [
+      "2.2 DI-D",
+      "2.2 DI-D 4WD"
+    ],
+    "OUTLANDER III Van (GF_W, GG_W)": [
+      "Hybrid 4WD (GG3W)",
+      "Di-D 4WD (GF6W)"
+    ],
+    "SPACE WAGON VAN (D0_V/W)": [
+      "1.8 TD (D09V)",
+      "1.8 (D05V)"
+    ],
+    "MIRAGE / SPACE STAR VI Наклонная задняя часть (A0_A)": [
+      "1.2"
+    ]
+  },
+  "MOTO GUZZI MC": {
+    "V 7": [
+      "V7 III Rough",
+      "V7 III Stone Night Pack",
+      "V7 III Carbon",
+      "V7 III",
+      "V7 III Special",
+      "V7 III Racer",
+      "V7 III Stone",
+      "V7 III Milano"
+    ],
+    "V 9": [
+      "V 9 Bobber Sport (LH1)",
+      "V 9 Bobber Sport (KP1)",
+      "V 9 Roamer (KP1)",
+      "V 9 Bobber (KP1)"
+    ],
+    "V 85": [
+      "V 85 TT (KW)"
+    ]
+  },
+  "HUSQVARNA MOTORCYCLE": {
+    "701": [
+      "701 Vitpilen (HQV 701)",
+      "701 Svartpilen",
+      "701 Vitpilen",
+      "701 Svartpilen (HQV 701)"
+    ],
+    "TE": [
+      "TE150",
+      "TE250 i",
+      "TE300 i"
+    ],
+    "FE": [
+      "FE 501"
+    ]
+  },
+  "KTM MOTORCYCLES": {
+    "690": [
+      "690 SMC R"
+    ],
+    "EXC": [
+      "EXC-F 500",
+      "EXC TPI 150"
+    ],
+    "ADVENTURE": [
+      "390 Adventure"
+    ],
+    "DUKE": [
+      "890 Duke R",
+      "790 Duke"
+    ]
+  },
+  "DS": {
+    "DS 7 Crossback (J_)": [
+      "E-TENSE",
+      "E-TENSE 4x4"
+    ],
+    "DS 5 (KF_)": [
+      "2.0 Hybrid4"
+    ],
+    "DS 3 CROSSBACK (UR_, UC_, UJ_)": [
+      "E-TENSE (UJZKXZ)",
+      "1.5 BlueHDi 110 (UCYHSK)"
+    ],
+    "DS 9 (X_)": [
+      "1.6 PureTech 225"
+    ]
+  },
+  "FERRARI": {
+    "F8 Tributo купе": [
+      "3.9"
+    ],
+    "812 GTS Spider (F152)": [
+      "6.5"
+    ],
+    "F8 Spider": [
+      "3.9"
+    ],
+    "ROMA": [
+      "3.9"
+    ],
+    "SF90": [
+      "Stradale PHEV 4WD"
+    ],
+    "208/308 купе": [
+      "208 GTB Turbo"
+    ],
+    "208/308 тарга": [
+      "208 GTS Turbo"
+    ]
+  },
+  "CHERY": {
+    "TIGGO 5x": [
+      "2.0"
+    ]
+  },
+  "FIAT": {
+    "PANDA (312_, 319_)": [
+      "1.0 Mild Hybrid (312.PYD1B)",
+      "0.9 Natural Power (312PXN1A)"
+    ],
+    "TALENTO c бортовой платформой/ходовая часть (296_)": [
+      "1.6 D",
+      "2.0 EcoJet"
+    ],
+    "TALENTO Фургон (296_)": [
+      "2.0 EcoJet"
+    ],
+    "TALENTO Автобус (296_)": [
+      "2.0 EcoJet"
+    ],
+    "DUCATO c бортовой платформой/ходовая часть (250_, 290_)": [
+      "140 Multijet 2,3 D",
+      "160 Multijet 2,3 D"
+    ],
+    "DUCATO Фургон (250_, 290_)": [
+      "160 Multijet 2,3 D",
+      "EDUCATO (250DPE)",
+      "140 Multijet 2,3 D"
+    ],
+    "DUCATO Автобус (250_, 290_)": [
+      "140 Multijet 2,3 D",
+      "180 Multijet 2,3 D",
+      "160 Multijet 2,3 D"
+    ],
+    "500 (312_)": [
+      "1.0 Mild Hybrid (312.AYD1B)"
+    ],
+    "DUCATO Автобус (244_)": [
+      "2.0 LPG"
+    ],
+    "DUCATO Фургон (244_)": [
+      "2.0 LPG"
+    ],
+    "500 C (312_)": [
+      "1.0 Mild Hybrid (312.AYD1B)"
+    ],
+    "500X (334_)": [
+      "1.0 (334.AXN1B)"
+    ],
+    "PALIO Weekend (178_, 173_, 373_, 374_, 171_)": [
+      "1.3 (1788891, 1789491, 1730250)"
+    ],
+    "PALIO (178_)": [
+      "1.3"
+    ],
+    "500e (332_)": [
+      "Elektro (FA1)",
+      "Elektro 3+1 (FA1)"
+    ],
+    "500e Кабриолет (332_)": [
+      "Elektro (FA1)"
+    ],
+    "FIORINO вэн (225_)": [
+      "1.4 (225BXA1A)",
+      "JTD Multijet (225BXB1A, 225BXB11)",
+      "JTD Multijet (225BXE1A)",
+      "1.4 (225AXA1A)",
+      "1.4 CNG (225AXC1A, 225BXC1A)"
+    ],
+    "IDEA Van (350_)": [
+      "JTD Multijet (350BXG1A)",
+      "JTD Multijet (350BXB1A)",
+      "MJTD (350BXD1A)",
+      "1.4 (350BXA1A)"
+    ],
+    "TIPO Наклонная задняя часть (356_)": [
+      "1.0",
+      "1.6 D (357HXG1)"
+    ],
+    "TIPO универсал (356_)": [
+      "1.0",
+      "1.6 D (357WXG1)"
+    ],
+    "MULTIPLA VAN (186_)": [
+      "1.9 JTD (186AXG1A, 186BXG1A)",
+      "Bipower",
+      "1.6 (186AXC1A, 186BMC1A, 186BXC1A)",
+      "1.9 JTD"
+    ],
+    "FIORINO вэн (146_)": [
+      "1.6 iE (146RC, 146RF)"
+    ],
+    "TEMPRA S.W. (159_)": [
+      "1.9 D (159AG)",
+      "1.4 (159AA)",
+      "1.6 (159AE)"
+    ]
+  },
+  "PIAGGIO MOTORCYCLES": {
+    "MP3": [
+      "MP3 500 i.e. ABS/ASR Business (TA1)",
+      "MP3 300 i.e. ABS/ASR Sport",
+      "MP3 300 i.e. ABS/ASR Business",
+      "MP3 350 i.e. ABS/ASR Sport (TA1)",
+      "MP3 500 i.e. ABS/ASR Sport (TA1)",
+      "MP3 350 i.e. ABS/ASR Business (TA1)",
+      "MP3 350 i.e. ABS/ASR HPE (TA1)",
+      "MP3 500 i.e. ABS/ASR HPE (TA1)"
+    ],
+    "LIBERTY": [
+      "Liberty S 150 (MA4D)"
+    ],
+    "BEVERLY": [
+      "Beverly 350 i.e. (MA2)"
+    ]
+  },
+  "VESPA MOTORCYCLES": {
+    "GTS": [
+      "300 Sei Giorni (MA3C)"
+    ]
+  },
+  "MINI": {
+    "MINI CLUBMAN (F54)": [
+      "Cooper S",
+      "John Cooper Works",
+      "Cooper S ALL4"
+    ],
+    "MINI COUNTRYMAN (F60)": [
+      "Cooper S",
+      "John Cooper Works ALL4",
+      "Cooper S ALL4",
+      "Cooper SE ALL4"
+    ],
+    "MINI (F56)": [
+      "Cooper S",
+      "John Cooper Works GP",
+      "Cooper SE / Electric"
+    ],
+    "MINI (F55)": [
+      "Cooper S"
+    ],
+    "MINI Кабриолет (F57)": [
+      "Cooper S"
+    ]
+  },
+  "STREETSCOOTER": {
+    "WORK Фургон": [
+      "Electric (D17)",
+      "Elektro (B16C, B16)"
+    ],
+    "WORK c бортовой платформой/ходовая часть": [
+      "Elektro (B16C, B16)"
+    ],
+    "WORK L c бортовой платформой/ходовая часть": [
+      "Elektro (D16A)"
+    ],
+    "WORK L Фургон": [
+      "Elektro (D16A)"
+    ],
+    "WORK XL c бортовой платформой/ходовая часть": [
+      "Electric (E17, E18)"
+    ]
+  },
+  "ASTON MARTIN": {
+    "DBS Volante": [
+      "Superleggera"
+    ],
+    "DBX": [
+      "4.0"
+    ],
+    "VANTAGE Roadster": [
+      "4.0"
+    ]
+  },
+  "FANTIC MOTORCYCLES": {
+    "MOTARD": [
+      "Competizione 125",
+      "Casa 125",
+      "Performance 125"
+    ],
+    "ENDURO": [
+      "Casa 125 (CA12)",
+      "Performance 125 (CA12)"
+    ],
+    "CABALLERO": [
+      "Scrambler 500 (CA50)",
+      "Scrambler 125 (CA12)",
+      "Flat Track 125",
+      "Flat Track 500 (CA50)",
+      "Rally 500 (CA50)"
+    ]
+  },
+  "SUZUKI": {
+    "ALTO Фургон/хетчбэк (EC)": [
+      "0.8"
+    ],
+    "SWIFT V (AZ)": [
+      "1.2 Hybrid (Mild Hybrid) (A2L412)",
+      "1.2 Hybrid (Mild Hybrid) AllGrip (A2L412)",
+      "1.4 Sport SHVS"
+    ],
+    "IGNIS III (MF)": [
+      "1.2 Hybrid (ATK412)",
+      "1.2 Hybrid AllGrip (ATK412)"
+    ],
+    "SX4 S-CROSS (JY)": [
+      "1.4 Hybrid (Mild Hybrid) (AKK 414)",
+      "1.4 Hybrid (Mild Hybrid) AllGrip (AKK 414)"
+    ],
+    "VITARA (LY)": [
+      "1.4 Hybrid (Mild Hybrid) AllGrip",
+      "1.4 Hybrid (Mild Hybrid)"
+    ],
+    "WAGON R+ Наклонная задняя часть (MM)": [
+      "1.2 (RB 412)"
+    ],
+    "ACROSS (A5Z_)": [
+      "2.5 Hybrid"
+    ],
+    "SWACE (AMZ_)": [
+      "1.8 Hybrid"
+    ]
+  },
+  "MCLAREN": {
+    "720S Spider": [
+      "4.0"
+    ],
+    "600LT Spider": [
+      "3.8"
+    ],
+    "GT": [
+      "4.0"
+    ],
+    "765LT купе": [
+      "4.0"
+    ],
+    "Speedtail": [
+      "4.0 Hybrid"
+    ],
+    "720S": [
+      "4.0"
+    ]
+  },
+  "MAN": {
+    "TGE Автобус": [
+      "2.0 TDI RWD"
+    ]
+  },
+  "JAGUAR": {
+    "XJ (X308)": [
+      "3.2"
+    ],
+    "F-TYPE Кабриолет (X152)": [
+      "5.0 SCV8 P450 AWD",
+      "5.0 SCV8 P450"
+    ],
+    "F-TYPE купе (X152)": [
+      "5.0 SCV8 P450 AWD",
+      "5.0 SCV8 P450"
+    ],
+    "XF II (X260)": [
+      "2.0 D200 MHEV AWD",
+      "2.0 D200 MHEV"
+    ],
+    "XF SPORTBRAKE (X260)": [
+      "2.0 D200 MHEV AWD",
+      "2.0 D200 MHEV"
+    ],
+    "XE (X760)": [
+      "2.0 D200 MHEV AWD",
+      "2.0 D200 MHEV"
+    ],
+    "I-PACE (X590)": [
+      "EV320 AWD"
+    ],
+    "F-PACE (X761)": [
+      "2.0 D200 MHEV",
+      "3.0 P400 MHEV",
+      "2.0 D165 MHEV",
+      "5.0 SVR P550 MHEV",
+      "2.0 P400e Plug-in Hybrid",
+      "3.0 D300 MHEV"
+    ],
+    "E-PACE (X540)": [
+      "2.0 D200 MHEV AWD",
+      "2.0 P250 MHEV AWD",
+      "2.0 P200 MHEV AWD",
+      "2.0 D165 MHEV AWD",
+      "2.0 D165",
+      "1.5 P300e Plug-in Hybrid AWD",
+      "2.0 P300 MHEV AWD",
+      "1.5 P160 MHEV"
+    ]
+  },
+  "MASERATI": {
+    "LEVANTE SUV (M161)": [
+      "3.8 Trofeo Q4",
+      "3.8 GTS Q4"
+    ],
+    "GHIBLI III (M157)": [
+      "3.8 V8",
+      "MHEV"
+    ],
+    "QUATTROPORTE VI": [
+      "3.8 V8"
+    ]
+  },
+  "SAAB": {
+    "99": [
+      "2.0 EMS"
+    ],
+    "9-3X (YS3)": [
+      "2.0 T16 XWD"
+    ],
+    "9-3 универсал (E50)": [
+      "1.8 t"
+    ]
+  },
+  "ROLLS-ROYCE": {
+    "SILVER SPIRIT MK II": [
+      "6.75"
+    ],
+    "CULLINAN (RR31)": [
+      "V12"
+    ],
+    "WRAITH (RR5)": [
+      "V12"
+    ],
+    "GHOST II (RR21)": [
+      "V12"
+    ],
+    "GHOST II Extended Wheelbase (RR22)": [
+      "V12"
+    ],
+    "SILVER SPUR седан": [
+      "6.8"
+    ]
+  },
+  "SHERCO MOTORCYCLES": {
+    "SEF": [
+      "500 SEF-R (S6)",
+      "250 SEF-R (S6)",
+      "300 SEF-R (S6)",
+      "450 SEF-R (S6)"
+    ],
+    "SE": [
+      "250 SE-R (S6)",
+      "300 SE-R (S6)"
+    ]
+  },
+  "ALPINE": {
+    "A110 II": [
+      "1.8 S"
+    ]
+  },
+  "RAM": {
+    "1500 Extended Cab Pickup (DT)": [
+      "5.7",
+      "5.7 4x4"
+    ]
+  },
+  "ALPINA": {
+    "B3 Touring (G21)": [
+      "BITURBO Привод на все колеса"
+    ],
+    "B3 (G20)": [
+      "BITURBO Привод на все колеса"
+    ],
+    "D3 (G20)": [
+      "S"
+    ],
+    "D3 Touring (G21)": [
+      "S"
+    ],
+    "XB7 (G07)": [
+      "BITURBO"
+    ],
+    "B5 (G30)": [
+      "BITURBO"
+    ],
+    "B5 Touring (G31)": [
+      "BITURBO"
+    ],
+    "D5 (G30)": [
+      "S Привод на все колеса"
+    ],
+    "D5 Touring (G31)": [
+      "S Привод на все колеса"
+    ],
+    "B8 GRAN COUPE (B16)": [
+      "BITURBO ALL-WHEEL DRIVE"
+    ]
+  },
+  "MV AGUSTA MOTORCYCLE": {
+    "BRUTALE": [
+      "Brutale 1000 (B7)"
+    ]
+  },
+  "PEUGEOT MOTORCYCLES": {
+    "Pulsion": [
+      "125"
+    ]
+  },
+  "ROYAL ENFIELD MC": {
+    "INTERCEPTOR": [
+      "0.64 Interceptor 650"
+    ]
+  },
+  "ALFA ROMEO": {
+    "STELVIO (949_)": [
+      "2.9 Q4 (949.AXG2A)",
+      "2.0 Q4 (949.AXR2A)"
+    ],
+    "GIULIA (952_)": [
+      "2.9 GTA (952AAM24)",
+      "2.9 (952AAM24)"
+    ]
+  },
+  "SUZUKI MOTORCYCLES": {
+    "V-STROM": [
+      "1050 V-Strom XT",
+      "0.64 V-Strom 650 XT",
+      "250 V-Strom",
+      "0.64 V-Strom 650",
+      "1050 V-Strom (WEF0)"
+    ],
+    "KATANA": [
+      "Katana"
+    ],
+    "RM": [
+      "RM 80 H",
+      "RM 465",
+      "RM 400",
+      "RM 80 X",
+      "RM 250",
+      "RM 80 B",
+      "RM 125",
+      "RM 500",
+      "RM 85",
+      "RM 80 C"
+    ]
+  },
+  "ZAZ": {
+    "SENS Наклонная задняя часть (TF_)": [
+      "1.3"
+    ],
+    "TAVRIA Пикап (1105_)": [
+      "1.2 (110557)"
+    ],
+    "SENS (TF_)": [
+      "1.3 LPG"
+    ],
+    "TAVRIA (1102)": [
+      "1.2 (110207, 110217)"
+    ],
+    "CHANCE Наклонная задняя часть (TF_, TA_)": [
+      "1.3",
+      "1.4 (TF698P)",
+      "1.5 (TF48YP)"
+    ]
+  },
+  "INFINITI": {
+    "QX50 II": [
+      "2.0 AWD (J55)"
+    ],
+    "QX60": [
+      "Hybrid AWD"
+    ]
+  },
+  "RAVON": {
+    "NEXIA": [
+      "1.5"
+    ],
+    "R2": [
+      "1.2"
+    ],
+    "R4": [
+      "1.5"
+    ]
+  },
+  "HONDA MOTORCYCLES": {
+    "CBR": [
+      "CBR 650 R",
+      "CBR 650 R (RH07)"
+    ],
+    "CB (CB 550 - )": [
+      "CB 650 R (RH08)"
+    ],
+    "CR": [
+      "CR 125 R",
+      "CR 80 RB",
+      "CR 500",
+      "CR 250 R",
+      "CR 80 R",
+      "CR 85 R",
+      "CR 250 M Elsinore",
+      "CR 85 RB"
+    ],
+    "CRF": [
+      "CRF 125 FB",
+      "CRF 125 F",
+      "CRF 250 R",
+      "CRF 150 R",
+      "CRF 110 F"
+    ],
+    "SH": [
+      "SH 150 i (KF40)",
+      "SH 125 i (JF90)"
+    ]
+  },
+  "APRILIA MOTORCYCLES": {
+    "RSV4": [
+      "RSV4 1100 Factory (KE1)"
+    ],
+    "RX": [
+      "RX 125 (KX1)"
+    ],
+    "SX": [
+      "SX 125 (KX1)"
+    ],
+    "TUONO": [
+      "Tuono 125 (KC1)"
+    ]
+  },
+  "DODGE": {
+    "CHALLENGER купе": [
+      "6.2 SRT Hellcat Redeye"
+    ],
+    "CARAVAN VAN (NS)": [
+      "3.8"
+    ],
+    "JOURNEY VAN (JC)": [
+      "2.0 CRD",
+      "3.6 FlexFuel Привод на все колеса",
+      "2.7 FlexFuel",
+      "2.4 VVT"
+    ],
+    "NITRO VAN (KA)": [
+      "4.0 4WD",
+      "2.8 CRD"
+    ]
+  },
+  "HAIMA (FAW)": {
+    "7": [
+      "DVVT"
+    ]
+  },
+  "PONTIAC": {
+    "VIBE универсал": [
+      "2.4"
+    ],
+    "TRANS SPORT Автофургон / микроавтобус": [
+      "3.4"
+    ],
+    "TRANS SPORT Mini Cargo Van": [
+      "2.3"
+    ],
+    "TRANS SPORT VAN (UM05)": [
+      "3.8",
+      "2.3",
+      "3.1"
+    ]
+  },
+  "BYD": {
+    "F3R Наклонная задняя часть": [
+      "1.5"
+    ],
+    "F5 SURI": [
+      "1.5"
+    ]
+  },
+  "POLESTAR": {
+    "POLESTAR 2 (P)": [
+      "EV"
+    ],
+    "POLESTAR 1 (P)": [
+      "PHEV AWD"
+    ]
+  },
+  "EMGRAND": {
+    "X7": [
+      "1.8 CVVT"
+    ],
+    "7": [
+      "1.8 CVVT"
+    ],
+    "EC7-RV": [
+      "1.5 CVVT"
+    ]
+  },
+  "BESTURN (FAW)": {
+    "X80": [
+      "2.0"
+    ]
+  },
+  "YAMAHA MOTORCYCLES": {
+    "TENERE": [
+      "Tenere 700 (DM08)"
+    ],
+    "MT": [
+      "MT-07 (RM31)",
+      "MT-07 (RM30)"
+    ],
+    "YZ": [
+      "YZ 400 2T",
+      "YZ 80 LW",
+      "YZ 85 LW",
+      "YZ 400 F",
+      "YZ 80",
+      "YZ 250 F",
+      "YZ 80 W",
+      "YZ 450 F",
+      "YZ 465",
+      "YZ 85 SW",
+      "YZ 426 F",
+      "YZ 65",
+      "YZ 490"
+    ],
+    "DT": [
+      "DT 175 MX",
+      "DT 125 (4BL)",
+      "DT 125 LC"
+    ],
+    "TW": [
+      "TW 200"
+    ],
+    "PW": [
+      "PW 50"
+    ]
+  },
+  "HAFEI": {
+    "SIGMA": [
+      "1.6"
+    ]
+  },
+  "MG": {
+    "MG ZS SUV": [
+      "EV (CSA7001)"
+    ],
+    "MG HS": [
+      "1.5 EHS Hybrid (CSA6463)"
+    ]
+  },
+  "LANCIA": {
+    "YPSILON (312_)": [
+      "1.0 Mild Hybrid (312)"
+    ],
+    "FLAMINIA Кабриолет": [
+      "2.8"
+    ],
+    "FLAMINIA GT": [
+      "2.8"
+    ],
+    "FLAMINIA купе": [
+      "2.8"
+    ]
+  },
+  "MORGAN": {
+    "PLUS FOUR": [
+      "2.0"
+    ],
+    "PLUS SIX": [
+      "2.0"
+    ]
+  },
+  "CF MOTO MOTORCYCLES": {
+    "650": [
+      "650 GT",
+      "400 NK"
+    ]
+  },
+  "E.GO": {
+    "LIFE": [
+      "60"
+    ]
+  },
+  "LIGIER": {
+    "JS50": [
+      "0.5"
+    ],
+    "IXO": [
+      "0.5"
+    ],
+    "XTOO (LXT)": [
+      "0.5"
+    ],
+    "PULSE 4 c бортовой платформой/ходовая часть": [
+      "Electric"
+    ],
+    "PULSE 3 Threewheeler": [
+      "Electric"
+    ]
+  },
+  "MICROCAR": {
+    "M.GO": [
+      "0.5"
+    ],
+    "DUE": [
+      "0.5"
+    ]
+  },
+  "CUPRA": {
+    "ATECA (KH7)": [
+      "2.0 TSI 4Drive"
+    ],
+    "FORMENTOR (KM7)": [
+      "1.5 TSI",
+      "2.0 TDI",
+      "2.0 TSI",
+      "2.0 TDI 4DRIVE",
+      "2.0 TSI 4Drive",
+      "1.4 e-HYBRID",
+      "2.0 TSI 4DRIVE"
+    ],
+    "LEON": [
+      "e-HYBRID"
+    ],
+    "LEON Sportstourer": [
+      "e-HYBRID"
+    ],
+    "ATECA (KHP)": [
+      "2.0 TSI 4DRIVE"
+    ]
+  },
+  "MONDIAL MOTORCYCLES": {
+    "SMX SUPERMOTO": [
+      "SMX 125 Supermoto"
+    ],
+    "SMX ENDURO": [
+      "SMX 125 Enduro"
+    ],
+    "SPORT CLASSIC": [
+      "Sport Classic 300i ABS",
+      "Sport Classic 125i ABS"
+    ],
+    "HPS": [
+      "HPS 125i ABS",
+      "HPS 300i ABS"
+    ]
+  },
+  "LAMBRETTA MOTORCYCLES": {
+    "V": [
+      "V 200 Special Flex",
+      "V 125 Special Flex (LMB)"
+    ]
+  },
+  "BENELLI MOTORCYCLES": {
+    "TNT": [
+      "TnT 899 Café Racer"
+    ]
+  },
+  "AMC": {
+    "MATADOR универсал": [
+      "3.8"
+    ],
+    "HORNET Наклонная задняя часть": [
+      "3.3"
+    ]
+  },
+  "ISO": {
+    "ISETTA": [
+      "0.2"
+    ],
+    "AUTOCARRO Фургон": [
+      "0.2"
+    ],
+    "AUTOCARRO c бортовой платформой/ходовая часть": [
+      "0.2"
+    ]
+  },
+  "ISORIVOLTA": {
+    "GT": [
+      "IR 340",
+      "IR 350",
+      "IR 300"
+    ],
+    "GRIFO": [
+      "IR-9 ",
+      "GL 350",
+      "GL 300",
+      "7 Litri",
+      "IR 350",
+      "IR-8 "
+    ],
+    "FIDIA": [
+      "300",
+      "350",
+      "IR-10"
+    ],
+    "LELE": [
+      "IR-6",
+      "300",
+      "350"
+    ]
+  },
+  "CASALINI": {
+    "M12": [
+      "0.7"
+    ],
+    "M20": [
+      "M20"
+    ]
+  },
+  "BIZZARRINI": {
+    "GT STRADA": [
+      "5300"
+    ],
+    "GT EUROPA": [
+      "1900"
+    ]
+  },
+  "MG (SAIC)": {
+    "ZS": [
+      "EV (CSA7001)"
+    ]
+  },
+  "AIXAM": {
+    "ROADLINE": [
+      "0.4"
+    ],
+    "CROSSOVER": [
+      "0.5"
+    ]
+  },
+  "MAXUS": {
+    "V80 Фургон": [
+      "EV80"
+    ],
+    "V80 c бортовой платформой/ходовая часть": [
+      "EV80"
+    ],
+    "DELIVER 9 Фургон": [
+      "2.0 D"
+    ],
+    "eDELIVER 3 Фургон": [
+      "Electric"
+    ],
+    "EDELIVER 9 Фургон": [
+      "EDELIVER 9"
+    ]
+  },
+  "DAIHATSU": {
+    "CUORE V (L7_)": [
+      "1.0"
+    ]
+  },
+  "GOUPIL": {
+    "G4L c бортовой платформой/ходовая часть": [
+      "Electric (GWL)"
+    ],
+    "G6 c бортовой платформой/ходовая часть": [
+      "Electric (G6M)"
+    ],
+    "G2 c бортовой платформой/ходовая часть": [
+      "Electric (G2M)"
+    ],
+    "G3 c бортовой платформой/ходовая часть": [
+      "Electric (G3S)"
+    ],
+    "G3L c бортовой платформой/ходовая часть": [
+      "Electric (G3L)"
+    ],
+    "G5 c бортовой платформой/ходовая часть": [
+      "Electric (G5E)"
+    ],
+    "G5 Фургон": [
+      "Electric"
+    ]
+  },
+  "AIWAYS": {
+    "U5": [
+      "EV"
+    ]
+  },
+  "LEVC": {
+    "TX (HRE)": [
+      "1.5"
+    ]
+  },
+  "DFSK": {
+    "C35 Фургон": [
+      "1.5",
+      "1.5 4WD"
+    ],
+    "C31 c бортовой платформой/ходовая часть": [
+      "1.5",
+      "1.5 4WD"
+    ],
+    "C32 c бортовой платформой/ходовая часть": [
+      "1.5",
+      "1.5 4WD"
+    ]
+  },
+  "CHRYSLER": {
+    "GRAND VOYAGER III VAN (GS)": [
+      "3.3",
+      "2.5 TD",
+      "3.8",
+      "2.4"
+    ],
+    "VOYAGER / GRAND VOYAGER II (ES)": [
+      "3.3",
+      "2.5 TD"
+    ],
+    "VOYAGER III VAN (GS_)": [
+      "3.3 (GSHY52)",
+      "2.5 TD (GSHY52, GSHZ52)",
+      "2.4 (GSHY52)",
+      "3.8 AWD (GSHC52)"
+    ],
+    "VOYAGER IV VAN (S_)": [
+      "3.8 (SYX53)",
+      "3.8 AWD (SCH53)"
+    ]
+  },
+  "YUGO": {
+    "FLORIDA (VX65)": [
+      "1.6"
+    ]
+  },
+  "DONKERVOORT": {
+    "D8": [
+      "2.5 GTO-JD70",
+      "2.5 GTO-RS"
+    ]
+  }
+}

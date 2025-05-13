@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог автомобилей</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2em;
+    }
+    label {
+      display: block;
+      margin-top: 1em;
+    }
+    select {
+      padding: 0.5em;
+      width: 100%;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Каталог автомобилей</h1>
+  <div id="car-selector">
+    <label>Марка:
+      <select id="brand" onchange="updateModels()">
+        <option value="">Выберите</option>
+      </select>
+    </label>
+    <label>Модель:
+      <select id="model" onchange="updateMods()">
+        <option value="">Выберите</option>
+      </select>
+    </label>
+    <label>Модификация:
+      <select id="mod">
+        <option value="">Выберите</option>
+      </select>
+    </label>
+  </div>
+
+  <script>
+    let catalog = {};
+
+    fetch('catalog.json')
+      .then(response => response.json())
+      .then(data => {
+        catalog = data;
+        const brandSelect = document.getElementById('brand');
+        const brands = Object.keys(catalog).sort();
+        brands.forEach(b => {
+          const opt = document.createElement('option');
+          opt.value = opt.text = b;
+          brandSelect.appendChild(opt);
+        });
+      });
+
+    function updateModels() {
+      const brand = document.getElementById('brand').value;
+      const modelSelect = document.getElementById('model');
+      const modSelect = document.getElementById('mod');
+      modelSelect.innerHTML = '<option value="">Выберите</option>';
+      modSelect.innerHTML = '<option value="">Выберите</option>';
+      if (!brand || !catalog[brand]) return;
+
+      const models = Object.keys(catalog[brand]).sort();
+      models.forEach(m => {
+        const opt = document.createElement('option');
+        opt.value = opt.text = m;
+        modelSelect.appendChild(opt);
+      });
+    }
+
+    function updateMods() {
+      const brand = document.getElementById('brand').value;
+      const model = document.getElementById('model').value;
+      const modSelect = document.getElementById('mod');
+      modSelect.innerHTML = '<option value="">Выберите</option>';
+      if (!brand || !model || !catalog[brand][model]) return;
+
+      catalog[brand][model].forEach(mod => {
+        const opt = document.createElement('option');
+        opt.value = opt.text = mod;
+        modSelect.appendChild(opt);
+      });
+    }
+  </script>
+</body>
+</html>
