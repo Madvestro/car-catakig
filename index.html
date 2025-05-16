@@ -2,41 +2,70 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Каталог автомобилей</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: sans-serif;
-      margin: 2em;
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+    .catalog-container {
+      background: white;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 480px;
+      width: 100%;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
     }
     label {
       display: block;
-      margin-top: 1em;
+      font-weight: 600;
+      margin-top: 1rem;
+      margin-bottom: 0.25rem;
     }
     select {
-      padding: 0.5em;
       width: 100%;
-      max-width: 400px;
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #fff;
+      box-sizing: border-box;
+    }
+    select:disabled {
+      background-color: #eee;
     }
   </style>
 </head>
 <body>
-  <h1>Каталог автомобилей</h1>
-  <div id="car-selector">
-    <label>Марка:
-      <select id="brand" onchange="updateModels()">
-        <option value="">Выберите</option>
-      </select>
-    </label>
-    <label>Модель:
-      <select id="model" onchange="updateMods()">
-        <option value="">Выберите</option>
-      </select>
-    </label>
-    <label>Модификация:
-      <select id="mod">
-        <option value="">Выберите</option>
-      </select>
-    </label>
+  <div class="catalog-container">
+    <h1>Выбор автомобиля</h1>
+    <label for="brand">Марка</label>
+    <select id="brand" onchange="updateModels()">
+      <option value="">Выберите марку</option>
+    </select>
+
+    <label for="model">Модель</label>
+    <select id="model" onchange="updateMods()">
+      <option value="">Выберите модель</option>
+    </select>
+
+    <label for="mod">Модификация</label>
+    <select id="mod">
+      <option value="">Выберите модификацию</option>
+    </select>
   </div>
 
   <script>
@@ -59,8 +88,8 @@
       const brand = document.getElementById('brand').value;
       const modelSelect = document.getElementById('model');
       const modSelect = document.getElementById('mod');
-      modelSelect.innerHTML = '<option value="">Выберите</option>';
-      modSelect.innerHTML = '<option value="">Выберите</option>';
+      modelSelect.innerHTML = '<option value="">Выберите модель</option>';
+      modSelect.innerHTML = '<option value="">Выберите модификацию</option>';
       if (!brand || !catalog[brand]) return;
 
       const models = Object.keys(catalog[brand]).sort();
@@ -75,7 +104,7 @@
       const brand = document.getElementById('brand').value;
       const model = document.getElementById('model').value;
       const modSelect = document.getElementById('mod');
-      modSelect.innerHTML = '<option value="">Выберите</option>';
+      modSelect.innerHTML = '<option value="">Выберите модификацию</option>';
       if (!brand || !model || !catalog[brand][model]) return;
 
       catalog[brand][model].forEach(mod => {
