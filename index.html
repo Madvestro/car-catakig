@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Каталог автомобилей</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
@@ -11,18 +11,14 @@
       background-color: #f4f6f8;
       margin: 0;
       padding: 2rem;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      min-height: 100vh;
     }
     .catalog-container {
       background: white;
       padding: 2rem;
       border-radius: 16px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      max-width: 480px;
-      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
     }
     h1 {
       text-align: center;
@@ -42,10 +38,38 @@
       border: 1px solid #ccc;
       border-radius: 8px;
       background-color: #fff;
-      box-sizing: border-box;
     }
-    select:disabled {
-      background-color: #eee;
+    button {
+      margin-top: 1.5rem;
+      width: 100%;
+      background-color: #e60023;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 0.75rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #c3001d;
+    }
+    #parts-catalog {
+      display: none;
+      margin-top: 2rem;
+    }
+    .category {
+      margin-bottom: 1.5rem;
+    }
+    .category h3 {
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+    .category ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+    .category ul li {
+      margin-bottom: 0.25rem;
     }
   </style>
 </head>
@@ -66,6 +90,27 @@
     <select id="mod">
       <option value="">Выберите модификацию</option>
     </select>
+
+    <button onclick="showCatalog()">Искать запчасти</button>
+
+    <div id="parts-catalog">
+      <h2>Категории запчастей</h2>
+      <div class="category"><h3>Двигатель и компоненты</h3><ul><li>Блок цилиндров, поршни, кольца</li><li>Коленчатый вал, шатуны, маховик</li><li>ГБЦ, клапана, распредвалы</li><li>Масляная система (насос, фильтр, поддон)</li><li>Система охлаждения (радиатор, термостат, насос, вентилятор)</li><li>Турбокомпрессор, интеркулер</li><li>Подушки двигателя</li></ul></div>
+      <div class="category"><h3>Топливная система</h3><ul><li>Бензонасос, дизельный насос</li><li>Топливные фильтры</li><li>Форсунки, рампы</li><li>Дроссельная заслонка</li><li>Рейка и регуляторы давления</li></ul></div>
+      <div class="category"><h3>Выхлопная система</h3><ul><li>Выпускной коллектор</li><li>Глушитель, резонатор</li><li>Катализатор</li><li>Сажевый фильтр (DPF)</li><li>Датчики (лямбда, температуры)</li></ul></div>
+      <div class="category"><h3>Система зажигания / подогрева</h3><ul><li>Свечи зажигания / свечи накаливания</li><li>Катушки зажигания</li><li>Модули зажигания</li><li>Блоки управления</li></ul></div>
+      <div class="category"><h3>Электрооборудование / ЭБУ</h3><ul><li>Генератор, стартер</li><li>АКБ</li><li>Датчики (температуры, давления, скорости и др.)</li><li>Реле, предохранители</li><li>Блоки комфорта, ЭБУ двигателя</li></ul></div>
+      <div class="category"><h3>Система охлаждения / кондиционирования</h3><ul><li>Компрессор кондиционера</li><li>Радиатор кондиционера</li><li>Испаритель, осушитель</li><li>Клапаны, шланги, конденсаторы</li></ul></div>
+      <div class="category"><h3>Трансмиссия</h3><ul><li>Коробка передач (МКПП, АКПП, DSG, CVT)</li><li>Сцепление (диск, корзина, выжимной)</li><li>Маховик (обычный или двухмассовый)</li><li>Приводы, ШРУСы</li><li>Масло трансмиссии</li></ul></div>
+      <div class="category"><h3>Ходовая часть</h3><ul><li>Рычаги, шаровые опоры</li><li>Сайлентблоки</li><li>Подвеска (стойки, амортизаторы, пружины)</li><li>Подрамники</li><li>Ступицы, подшипники</li></ul></div>
+      <div class="category"><h3>Тормозная система</h3><ul><li>Диски, барабаны</li><li>Колодки, колеса</li><li>Суппорты, цилиндры</li><li>ABS, блок управления</li><li>Шланги, тормозная жидкость</li></ul></div>
+      <div class="category"><h3>Рулевое управление</h3><ul><li>Рейка рулевая</li><li>Насос гидроусилителя / ЭУР</li><li>Тяги, наконечники</li><li>Жидкость ГУР</li></ul></div>
+      <div class="category"><h3>Кузов и элементы</h3><ul><li>Капот, двери, багажник</li><li>Крылья, пороги</li><li>Стекла, замки</li><li>Петли, уплотнители</li><li>Бамперы, решётки</li></ul></div>
+      <div class="category"><h3>Освещение и сигнализация</h3><ul><li>Фары, ПТФ, фонари</li><li>Лампы, блоки розжига</li><li>Стопы, поворотники</li><li>Сигнализация, датчики движения</li></ul></div>
+      <div class="category"><h3>Интерьер / салон</h3><ul><li>Приборная панель</li><li>Кнопки, переключатели</li><li>Сиденья, подогрев</li><li>Мультимедиа, навигация</li><li>Подушки безопасности (airbag), ремни</li></ul></div>
+      <div class="category"><h3>Очистка стекол</h3><ul><li>Дворники</li><li>Моторчики омывателя</li><li>Форсунки, бачки</li><li>Щетки стеклоочистителя</li></ul></div>
+      <div class="category"><h3>Прочее / универсальное</h3><ul><li>Крепёж, скобы</li><li>Кузовные клипсы</li><li>Смазки, жидкости</li><li>Наборы ремкомплектов</li></ul></div>
+    </div>
   </div>
 
   <script>
@@ -112,6 +157,10 @@
         opt.value = opt.text = mod;
         modSelect.appendChild(opt);
       });
+    }
+
+    function showCatalog() {
+      document.getElementById('parts-catalog').style.display = 'block';
     }
   </script>
 </body>
