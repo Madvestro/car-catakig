@@ -17,10 +17,10 @@
       padding: 2rem;
       border-radius: 16px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      max-width: 600px;
+      max-width: 800px;
       margin: 0 auto;
     }
-    h1 {
+    h1, h2 {
       text-align: center;
       font-size: 1.5rem;
       margin-bottom: 1.5rem;
@@ -31,90 +31,240 @@
       margin-top: 1rem;
       margin-bottom: 0.25rem;
     }
-    select {
+    select, button {
       width: 100%;
       padding: 0.75rem;
       font-size: 1rem;
       border: 1px solid #ccc;
       border-radius: 8px;
-      background-color: #fff;
+      box-sizing: border-box;
     }
     button {
       margin-top: 1.5rem;
-      width: 100%;
       background-color: #e60023;
       color: white;
       border: none;
-      border-radius: 8px;
-      padding: 0.75rem;
-      font-size: 1rem;
       cursor: pointer;
     }
     button:hover {
       background-color: #c3001d;
     }
-    #parts-catalog {
-      display: none;
-      margin-top: 2rem;
+    .nav-bar {
+      display: flex;
+      justify-content: flex-start;
+      gap: 1rem;
+      margin-bottom: 2rem;
     }
-    .category {
-      margin-bottom: 1.5rem;
+    .nav-bar a {
+      color: #e60023;
+      text-decoration: none;
+      font-weight: 600;
     }
-    .category h3 {
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .category-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .category-card:hover {
+      transform: scale(1.03);
+    }
+    .category-card img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
       margin-bottom: 0.5rem;
-      color: #333;
     }
-    .category ul {
-      margin: 0;
-      padding-left: 1.2rem;
-    }
-    .category ul li {
-      margin-bottom: 0.25rem;
+    ul#subcategory-list {
+      list-style-type: disc;
+      padding-left: 1.5rem;
     }
   </style>
 </head>
 <body>
-  <div class="catalog-container">
+  <div class="catalog-container" id="selection-screen">
     <h1>Выбор автомобиля</h1>
     <label for="brand">Марка</label>
     <select id="brand" onchange="updateModels()">
       <option value="">Выберите марку</option>
     </select>
-
     <label for="model">Модель</label>
     <select id="model" onchange="updateMods()">
       <option value="">Выберите модель</option>
     </select>
-
     <label for="mod">Модификация</label>
     <select id="mod">
       <option value="">Выберите модификацию</option>
     </select>
+    <button onclick="goToCategories()">Искать запчасти</button>
+  </div>
 
-    <button onclick="showCatalog()">Искать запчасти</button>
-
-    <div id="parts-catalog">
-      <h2>Категории запчастей</h2>
-      <div class="category"><h3>Двигатель и компоненты</h3><ul><li>Блок цилиндров, поршни, кольца</li><li>Коленчатый вал, шатуны, маховик</li><li>ГБЦ, клапана, распредвалы</li><li>Масляная система (насос, фильтр, поддон)</li><li>Система охлаждения (радиатор, термостат, насос, вентилятор)</li><li>Турбокомпрессор, интеркулер</li><li>Подушки двигателя</li></ul></div>
-      <div class="category"><h3>Топливная система</h3><ul><li>Бензонасос, дизельный насос</li><li>Топливные фильтры</li><li>Форсунки, рампы</li><li>Дроссельная заслонка</li><li>Рейка и регуляторы давления</li></ul></div>
-      <div class="category"><h3>Выхлопная система</h3><ul><li>Выпускной коллектор</li><li>Глушитель, резонатор</li><li>Катализатор</li><li>Сажевый фильтр (DPF)</li><li>Датчики (лямбда, температуры)</li></ul></div>
-      <div class="category"><h3>Система зажигания / подогрева</h3><ul><li>Свечи зажигания / свечи накаливания</li><li>Катушки зажигания</li><li>Модули зажигания</li><li>Блоки управления</li></ul></div>
-      <div class="category"><h3>Электрооборудование / ЭБУ</h3><ul><li>Генератор, стартер</li><li>АКБ</li><li>Датчики (температуры, давления, скорости и др.)</li><li>Реле, предохранители</li><li>Блоки комфорта, ЭБУ двигателя</li></ul></div>
-      <div class="category"><h3>Система охлаждения / кондиционирования</h3><ul><li>Компрессор кондиционера</li><li>Радиатор кондиционера</li><li>Испаритель, осушитель</li><li>Клапаны, шланги, конденсаторы</li></ul></div>
-      <div class="category"><h3>Трансмиссия</h3><ul><li>Коробка передач (МКПП, АКПП, DSG, CVT)</li><li>Сцепление (диск, корзина, выжимной)</li><li>Маховик (обычный или двухмассовый)</li><li>Приводы, ШРУСы</li><li>Масло трансмиссии</li></ul></div>
-      <div class="category"><h3>Ходовая часть</h3><ul><li>Рычаги, шаровые опоры</li><li>Сайлентблоки</li><li>Подвеска (стойки, амортизаторы, пружины)</li><li>Подрамники</li><li>Ступицы, подшипники</li></ul></div>
-      <div class="category"><h3>Тормозная система</h3><ul><li>Диски, барабаны</li><li>Колодки, колеса</li><li>Суппорты, цилиндры</li><li>ABS, блок управления</li><li>Шланги, тормозная жидкость</li></ul></div>
-      <div class="category"><h3>Рулевое управление</h3><ul><li>Рейка рулевая</li><li>Насос гидроусилителя / ЭУР</li><li>Тяги, наконечники</li><li>Жидкость ГУР</li></ul></div>
-      <div class="category"><h3>Кузов и элементы</h3><ul><li>Капот, двери, багажник</li><li>Крылья, пороги</li><li>Стекла, замки</li><li>Петли, уплотнители</li><li>Бамперы, решётки</li></ul></div>
-      <div class="category"><h3>Освещение и сигнализация</h3><ul><li>Фары, ПТФ, фонари</li><li>Лампы, блоки розжига</li><li>Стопы, поворотники</li><li>Сигнализация, датчики движения</li></ul></div>
-      <div class="category"><h3>Интерьер / салон</h3><ul><li>Приборная панель</li><li>Кнопки, переключатели</li><li>Сиденья, подогрев</li><li>Мультимедиа, навигация</li><li>Подушки безопасности (airbag), ремни</li></ul></div>
-      <div class="category"><h3>Очистка стекол</h3><ul><li>Дворники</li><li>Моторчики омывателя</li><li>Форсунки, бачки</li><li>Щетки стеклоочистителя</li></ul></div>
-      <div class="category"><h3>Прочее / универсальное</h3><ul><li>Крепёж, скобы</li><li>Кузовные клипсы</li><li>Смазки, жидкости</li><li>Наборы ремкомплектов</li></ul></div>
+  <div class="catalog-container" id="categories-screen" style="display:none;">
+    <div class="nav-bar">
+      <a href="#" onclick="goToSelection(event)">Назад к выбору авто</a>
     </div>
+    <h2>Категории запчастей</h2>
+    <div class="grid" id="category-grid"></div>
+  </div>
+
+  <div class="catalog-container" id="subcategories-screen" style="display:none;">
+    <div class="nav-bar">
+      <a href="#" onclick="goToCategories(event)">Назад к категориям</a>
+      <a href="#" onclick="goToSelection(event)">К выбору авто</a>
+    </div>
+    <h2 id="subcategory-title">Подкатегории</h2>
+    <ul id="subcategory-list"></ul>
   </div>
 
   <script>
     let catalog = {};
+    const categories = {
+  "Двигатель и компоненты": {
+    image: "https://cdn-icons-png.flaticon.com/512/2933/2933898.png",
+    subs: [
+      "Блок цилиндров, поршни, кольца",
+      "Коленчатый вал, шатуны, маховик",
+      "ГБЦ, клапана, распредвалы",
+      "Масляная система (насос, фильтр, поддон)",
+      "Система охлаждения (радиатор, термостат, насос, вентилятор)",
+      "Турбокомпрессор, интеркулер",
+      "Подушки двигателя"
+    ]
+  },
+  "Топливная система": {
+    image: "https://cdn-icons-png.flaticon.com/512/3197/3197943.png",
+    subs: [
+      "Бензонасос, дизельный насос",
+      "Топливные фильтры",
+      "Форсунки, рампы",
+      "Дроссельная заслонка",
+      "Рейка и регуляторы давления"
+    ]
+  },
+  "Выхлопная система": {
+    image: "https://cdn-icons-png.flaticon.com/512/7416/7416931.png",
+    subs: [
+      "Выпускной коллектор",
+      "Глушитель, резонатор",
+      "Катализатор",
+      "Сажевый фильтр (DPF)",
+      "Датчики (лямбда, температуры)"
+    ]
+  },
+  "Система зажигания / подогрева": {
+    image: "https://cdn-icons-png.flaticon.com/512/921/921547.png",
+    subs: [
+      "Свечи зажигания / свечи накаливания",
+      "Катушки зажигания",
+      "Модули зажигания",
+      "Блоки управления"
+    ]
+  },
+  "Электрооборудование / ЭБУ": {
+    image: "https://cdn-icons-png.flaticon.com/512/201/201633.png",
+    subs: [
+      "Генератор, стартер",
+      "АКБ",
+      "Датчики (температуры, давления, скорости и др.)",
+      "Реле, предохранители",
+      "Блоки комфорта, ЭБУ двигателя"
+    ]
+  },
+  "Трансмиссия": {
+    image: "https://cdn-icons-png.flaticon.com/512/889/889648.png",
+    subs: [
+      "Коробка передач (МКПП, АКПП, DSG, CVT)",
+      "Сцепление (диск, корзина, выжимной)",
+      "Маховик (обычный или двухмассовый)",
+      "Приводы, ШРУСы",
+      "Масло трансмиссии"
+    ]
+  },
+  "Ходовая часть": {
+    image: "https://cdn-icons-png.flaticon.com/512/3372/3372673.png",
+    subs: [
+      "Рычаги, шаровые опоры",
+      "Сайлентблоки",
+      "Подвеска (стойки, амортизаторы, пружины)",
+      "Подрамники",
+      "Ступицы, подшипники"
+    ]
+  },
+  "Тормозная система": {
+    image: "https://cdn-icons-png.flaticon.com/512/7435/7435734.png",
+    subs: [
+      "Диски, барабаны",
+      "Колодки, колеса",
+      "Суппорты, цилиндры",
+      "ABS, блок управления",
+      "Шланги, тормозная жидкость"
+    ]
+  },
+  "Рулевое управление": {
+    image: "https://cdn-icons-png.flaticon.com/512/3077/3077241.png",
+    subs: [
+      "Рейка рулевая",
+      "Насос гидроусилителя / ЭУР",
+      "Тяги, наконечники",
+      "Жидкость ГУР"
+    ]
+  },
+  "Кузов и элементы": {
+    image: "https://cdn-icons-png.flaticon.com/512/3595/3595455.png",
+    subs: [
+      "Капот, двери, багажник",
+      "Крылья, пороги",
+      "Стекла, замки",
+      "Петли, уплотнители",
+      "Бамперы, решётки"
+    ]
+  },
+  "Освещение и сигнализация": {
+    image: "https://cdn-icons-png.flaticon.com/512/1036/1036220.png",
+    subs: [
+      "Фары, ПТФ, фонари",
+      "Лампы, блоки розжига",
+      "Стопы, поворотники",
+      "Сигнализация, датчики движения"
+    ]
+  },
+  "Интерьер / салон": {
+    image: "https://cdn-icons-png.flaticon.com/512/3043/3043594.png",
+    subs: [
+      "Приборная панель",
+      "Кнопки, переключатели",
+      "Сиденья, подогрев",
+      "Мультимедиа, навигация",
+      "Подушки безопасности (airbag), ремни"
+    ]
+  },
+  "Очистка стекол": {
+    image: "https://cdn-icons-png.flaticon.com/512/595/595808.png",
+    subs: [
+      "Дворники",
+      "Моторчики омывателя",
+      "Форсунки, бачки",
+      "Щетки стеклоочистителя"
+    ]
+  },
+  "Прочее / универсальное": {
+    image: "https://cdn-icons-png.flaticon.com/512/6786/6786503.png",
+    subs: [
+      "Крепёж, скобы",
+      "Кузовные клипсы",
+      "Смазки, жидкости",
+      "Наборы ремкомплектов"
+    ]
+  }
+};
 
     fetch('catalog.json')
       .then(response => response.json())
@@ -136,7 +286,6 @@
       modelSelect.innerHTML = '<option value="">Выберите модель</option>';
       modSelect.innerHTML = '<option value="">Выберите модификацию</option>';
       if (!brand || !catalog[brand]) return;
-
       const models = Object.keys(catalog[brand]).sort();
       models.forEach(m => {
         const opt = document.createElement('option');
@@ -151,7 +300,6 @@
       const modSelect = document.getElementById('mod');
       modSelect.innerHTML = '<option value="">Выберите модификацию</option>';
       if (!brand || !model || !catalog[brand][model]) return;
-
       catalog[brand][model].forEach(mod => {
         const opt = document.createElement('option');
         opt.value = opt.text = mod;
@@ -159,19 +307,54 @@
       });
     }
 
-    function showCatalog() {
-      document.getElementById('parts-catalog').style.display = 'block';
+    function goToCategories() {
+      document.getElementById('selection-screen').style.display = 'none';
+      document.getElementById('categories-screen').style.display = 'block';
+      document.getElementById('subcategories-screen').style.display = 'none';
+
+      const grid = document.getElementById('category-grid');
+      grid.innerHTML = '';
+      Object.entries(categories).forEach(([title, data]) => {
+        const card = document.createElement('div');
+        card.className = 'category-card';
+        card.innerHTML = `<img src="${data.image}" alt="${title}"><div>${title}</div>`;
+        card.onclick = () => showSubcategories(title, data.subs);
+        grid.appendChild(card);
+      });
+      sendHeightToParent();
+    }
+
+    function showSubcategories(title, subcategories) {
+      document.getElementById('selection-screen').style.display = 'none';
+      document.getElementById('categories-screen').style.display = 'none';
+      document.getElementById('subcategories-screen').style.display = 'block';
+      document.getElementById('subcategory-title').textContent = title;
+
+      const list = document.getElementById('subcategory-list');
+      list.innerHTML = '';
+      subcategories.forEach(sub => {
+        const li = document.createElement('li');
+        li.textContent = sub;
+        list.appendChild(li);
+      });
+      sendHeightToParent();
+    }
+
+    function goToSelection(event) {
+      event.preventDefault();
+      document.getElementById('selection-screen').style.display = 'block';
+      document.getElementById('categories-screen').style.display = 'none';
+      document.getElementById('subcategories-screen').style.display = 'none';
+      sendHeightToParent();
     }
   </script>
-
-<script>
-function sendHeightToParent() {
-  const height = document.body.scrollHeight;
-  parent.postMessage({ type: 'resize', height: height }, '*');
-}
-window.addEventListener('load', sendHeightToParent);
-window.addEventListener('resize', sendHeightToParent);
-</script>
-
+  <script>
+    function sendHeightToParent() {
+      const height = document.body.scrollHeight;
+      parent.postMessage({ type: 'resize', height: height }, '*');
+    }
+    window.addEventListener('load', sendHeightToParent);
+    window.addEventListener('resize', sendHeightToParent);
+  </script>
 </body>
 </html>
