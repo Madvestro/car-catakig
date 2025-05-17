@@ -1,115 +1,80 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Каталог автомобилей</title>
+  <title>Каталог запчастей</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f4f6f8;
-      margin: 0;
-      padding: 2rem;
-    }
-    .catalog-container {
-      background: white;
-      padding: 2rem;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    h1, h2 {
-      text-align: center;
-      font-size: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-    label {
-      display: block;
-      font-weight: 600;
-      margin-top: 1rem;
-      margin-bottom: 0.25rem;
-    }
+    body { font-family: 'Inter', sans-serif; background-color: #f4f6f8; margin: 0; padding: 2rem; }
+    .catalog-container { background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); max-width: 1000px; margin: 0 auto; }
+    h1, h2 { text-align: center; font-size: 1.5rem; margin-bottom: 1.5rem; }
+    label { display: block; font-weight: 600; margin-top: 1rem; margin-bottom: 0.25rem; }
     select, button {
-      width: 100%;
-      padding: 0.75rem;
-      font-size: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      box-sizing: border-box;
+      width: 100%; padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 8px; box-sizing: border-box;
     }
-    button {
-      margin-top: 1.5rem;
-      background-color: #e60023;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #c3001d;
-    }
+    button { margin-top: 1.5rem; background-color: #e60023; color: white; border: none; cursor: pointer; }
     .nav-bar {
-      display: flex;
-      justify-content: flex-start;
-      gap: 1rem;
-      margin-bottom: 2rem;
+      display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 0.875rem; color: #555; margin-bottom: 1rem;
     }
-    .nav-bar a {
-      color: #e60023;
-      text-decoration: none;
-      font-weight: 600;
-    }
+    .nav-bar a { text-decoration: none; color: #555; }
+    .nav-bar a::after { content: '>'; margin: 0 0.5rem; color: #bbb; }
+    .nav-bar a:last-child::after { content: ''; }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
       gap: 1rem;
     }
     .category-card {
       background: #fff;
       border-radius: 12px;
-      padding: 1rem;
+      padding: 1.25rem 1rem;
       text-align: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
       cursor: pointer;
       transition: transform 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 180px;
     }
-    .category-card:hover {
-      transform: scale(1.03);
-    }
-    .category-card img {
-      width: 60px;
-      height: 60px;
-      object-fit: contain;
-      margin-bottom: 0.5rem;
-    }
+    .category-card:hover { transform: translateY(-4px); }
+    .category-card img { width: 50px; height: 50px; object-fit: contain; margin-bottom: 0.75rem; }
     ul#subcategory-list {
-      list-style-type: disc;
-      padding-left: 1.5rem;
+      list-style: none;
+      padding-left: 0;
     }
+    .subcategory-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: #f9f9f9;
+      padding: 0.75rem;
+      margin-bottom: 0.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .subcategory-item:hover { background: #f1f1f1; }
+    .subcategory-item img { width: 36px; height: 36px; object-fit: contain; }
   </style>
 </head>
 <body>
   <div class="catalog-container" id="selection-screen">
     <h1>Выбор автомобиля</h1>
     <label for="brand">Марка</label>
-    <select id="brand" onchange="updateModels()">
-      <option value="">Выберите марку</option>
-    </select>
+    <select id="brand" onchange="updateModels()"></select>
     <label for="model">Модель</label>
-    <select id="model" onchange="updateMods()">
-      <option value="">Выберите модель</option>
-    </select>
+    <select id="model" onchange="updateMods()"></select>
     <label for="mod">Модификация</label>
-    <select id="mod">
-      <option value="">Выберите модификацию</option>
-    </select>
+    <select id="mod"></select>
     <button onclick="goToCategories()">Искать запчасти</button>
   </div>
 
   <div class="catalog-container" id="categories-screen" style="display:none;">
     <div class="nav-bar">
-      <a href="#" onclick="goToSelection(event)">Назад к выбору авто</a>
+      <a href="#" onclick="goToSelection(event)">Выбор авто</a>
     </div>
     <h2>Категории запчастей</h2>
     <div class="grid" id="category-grid"></div>
@@ -117,164 +82,42 @@
 
   <div class="catalog-container" id="subcategories-screen" style="display:none;">
     <div class="nav-bar">
-      <a href="#" onclick="goToCategories(event)">Назад к категориям</a>
-      <a href="#" onclick="goToSelection(event)">К выбору авто</a>
+      <a href="#" onclick="goToSelection(event)">Выбор авто</a>
+      <a href="#" onclick="goToCategories(event)">Категории</a>
     </div>
     <h2 id="subcategory-title">Подкатегории</h2>
     <ul id="subcategory-list"></ul>
   </div>
 
   <script>
-    let catalog = {};
     const categories = {
-  "Двигатель и компоненты": {
-    image: "https://content.dveejok.com/stores/enorm/attachfiles/4/enginepng.png",
-    subs: [
-      "Блок цилиндров, поршни, кольца",
-      "Коленчатый вал, шатуны, маховик",
-      "ГБЦ, клапана, распредвалы",
-      "Масляная система (насос, фильтр, поддон)",
-      "Система охлаждения (радиатор, термостат, насос, вентилятор)",
-      "Турбокомпрессор, интеркулер",
-      "Подушки двигателя"
-    ]
-  },
-  "Топливная система": {
-    image: "https://cdn-icons-png.flaticon.com/512/3197/3197943.png",
-    subs: [
-      "Бензонасос, дизельный насос",
-      "Топливные фильтры",
-      "Форсунки, рампы",
-      "Дроссельная заслонка",
-      "Рейка и регуляторы давления"
-    ]
-  },
-  "Выхлопная система": {
-    image: "https://cdn-icons-png.flaticon.com/512/7416/7416931.png",
-    subs: [
-      "Выпускной коллектор",
-      "Глушитель, резонатор",
-      "Катализатор",
-      "Сажевый фильтр (DPF)",
-      "Датчики (лямбда, температуры)"
-    ]
-  },
-  "Система зажигания / подогрева": {
-    image: "https://cdn-icons-png.flaticon.com/512/921/921547.png",
-    subs: [
-      "Свечи зажигания / свечи накаливания",
-      "Катушки зажигания",
-      "Модули зажигания",
-      "Блоки управления"
-    ]
-  },
-  "Электрооборудование / ЭБУ": {
-    image: "https://cdn-icons-png.flaticon.com/512/201/201633.png",
-    subs: [
-      "Генератор, стартер",
-      "АКБ",
-      "Датчики (температуры, давления, скорости и др.)",
-      "Реле, предохранители",
-      "Блоки комфорта, ЭБУ двигателя"
-    ]
-  },
-  "Трансмиссия": {
-    image: "https://cdn-icons-png.flaticon.com/512/889/889648.png",
-    subs: [
-      "Коробка передач (МКПП, АКПП, DSG, CVT)",
-      "Сцепление (диск, корзина, выжимной)",
-      "Маховик (обычный или двухмассовый)",
-      "Приводы, ШРУСы",
-      "Масло трансмиссии"
-    ]
-  },
-  "Ходовая часть": {
-    image: "https://cdn-icons-png.flaticon.com/512/3372/3372673.png",
-    subs: [
-      "Рычаги, шаровые опоры",
-      "Сайлентблоки",
-      "Подвеска (стойки, амортизаторы, пружины)",
-      "Подрамники",
-      "Ступицы, подшипники"
-    ]
-  },
-  "Тормозная система": {
-    image: "https://cdn-icons-png.flaticon.com/512/7435/7435734.png",
-    subs: [
-      "Диски, барабаны",
-      "Колодки, колеса",
-      "Суппорты, цилиндры",
-      "ABS, блок управления",
-      "Шланги, тормозная жидкость"
-    ]
-  },
-  "Рулевое управление": {
-    image: "https://cdn-icons-png.flaticon.com/512/3077/3077241.png",
-    subs: [
-      "Рейка рулевая",
-      "Насос гидроусилителя / ЭУР",
-      "Тяги, наконечники",
-      "Жидкость ГУР"
-    ]
-  },
-  "Кузов и элементы": {
-    image: "https://cdn-icons-png.flaticon.com/512/3595/3595455.png",
-    subs: [
-      "Капот, двери, багажник",
-      "Крылья, пороги",
-      "Стекла, замки",
-      "Петли, уплотнители",
-      "Бамперы, решётки"
-    ]
-  },
-  "Освещение и сигнализация": {
-    image: "https://cdn-icons-png.flaticon.com/512/1036/1036220.png",
-    subs: [
-      "Фары, ПТФ, фонари",
-      "Лампы, блоки розжига",
-      "Стопы, поворотники",
-      "Сигнализация, датчики движения"
-    ]
-  },
-  "Интерьер / салон": {
-    image: "https://cdn-icons-png.flaticon.com/512/3043/3043594.png",
-    subs: [
-      "Приборная панель",
-      "Кнопки, переключатели",
-      "Сиденья, подогрев",
-      "Мультимедиа, навигация",
-      "Подушки безопасности (airbag), ремни"
-    ]
-  },
-  "Очистка стекол": {
-    image: "https://cdn-icons-png.flaticon.com/512/595/595808.png",
-    subs: [
-      "Дворники",
-      "Моторчики омывателя",
-      "Форсунки, бачки",
-      "Щетки стеклоочистителя"
-    ]
-  },
-  "Прочее / универсальное": {
-    image: "https://cdn-icons-png.flaticon.com/512/6786/6786503.png",
-    subs: [
-      "Крепёж, скобы",
-      "Кузовные клипсы",
-      "Смазки, жидкости",
-      "Наборы ремкомплектов"
-    ]
-  }
-};
+      "Двигатель и компоненты": {
+        image: "https://cdn-icons-png.flaticon.com/512/2933/2933898.png",
+        subs: ["ГБЦ, клапана, распредвалы", "Масляная система (насос, фильтр, поддон)", "Турбокомпрессор"]
+      },
+      "Топливная система": {
+        image: "https://cdn-icons-png.flaticon.com/512/3197/3197943.png",
+        subs: ["Бензонасос", "Форсунки", "Топливный фильтр"]
+      }
+    };
+
+    let catalog = {};
+    let selectedModelID = "";
+
+    function translit(text) {
+      const map = {'а':'a','б':'b','в':'v','г':'g','д':'d','е':'e','ё':'e','ж':'zh','з':'z','и':'i','й':'y','к':'k','л':'l','м':'m','н':'n','о':'o','п':'p','р':'r','с':'s','т':'t','у':'u','ф':'f','х':'h','ц':'ts','ч':'ch','ш':'sh','щ':'sch','ъ':'','ы':'y','ь':'','э':'e','ю':'yu','я':'ya'};
+      return text.toLowerCase().split('').map(c => map[c] || c).join('').replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
+    }
 
     fetch('catalog.json')
-      .then(response => response.json())
+      .then(res => res.json())
       .then(data => {
         catalog = data;
         const brandSelect = document.getElementById('brand');
-        const brands = Object.keys(catalog).sort();
-        brands.forEach(b => {
+        brandSelect.innerHTML = '<option value="">Выберите марку</option>';
+        Object.keys(catalog).sort().forEach(brand => {
           const opt = document.createElement('option');
-          opt.value = opt.text = b;
+          opt.value = opt.text = brand;
           brandSelect.appendChild(opt);
         });
       });
@@ -285,11 +128,10 @@
       const modSelect = document.getElementById('mod');
       modelSelect.innerHTML = '<option value="">Выберите модель</option>';
       modSelect.innerHTML = '<option value="">Выберите модификацию</option>';
-      if (!brand || !catalog[brand]) return;
-      const models = Object.keys(catalog[brand]).sort();
-      models.forEach(m => {
+      if (!catalog[brand]) return;
+      Object.keys(catalog[brand]).sort().forEach(model => {
         const opt = document.createElement('option');
-        opt.value = opt.text = m;
+        opt.value = opt.text = model;
         modelSelect.appendChild(opt);
       });
     }
@@ -299,15 +141,19 @@
       const model = document.getElementById('model').value;
       const modSelect = document.getElementById('mod');
       modSelect.innerHTML = '<option value="">Выберите модификацию</option>';
-      if (!brand || !model || !catalog[brand][model]) return;
-      catalog[brand][model].forEach(mod => {
+      if (!catalog[brand] || !catalog[brand][model]) return;
+      catalog[brand][model].forEach(({mod, id}) => {
         const opt = document.createElement('option');
-        opt.value = opt.text = mod;
+        opt.value = id;
+        opt.text = mod;
         modSelect.appendChild(opt);
       });
     }
 
     function goToCategories() {
+      selectedModelID = document.getElementById('mod').value;
+      if (!selectedModelID) return alert("Выберите модификацию");
+
       document.getElementById('selection-screen').style.display = 'none';
       document.getElementById('categories-screen').style.display = 'block';
       document.getElementById('subcategories-screen').style.display = 'none';
@@ -317,14 +163,13 @@
       Object.entries(categories).forEach(([title, data]) => {
         const card = document.createElement('div');
         card.className = 'category-card';
-        card.innerHTML = `<img src="${data.image}" alt="${title}"><div>${title}</div>`;
+        card.innerHTML = `<img src="${data.image}" alt=""><div>${title}</div>`;
         card.onclick = () => showSubcategories(title, data.subs);
         grid.appendChild(card);
       });
-      sendHeightToParent();
     }
 
-    function showSubcategories(title, subcategories) {
+    function showSubcategories(title, subs) {
       document.getElementById('selection-screen').style.display = 'none';
       document.getElementById('categories-screen').style.display = 'none';
       document.getElementById('subcategories-screen').style.display = 'block';
@@ -332,29 +177,24 @@
 
       const list = document.getElementById('subcategory-list');
       list.innerHTML = '';
-      subcategories.forEach(sub => {
+      subs.forEach(sub => {
         const li = document.createElement('li');
-        li.textContent = sub;
+        li.className = 'subcategory-item';
+        li.innerHTML = `<img src="https://cdn-icons-png.flaticon.com/512/847/847969.png"><span>${sub}</span>`;
+        li.onclick = () => {
+          const url = `https://enorm.md/products/${translit(sub)}-${selectedModelID}/`;
+          window.open(url, '_blank');
+        };
         list.appendChild(li);
       });
-      sendHeightToParent();
     }
 
-    function goToSelection(event) {
-      event.preventDefault();
+    function goToSelection(e) {
+      e.preventDefault();
       document.getElementById('selection-screen').style.display = 'block';
       document.getElementById('categories-screen').style.display = 'none';
       document.getElementById('subcategories-screen').style.display = 'none';
-      sendHeightToParent();
     }
-  </script>
-  <script>
-    function sendHeightToParent() {
-      const height = document.body.scrollHeight;
-      parent.postMessage({ type: 'resize', height: height }, '*');
-    }
-    window.addEventListener('load', sendHeightToParent);
-    window.addEventListener('resize', sendHeightToParent);
   </script>
 </body>
 </html>
