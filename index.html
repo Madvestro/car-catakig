@@ -1,123 +1,85 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Каталог запчастей</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог автомобилей</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Inter', sans-serif; background-color: #f4f6f8; margin: 0; padding: 2rem; }
-    .catalog-container { background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); max-width: 1000px; margin: 0 auto; }
-    h1, h2 { text-align: center; font-size: 1.5rem; margin-bottom: 1.5rem; }
-    label { display: block; font-weight: 600; margin-top: 1rem; margin-bottom: 0.25rem; }
-    select, button {
-      width: 100%; padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 8px; box-sizing: border-box;
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
     }
-    button { margin-top: 1.5rem; background-color: #e60023; color: white; border: none; cursor: pointer; }
-    .nav-bar {
-      display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 0.875rem; color: #555; margin-bottom: 1rem;
+    .catalog-container {
+      background: white;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 480px;
+      width: 100%;
     }
-    .nav-bar a { text-decoration: none; color: #555; }
-    .nav-bar a::after { content: '>'; margin: 0 0.5rem; color: #bbb; }
-    .nav-bar a:last-child::after { content: ''; }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      gap: 1rem;
-    }
-    .category-card {
-      background: #fff;
-      border-radius: 12px;
-      padding: 1.25rem 1rem;
+    h1 {
       text-align: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-      cursor: pointer;
-      transition: transform 0.2s;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 180px;
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
     }
-    .category-card:hover { transform: translateY(-4px); }
-    .category-card img { width: 50px; height: 50px; object-fit: contain; margin-bottom: 0.75rem; }
-    ul#subcategory-list {
-      list-style: none;
-      padding-left: 0;
+    label {
+      display: block;
+      font-weight: 600;
+      margin-top: 1rem;
+      margin-bottom: 0.25rem;
     }
-    .subcategory-item {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      background: #f9f9f9;
+    select {
+      width: 100%;
       padding: 0.75rem;
-      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
       border-radius: 8px;
-      cursor: pointer;
-      transition: background 0.2s;
+      background-color: #fff;
+      box-sizing: border-box;
     }
-    .subcategory-item:hover { background: #f1f1f1; }
-    .subcategory-item img { width: 36px; height: 36px; object-fit: contain; }
+    select:disabled {
+      background-color: #eee;
+    }
   </style>
 </head>
 <body>
-  <div class="catalog-container" id="selection-screen">
+  <div class="catalog-container">
     <h1>Выбор автомобиля</h1>
     <label for="brand">Марка</label>
-    <select id="brand" onchange="updateModels()"></select>
+    <select id="brand" onchange="updateModels()">
+      <option value="">Выберите марку</option>
+    </select>
+
     <label for="model">Модель</label>
-    <select id="model" onchange="updateMods()"></select>
+    <select id="model" onchange="updateMods()">
+      <option value="">Выберите модель</option>
+    </select>
+
     <label for="mod">Модификация</label>
-    <select id="mod"></select>
-    <button onclick="goToCategories()">Искать запчасти</button>
-  </div>
-
-  <div class="catalog-container" id="categories-screen" style="display:none;">
-    <div class="nav-bar">
-      <a href="#" onclick="goToSelection(event)">Выбор авто</a>
-    </div>
-    <h2>Категории запчастей</h2>
-    <div class="grid" id="category-grid"></div>
-  </div>
-
-  <div class="catalog-container" id="subcategories-screen" style="display:none;">
-    <div class="nav-bar">
-      <a href="#" onclick="goToSelection(event)">Выбор авто</a>
-      <a href="#" onclick="goToCategories(event)">Категории</a>
-    </div>
-    <h2 id="subcategory-title">Подкатегории</h2>
-    <ul id="subcategory-list"></ul>
+    <select id="mod">
+      <option value="">Выберите модификацию</option>
+    </select>
   </div>
 
   <script>
-    const categories = {
-      "Двигатель и компоненты": {
-        image: "https://cdn-icons-png.flaticon.com/512/2933/2933898.png",
-        subs: ["ГБЦ, клапана, распредвалы", "Масляная система (насос, фильтр, поддон)", "Турбокомпрессор"]
-      },
-      "Топливная система": {
-        image: "https://cdn-icons-png.flaticon.com/512/3197/3197943.png",
-        subs: ["Бензонасос", "Форсунки", "Топливный фильтр"]
-      }
-    };
-
     let catalog = {};
-    let selectedModelID = "";
-
-    function translit(text) {
-      const map = {'а':'a','б':'b','в':'v','г':'g','д':'d','е':'e','ё':'e','ж':'zh','з':'z','и':'i','й':'y','к':'k','л':'l','м':'m','н':'n','о':'o','п':'p','р':'r','с':'s','т':'t','у':'u','ф':'f','х':'h','ц':'ts','ч':'ch','ш':'sh','щ':'sch','ъ':'','ы':'y','ь':'','э':'e','ю':'yu','я':'ya'};
-      return text.toLowerCase().split('').map(c => map[c] || c).join('').replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
-    }
 
     fetch('catalog.json')
-      .then(res => res.json())
+      .then(response => response.json())
       .then(data => {
         catalog = data;
         const brandSelect = document.getElementById('brand');
-        brandSelect.innerHTML = '<option value="">Выберите марку</option>';
-        Object.keys(catalog).sort().forEach(brand => {
+        const brands = Object.keys(catalog).sort();
+        brands.forEach(b => {
           const opt = document.createElement('option');
-          opt.value = opt.text = brand;
+          opt.value = opt.text = b;
           brandSelect.appendChild(opt);
         });
       });
@@ -128,10 +90,12 @@
       const modSelect = document.getElementById('mod');
       modelSelect.innerHTML = '<option value="">Выберите модель</option>';
       modSelect.innerHTML = '<option value="">Выберите модификацию</option>';
-      if (!catalog[brand]) return;
-      Object.keys(catalog[brand]).sort().forEach(model => {
+      if (!brand || !catalog[brand]) return;
+
+      const models = Object.keys(catalog[brand]).sort();
+      models.forEach(m => {
         const opt = document.createElement('option');
-        opt.value = opt.text = model;
+        opt.value = opt.text = m;
         modelSelect.appendChild(opt);
       });
     }
@@ -141,70 +105,14 @@
       const model = document.getElementById('model').value;
       const modSelect = document.getElementById('mod');
       modSelect.innerHTML = '<option value="">Выберите модификацию</option>';
-      if (!catalog[brand] || !catalog[brand][model]) return;
-      catalog[brand][model].forEach(({mod, id}) => {
+      if (!brand || !model || !catalog[brand][model]) return;
+
+      catalog[brand][model].forEach(mod => {
         const opt = document.createElement('option');
-        opt.value = id;
-        opt.text = mod;
+        opt.value = opt.text = mod;
         modSelect.appendChild(opt);
       });
     }
-
-    function goToCategories() {
-      selectedModelID = document.getElementById('mod').value;
-      if (!selectedModelID) return alert("Выберите модификацию");
-
-      document.getElementById('selection-screen').style.display = 'none';
-      document.getElementById('categories-screen').style.display = 'block';
-      document.getElementById('subcategories-screen').style.display = 'none';
-
-      const grid = document.getElementById('category-grid');
-      grid.innerHTML = '';
-      Object.entries(categories).forEach(([title, data]) => {
-        const card = document.createElement('div');
-        card.className = 'category-card';
-        card.innerHTML = `<img src="${data.image}" alt=""><div>${title}</div>`;
-        card.onclick = () => showSubcategories(title, data.subs);
-        grid.appendChild(card);
-      });
-    }
-
-    function showSubcategories(title, subs) {
-      document.getElementById('selection-screen').style.display = 'none';
-      document.getElementById('categories-screen').style.display = 'none';
-      document.getElementById('subcategories-screen').style.display = 'block';
-      document.getElementById('subcategory-title').textContent = title;
-
-      const list = document.getElementById('subcategory-list');
-      list.innerHTML = '';
-      subs.forEach(sub => {
-        const li = document.createElement('li');
-        li.className = 'subcategory-item';
-        li.innerHTML = `<img src="https://cdn-icons-png.flaticon.com/512/847/847969.png"><span>${sub}</span>`;
-        li.onclick = () => {
-          const url = `https://enorm.md/products/${translit(sub)}-${selectedModelID}/`;
-          window.open(url, '_blank');
-        };
-        list.appendChild(li);
-      });
-    }
-
-    function goToSelection(e) {
-      e.preventDefault();
-      document.getElementById('selection-screen').style.display = 'block';
-      document.getElementById('categories-screen').style.display = 'none';
-      document.getElementById('subcategories-screen').style.display = 'none';
-    }
   </script>
-
-<script>
-  function sendHeightToParent() {
-    const height = document.body.scrollHeight;
-    parent.postMessage({ type: 'resize', height: height }, '*');
-  }
-  window.addEventListener('load', sendHeightToParent);
-  window.addEventListener('resize', sendHeightToParent);
-</script>
-
 </body>
 </html>
